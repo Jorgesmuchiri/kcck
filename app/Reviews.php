@@ -8,7 +8,7 @@ class Reviews extends Model
 {
 
 
-  public $fillable = ['id', 'application_id', 'staff_id', 'comment'];
+  public $fillable = ['id', 'enquiry_id', 'user_id', 'comment'];
 
 
 }

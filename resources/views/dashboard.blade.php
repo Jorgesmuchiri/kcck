@@ -9,10 +9,35 @@
           <div class="card card-stats">
             <div class="card-header card-header-warning card-header-icon">
               <div class="card-icon">
-                <i class="material-icons">content_copy</i>
+                <i class="material-icons">business_center
+
+</i>
               </div>
-              <p class="card-category">Applications</p>
-              <h3 class="card-title">{{    $application_stats }}
+              <p class="card-category">Enquiries</p>
+              <h3 class="card-title">{{$enquiries}}
+                <small></small>
+              </h3>
+            </div>
+            <div class="card-footer">
+              <div class="stats">
+                    <a href="{{ route('application.index') }}" class="btn btn-sm btn-primary">{{ __('View More') }}</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="card card-stats">
+            <div class="card-header card-header-danger card-header-icon">
+              <div class="card-icon">
+                <i class="material-icons">business_center
+
+</i>
+              </div>
+              <p class="card-category">Pending Enquiries</p>
+              <h3 class="card-title">{{$pending}}
                 <small></small>
               </h3>
             </div>
@@ -29,8 +54,8 @@
               <div class="card-icon">
                 <i class="material-icons">store</i>
               </div>
-              <p class="card-category">Special Exams</p>
-              <h3 class="card-title">{{ $special}}</h3>
+              <p class="card-category">Programs</p>
+              <h3 class="card-title">{{$programs}}</h3>
             </div>
             <div class="card-footer">
               <div class="stats">
@@ -43,10 +68,28 @@
           <div class="card card-stats">
             <div class="card-header card-header-danger card-header-icon">
               <div class="card-icon">
-                <i class="material-icons">info_outline</i>
+                <i class="material-icons">people</i>
               </div>
-              <p class="card-category">Retakes</p>
-              <h3 class="card-title">{{$retakes}}</h3>
+              <p class="card-category">Students</p>
+              <h3 class="card-title">10</h3>
+            </div>
+            <div class="card-footer">
+              <div class="stats">
+                      <a href="{{ route('retakesReports') }}" class="btn btn-sm btn-primary">{{ __('View More') }}</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+         <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="card card-stats">
+            <div class="card-header card-header-success card-header-icon">
+              <div class="card-icon">
+                <i class="material-icons">outlined_flag</i>
+              </div>
+              <p class="card-category">Countries</p>
+              <h3 class="card-title">10</h3>
             </div>
             <div class="card-footer">
               <div class="stats">
@@ -59,10 +102,10 @@
           <div class="card card-stats">
             <div class="card-header card-header-info card-header-icon">
               <div class="card-icon">
-                <i class="fa fa-bars"></i>
+                <i class="material-icons">verified_user</i>
               </div>
-              <p class="card-category">Repeat</p>
-              <h3 class="card-title">{{$repeat}}</h3>
+              <p class="card-category">Advert Sources</p>
+              <h3 class="card-title">0</h3>
             </div>
             <div class="card-footer">
               <div class="stats">
@@ -123,60 +166,7 @@
           </div>
         </div>
       </div> -->
-      <div class="row">
-     <div class="col-lg-6 col-md-12">
-          <div class="card">
-            <div class="card-header card-header-primary">
-              <h4 class="card-title">Pending Units</h4>
-              <p class="card-category"></p>
-            </div>
-            <div class="card-body table-responsive">
-              <table class="table table-hover">
-                <thead class="text-warning">
-                  <th>Unit Code</th>
-                  <th>Total</th>
-                </thead>
-                <tbody>
-              @foreach($reports as $report)
-                <tr>
-                    <td>{{$report->unit_code}}</td>
-                    <td>{{$report->Total}}</td>
 
-                  </tr>
-                    @endforeach
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-     <div class="col-lg-6 col-md-12">
-          <div class="card">
-            <div class="card-header card-header-warning">
-              <h4 class="card-title">Retakes</h4>
-              <p class="card-category"></p>
-            </div>
-            <div class="card-body table-responsive">
-              <table class="table table-hover">
-                <thead class="text-warning">
-                  <th>Student Id</th>
-                  <th>Unit Name</th>
-
-                </thead>
-                <tbody>
-                  @foreach($re as $ret)
-                  <tr>
-                    <td>{{$ret->student_number}}</td>
-                    <td>{{$ret->unit_code}}</td>
-                    <td></td>
-                    <td></td>
-                  </tr>
-                @endforeach
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      </div> 
     </div>
   </div>
 @endsection

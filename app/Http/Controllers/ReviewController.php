@@ -7,7 +7,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Reviews;
   use App\User;
-use App\Application;
+use App\Enquiries;
 use Auth;
 use App\Notifications\DeanNotification;
 use App\Notifications\RegistrarNotification;
@@ -28,78 +28,11 @@ class ReviewController extends Controller
     public function store(Request $request)
     {
             //Enter Vaalidation rules
-      $rules = [
-          
-        ];
+          $enquiries = Enquiries::findOrFail($request->input('id'));
+             $enquiries->admin_comment =$request->input('admin_comment');
+             $enquiries->save();
 
-        $validator = \Validator::make($request->all(), $rules);
-        if ($validator->fails()) {
-            return response()->json($validator, 422);
-        } else {
-            $review = new Reviews;
-            $review->application_id = $request->input('id');
-            $review->staff_id = Auth::user()->id;
-            $review->comment = $request->input('comment');
-
-            try {
-
-        $dean = User::where('role_id','=',4)->first();
-        $registrar = User::where('role_id','=',7)->first();
-
-                if (Auth::user() == $dean ) {
-               $user = User::where('role_id','=',7)->first();
-               $user->notify(new RegistrarNotification($review));
-
-              $application = Application::findOrFail($request->input('id'));
-               $application->status = 'Approved by Dean';
-
-                $application->save();
-                $review->save();
-                }
-
-               else if (Auth::user() ==   $registrar) {
-           
-
-              $application = Application::findOrFail($request->input('id'));
-               $application->status = 'Approved by Academic Registrar';
-
-          $special = Application::join('applications','applications.student_number','=', 'students.student_number')->where('applications.status', '=', 'Approved by Academic Registrar')->get();
-     $special=  $special->unique('day_of_the_week');
-     $special=  $special->groupBy('unit_code');
-        foreach($special as $studentresult)
-        {
-              
-          $data=$studentresult[0]->student['email_address'];
-          $user = User::where('email', $data)->first();
-
-
-          $user->notify(new Approvedunit($special));
-// 
-      }
-               $user->notify(new RegistrarNotification($review));
-                $application->save();
-                $review->save();
-                }
-
-            else{
-
-               $user = User::where('role_id','=',4)->first();
-               $user->notify(new DeanNotification($review));
-               $application = Application::findOrFail($request->input('id'));
-               $application->status = 'Approved by Course Admin';
-
-                $application->save();
-                $review->save();
-
-
-            }  
-
-
-           return back();
-            } catch (\Illuminate\Database\QueryException $e) {
-                return response()->json(['status' => 'error', 'message' => $e->getMessage()]);
-            }
-        }
+        return back()->withStatus(__('Enquiries successfully updated.'));
     }
 
     /**

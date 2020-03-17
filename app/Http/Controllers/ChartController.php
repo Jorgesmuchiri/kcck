@@ -3,8 +3,9 @@
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Charts;
-use App\StudentResults;
+use App\Enquiries;
 use DB;
+
 
 class ChartController extends Controller
 {
@@ -13,17 +14,17 @@ class ChartController extends Controller
 
 
 
-    $users = StudentResults::where('marks', '<=', 35)->select('unit_code',
+    $users = Enquiries::select('course',
             DB::raw('count(id) as Total')
      
-  )->groupBy('unit_code')->orderBy('unit_code', 'ASC')->get();
+  )->groupBy('course')->orderBy('course', 'ASC')->get();
 
  $chart = Charts::database($users, 'bar', 'highcharts')
-                  ->title("Retakes")
-                  ->elementLabel("No of Students")
+                  ->title("Masters Course Enquiries")
+                  ->elementLabel("No of Enquiries")
                   ->dimensions(1000, 500)
                   ->responsive(true)
-                  ->groupBy('unit_code');
+                  ->groupBy('course');
         return view('chart',compact('chart'));
     }
  public function repeat()

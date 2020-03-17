@@ -2,12 +2,12 @@
 
   <div class="logo">
     <a href="http://10.9.41.27/" class="simple-text logo-normal">
-      {{ __('My Strathmore') }}
+      <img src="{{asset('images/logo.png')}}" height="100">
     </a>
   </div>
   <div class="sidebar-wrapper">
     <ul class="nav">
-  @if (Auth::user()->role_id != 5)
+
 
       <li class="nav-item{{ $activePage == 'dashboard' ? ' active' : '' }}">
         <a class="nav-link" href="{{ route('home') }}">
@@ -15,7 +15,7 @@
             <p>{{ __('Dashboard') }}</p>
         </a>
       </li>
-   
+
       <li class="nav-item {{ ($activePage == 'profile' || $activePage == 'user-management') ? ' active' : '' }}">
         <a class="nav-link" data-toggle="collapse" href="#laravelExample" aria-expanded="true">
           <i><img style="width:25px" src="{{ asset('material') }}/img/laravel.svg"></i>
@@ -40,35 +40,73 @@
           </ul>
         </div>
       </li>
-       @elseif(Auth::user()->role_id != 5)
-      <li class="nav-item{{ $activePage == 'exams' ? ' active' : '' }}">
-        <a class="nav-link" href="{{ route('exams.index') }}">
+      
+      <li class="nav-item{{ $activePage == 'enquiries' ? ' active' : '' }}">
+        <a class="nav-link" href="{{ route('enquiries.index') }}">
           <i class="material-icons">content_paste</i>
-            <p>{{ __('Exams') }}</p>
+            <p>{{ __('Enquiries') }}</p>
         </a>
       </li>
-@endif
 
-      <li class="nav-item{{ $activePage == 'timetable' ? ' active' : '' }}">
-        <a class="nav-link" href="{{ route('timetable.index') }}">
+
+      <li class="nav-item{{ $activePage == 'programs' ? ' active' : '' }}">
+        <a class="nav-link" href="{{ route('programs.index') }}">
           <i class="material-icons">library_books</i>
-            <p>{{ __('Timetable') }}</p>
+            <p>{{ __('Programs') }}</p>
         </a>
       </li>
-      <li class="nav-item{{ $activePage == 'application' ? ' active' : '' }}">
+
+
+       <li class="nav-item{{ $activePage == 'nprograms' ? ' active' : '' }}">
+        <a class="nav-link" href="{{ route('newprograms.index') }}">
+          <i class="material-icons">library_books</i>
+            <p>{{ __('New Programs') }}</p>
+        </a>
+      </li>
+
+     <!--  <li class="nav-item{{ $activePage == 'application' ? ' active' : '' }}">
         <a class="nav-link" href="{{ route('application.index') }}">
-          <i class="material-icons">bubble_chart</i>
-          <p>{{ __('Applications') }}</p>
+          <i class="material-icons">supervised_user_circle</i>
+          <p>{{ __('Students') }}</p>
         </a>
       </li>
-      @if(Auth::user()->role_id != 5)
+ -->
+
+      <li class="nav-item {{ ($activePage == 'reports' || $activePage == '') ? ' active' : '' }}">
+        <a class="nav-link" data-toggle="collapse" href="#laravelExample" aria-expanded="true">
+               <i class="material-icons">bubble_chart</i>
+          <p>{{ __('Reports') }}
+            <b class="caret"></b>
+          </p>
+        </a>
+        <div class="collapse show" id="laravelExample">
+          <ul class="nav">
             <li class="nav-item{{ $activePage == 'reports' ? ' active' : '' }}">
+              <a class="nav-link" href="{{ route('country') }}">
+                <span class="sidebar-mini"> C</span>
+                <span class="sidebar-normal">{{ __('Countries') }} </span>
+              </a>
+            </li>
+            <li class="nav-item{{ $activePage == 'adverts' ? ' active' : '' }}">
+              <a class="nav-link" href="{{ route('advert') }}">
+                <span class="sidebar-mini"> A </span>
+                <span class="sidebar-normal"> {{ __('Advert Sources') }} </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      
+
+
+   
+           <!--  <li class="nav-item{{ $activePage == 'reports' ? ' active' : '' }}">
         <a class="nav-link" href="{{ route('application.index') }}">
           <i class="material-icons">bubble_chart</i>
           <p>{{ __('Reports') }}</p>
         </a>
-      </li>
-@endif
+      </li> -->
+
 
     </ul>
   </div>

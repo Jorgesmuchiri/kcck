@@ -12,9 +12,15 @@
 */
 Route::post('/studentlogin', 'Auth\APIController@login')->name('userlogin');
 Route::get('/details/{unit_code}', 'TimetableController@details')->name('details');
-Route::get('/retakes/reports', 'ChartController@index')->name('retakesReports');
+Route::get('/course/report', 'ChartController@index')->name('retakesReports');
 Route::get('/repeat/reports', 'ChartController@repeat')->name('repeatsReports');
 Route::get('/re', 'HomeController@Ret')->name('Ret');
+Route::get('/country', 'AdminController@country')->name('country');
+
+Route::get('/upload', 'EnquiriesController@upload');
+
+Route::get('/advert', 'AdminController@advert')->name('advert');
+
 Route::get('/retake', 'StudentResultsController@Retakes')->name('Retakes');
 Route::get('/repeats', 'StudentResultsController@Repeat')->name('Repeat');
 Route::get('/special', 'StudentResultsController@Specials')->name('Specials');
@@ -22,12 +28,17 @@ Route::get('/reports', 'StudentResultsController@Reports')->name('Reports');
 Route::get('/failed', 'StudentResultsController@FailedUnits')->name('FailedUnits');
 Route::post('/extract', 'TimetableController@extract')->name('extract');
 Route::post('/extractexam', 'ExamController@extract')->name('extractexam');
+
+
 Route::get('dean', 'ApplicationController@Dean')->name('dean');
 
 Route::get('count/application', 'ApplicationController@countApplication')->name('countApplication');
 
 Route::get('student', 'ApplicationController@studentapplication');
 Route::get('files/{file}', 'ApplicationController@download')->name('download');
+
+
+Route::post('import', 'EnquiriesController@import')->name('import');
 
 Route::group(['middleware' => 'App\Http\Middleware\StudentMiddleware'], function()
 {
@@ -37,7 +48,7 @@ Route::group(['middleware' => 'App\Http\Middleware\StudentMiddleware'], function
 
 
 Route::get('/', function () {
-	return view('welcome');
+    return view('frontend/index');
 });
 Auth::routes();
 
@@ -51,12 +62,19 @@ Route::group(['middleware' => 'auth'], function () {
 
 });
 
-Route::group(['middleware' => 'auth'], function () {
 
+
+Route::group(['middleware' => 'auth'], function () {
+Route::resource('jobs', 'JobsController', ['except' => ['show']]);
+	Route::resource('worker', 'WorkerController', ['except' => ['show']]);
 	Route::get('/repeat', 'HomeController@repeat')->name('repeat');
 	Route::get('/retakes', 'HomeController@retakes')->name('retakes');
 	Route::resource('user', 'UserController', ['except' => ['show']]);
 	Route::resource('application', 'ApplicationController', ['except' => ['show']]);
+    Route::resource('enquiries', 'EnquiriesController', ['except' => ['show']]);
+    Route::resource('programs', 'ProgramsController', ['except' => ['show']]);
+    Route::resource('newprograms', 'NewProgramsController', ['except' => ['show']]);
+
 	Route::resource('timetable', 'TimetableController', ['except' => ['show']]);
 	Route::resource('review', 'ReviewController', ['except' => ['show']]);
 	Route::resource('exams', 'ExamController', ['except' => ['show']]);
@@ -66,3 +84,16 @@ Route::group(['middleware' => 'auth'], function () {
 	Route::put('profile/password', ['as' => 'profile.password', 'uses' => 'ProfileController@password']);
 });
 
+
+Route::get('/', function () {
+    return view('frontend/index');
+});
+
+Route::get('/about', function() {return view('frontend/about');});
+Route::get('/events', function() {return view('frontend/Events');});
+Route::get('/contact', function() {return view('frontend/contact');});
+Route::get('/courses', function() {return view('frontend/courses');});
+
+Route::get('/host', function() {return view('frontend/Host');});
+Route::get('/partners', function() {return view('frontend/partners');});
+Route::get('/resources', function() {return view('frontend/resources');});

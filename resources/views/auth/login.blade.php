@@ -1,4 +1,4 @@
-@extends('layouts.app', ['class' => 'off-canvas-sidebar', 'activePage' => 'login', 'title' => __('My Strathmore')])
+@extends('layouts.app', ['class' => 'off-canvas-sidebar', 'activePage' => 'login', 'title' => __('AEMS')])
 
 @section('content')
 <div class="container" style="height: auto;">
@@ -17,22 +17,17 @@
             
           </div>
           <div class="card-body">
-            <p class="card-description text-center">{{ __('Or Sign in with ') }} <strong>claudine@strathmore.edu</strong> {{ __(' and the password ') }}<strong>secret</strong> </p>
-           <!--  <div class="bmd-form-group{{ $errors->has('email') ? ' has-danger' : '' }}"> -->
+            <p class="card-description text-center"> <strong></strong> <strong></strong> </p>
+            <div class="bmd-form-group{{ $errors->has('email') ? ' has-danger' : '' }}">
               <div class="input-group">
                 <div class="input-group-prepend">
                   <span class="input-group-text">
                     <i class="material-icons">email</i>
                   </span>
-              <!--   </div> -->
-                <input type="text" name="adm_no" class="form-control" placeholder="{{ __('Email...') }}" value="{{ old('email', 'fit@strathmore.edu') }}" required>
-              </div>
-           <!--    @if ($errors->has('email'))
-                <div id="email-error" class="error text-danger pl-3" for="email" style="display: block;">
-                  <strong>{{ $errors->first('email') }}</strong>
                 </div>
-              @endif -->
-            </div>
+                <input type="text" name="email" class="form-control" placeholder="{{ __('Email...') }}" value="{{ old('email', '') }}" required>
+              </div>
+          
             <div class="bmd-form-group{{ $errors->has('password') ? ' has-danger' : '' }} mt-3">
               <div class="input-group">
                 <div class="input-group-prepend">
@@ -60,7 +55,7 @@
           <div class="card-footer justify-content-center">
             <button type="submit" class="btn btn-primary">{{ __('Login') }}</button>
           </div>
-
+          
         </div>
       </form>
       <div class="row">

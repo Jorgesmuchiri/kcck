@@ -1,8 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
-  use App\Application;
-  use App\StudentResults;
+  use App\Programs;
+  use App\Enquiries;
   use DB;
 class HomeController extends Controller
 {
@@ -21,41 +21,36 @@ class HomeController extends Controller
      *
      * @return \Illuminate\View\View
      */
+    
+
     public function index()
     {
 
+    $enquiries=Enquiries::count();
+    $pending=Enquiries::where('status','=','pending')->count();
+    $programs=Programs::count();
+    $country=Enquiries::get();
+    $country->unique('country')->count();
 
 
- $repeat = StudentResults::where(function ($q) {
-  $q->where('marks', '<=', 39);
-  $q->where('marks', '>=', 36);
-})->count();
- $application_stats = Application::count();
- $retakes = StudentResults::where('marks', '<=', 35)->count();
- $special=StudentResults::where('marks', '=', NULL)->count();
 
 
- $re = StudentResults::where('marks', '<=', 35)->get();
- $spec=StudentResults::where('marks', '=', NULL)->get();
-    $reports = StudentResults::where('marks', '<', 40)->select('unit_code',
-            DB::raw('count(id) as Total')
-     
-  )->groupBy('unit_code')->orderBy('unit_code', 'ASC')->get();
-
- return view('dashboard', ['application_stats' => $application_stats, 'repeat'=>$repeat,'retakes'=>$retakes,'special'=>$special,'re'=>$re,'reports'=>$reports]);
+        return view('dashboard',['enquiries'=>$enquiries,'pending'=>$pending,'programs'=>$programs,'country'=>$country]);
     }
 
-  // public function Ret()
-  //   {
-  //      $re = StudentResults::where('marks', '<=', 35)->get();
-  //  return view('dashboard', ['re' => $re]);
-  //   }
 
-    
-
-   
+    public function country()
+    {
 
 
+    $countries = Enquiries::select('country',
+            DB::raw('count(id) as Total')
+     
+  )->groupBy('country')->orderBy('country', 'ASC')->get();
+
+  return response()->json(   $countries);
+    }
 
 
-}
+
+  }

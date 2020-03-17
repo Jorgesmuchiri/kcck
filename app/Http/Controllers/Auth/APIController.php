@@ -71,7 +71,6 @@ class APIController extends Controller
             ], 422);
         }
 
-
         // Format the final response in a desirable format
         return response()->json([
             'user' => $user,

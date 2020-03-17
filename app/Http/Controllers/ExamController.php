@@ -66,10 +66,6 @@ class ExamController extends Controller
 
         }
 
-                  
-               
-
-
     }
     catch (Exception $exception)
     {

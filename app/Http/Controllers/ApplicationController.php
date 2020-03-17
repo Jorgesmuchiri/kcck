@@ -112,10 +112,8 @@ public function Dean(Request $request)
 
 
 
-    public function download($file){
-        return response()->download(storage_path('app/documents/'.$file));
-    }
-
+ 
+ 
 
     public function store(Request $request)
     {
