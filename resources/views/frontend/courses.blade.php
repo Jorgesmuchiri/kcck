@@ -38,12 +38,12 @@
 </head>
 
 <body>
-  <div class="top_container">
+  <div class="top_container sub_pages">
     <!-- header section strats -->
-   <header class="header_section">
+     <header class="header_section">
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="index">
           <!--   <img src="images/ilab.png" alt=""> -->
             <span>
               K.C.C.P
@@ -58,7 +58,7 @@
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
               <ul class="navbar-nav  ">
                 <li class="nav-item active">
-                  <a class="nav-link" href="home">  <span >Home</span></a>
+                  <a class="nav-link" href="/">  <span >Home</span></a>
                 </li>
                 <li class="nav-item ">
                   <a class="nav-link" href="about"> About </a>
@@ -68,12 +68,13 @@
                   <a class="nav-link" href="courses"> Courses </a>
                 </li>
 
+
            <!--      <li class="nav-item">
                   <a class="nav-link" href="vehicle.html"> Blog </a>
                 </li> -->
 
                 <li class="nav-item">
-                  <a class="nav-link" href="media"> Media </a>
+                  <a class="nav-link" href=""> Media </a>
                 </li>
 
                  <li class="nav-item">
@@ -84,53 +85,33 @@
                   <a class="nav-link" href="contact">Contact Us</a>
                 </li>
 
+                  <li class="nav-item">
+                  <a class="nav-link" href="login">Login<img src="images/new-user.png" alt="" width="20"></a>
+                </li>
+
               </ul>
              
             </div>
+
         </nav>
       </div>
+      
     </header>
+</div>
+<!-- end header section -->
+
+
+<!-- teacher section -->
+<section class="teacher_section layout_padding-bottom">
+  <div class="container">
+    <h2 class="main-heading ">
+      Our Events and Trainings
+    </h2>
+    <p class="text-center">
      
-     <section class="hero_section ">
-      <div class="hero-container container">
-        <div class="hero_detail-box">
-         
-          <!-- <h1>
-            About 
-          </h1> -->
-           <h1>
-             <br>
-     Our Curriculum
-          </h1>
-          <p>
-           <!--  There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
-            some form, by injected humour, or randomised -->
-          </p>
-          <div class="hero_btn-continer">
-            <!-- <a href="" class="call_to-btn btn_white-border">
-              <span>
-                
-              </span>
-              <img src="images/right-arrow.png" alt="">
-            </a> -->
-          </div>
-        </div>
-        <div class="hero_img-container">
-          <div>
-            <img src="images/program.png" alt="" class="img-fluid">
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
-  <section class="about_section layout_padding">
-    <div class="container">
-      <!-- <h2 class="main-heading ">
-        About Us
-      </h2> -->
-      <h1 class="text-center" style="color: #b42025;">Our Curriculum </h1>
-      <p class="text-center">
-        <div class="table-responsive">
+    </p>
+    <div class="teacher_container layout_padding2">
+      <div class="table-responsive">
   <table class="table">
     <thead>
       <tr>
@@ -166,48 +147,68 @@ Hour of Code</td>
     </tbody>
   </table>
 </div>
-    </div>
-  </section>
-
-
-
-
-
-
-
-
-  
 </div>
+</div>
+</section>
+
+<!-- teacher section -->
 
 
-
-  <!-- end header section -->
-
-      
-  <!-- about section -->
-
-
-
-  <!-- about section -->
-
-
-
-
-
-  <!-- footer section -->
-    <section class="container-fluid footer_section">
+<!-- footer section -->
+<section class="container-fluid footer_section">
     <p>
       Copyright &copy; <script>document.write(new Date().getFullYear())</script>  All Rights Reserved By Kids Can Code Kenya
     </p>
   </section>
-  <!-- footer section -->
+<!-- footer section -->
 
-  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.js"></script>
-  <!-- progreesbar script -->
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<!-- progreesbar script -->
 
+</script>
+<script>
+    // This example adds a marker to indicate the position of Bondi Beach in Sydney,
+    // Australia.
+    function initMap() {
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 11,
+        center: {
+          lat: 40.645037,
+          lng: -73.880224
+        },
+      });
+
+      var image = 'images/maps-and-flags.png';
+      var beachMarker = new google.maps.Marker({
+        position: {
+          lat: 40.645037,
+          lng: -73.880224
+        },
+        map: map,
+        icon: image
+      });
+    }
+  </script>
+  <!-- google map js -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap">
   </script>
 
+  <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5e6738748d24fc226586b796/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+  
+  <!-- end google map js -->
 </body>
 
 </html>

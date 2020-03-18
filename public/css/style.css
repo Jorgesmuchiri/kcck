@@ -114,7 +114,7 @@ a:focus {
 .top_container::before {
   content: "";
   position: absolute;
-  width: 48%;
+  width: 35%;
   height: 80%;
   background: url(../images/hero-bg.png);
   background-size: cover;

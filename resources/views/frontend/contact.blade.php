@@ -42,9 +42,9 @@
     <header class="header_section">
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-            <a class="navbar-brand" href="index.html">
-          <!--   <img src="images/logo.png" alt=""> -->
-             <span>
+          <a class="navbar-brand" href="index">
+          <!--   <img src="images/ilab.png" alt=""> -->
+            <span>
               K.C.C.P
             </span>
           </a>
@@ -57,31 +57,44 @@
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
               <ul class="navbar-nav  ">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html"> Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="/">  <span >Home</span></a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="about.html"> About </a>
+                  <a class="nav-link" href="about"> About </a>
                 </li>
 
                 <li class="nav-item ">
-                  <a class="nav-link" href="teacher.html"> Teacher </a>
+                  <a class="nav-link" href="courses"> Courses </a>
+                </li>
+
+
+           <!--      <li class="nav-item">
+                  <a class="nav-link" href="vehicle.html"> Blog </a>
+                </li> -->
+
+                <li class="nav-item">
+                  <a class="nav-link" href=""> Media </a>
+                </li>
+
+                 <li class="nav-item">
+                  <a class="nav-link" href="events"> Events </a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="vehicle.html"> vehicle </a>
+                  <a class="nav-link" href="contact">Contact Us</a>
                 </li>
 
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact Us</a>
+                  <li class="nav-item">
+                  <a class="nav-link" href="login">Login<img src="images/new-user.png" alt="" width="20"></a>
                 </li>
 
               </ul>
-              <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
-                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-              </form>
+             
             </div>
+
         </nav>
       </div>
+      
     </header>
   </div>
 
@@ -118,24 +131,41 @@
             </a> -->
           </div>
         </div>
+             @include('flash-message')
+ @if(Session::has('success'))
+  <script type="text/javascript">
+     swal({
+         title:'Success!',
+         text:"{{Session::get('success')}}",
+         timer:5000,
+         type:'success'
+     }).then((value) => {
+       //location.reload();
+     }).catch(swal.noop);
+ </script>
+ @endif
+
+
         <div class="hero_img-container">
             <h2 class="main-heading">
         Contact Now
 
       </h2>
          <div class="contact-form">
-                <form action="">
+            <form method="post" action="{{ route('enquiries.store') }}" autocomplete="off" class="form-horizontal" enctype="multipart/form-data" >
+            @csrf
+            @method('post')
                   <div>
-                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Name" name="name">
                   </div>
                   <div>
-                    <input type="text" placeholder="Phone Number">
+                    <input type="text" placeholder="Phone Number" name="phone">
                   </div>
                   <div>
-                    <input type="email" placeholder="Email">
+                    <input type="email" placeholder="Email" name="email">
                   </div>
                   <div>
-                    <input type="text" placeholder="Message" class="input_message">
+                    <input type="text" placeholder="Message" class="input_message" name="message">
                   </div>
                   <div class="d-flex justify-content-center">
                     <button type="submit" class="btn_on-hover">

@@ -180,6 +180,7 @@ return [
       Khill\Lavacharts\Laravel\LavachartsServiceProvider::class,
       ConsoleTVs\Charts\ChartsServiceProvider::class,
       Laravel\Passport\PassportServiceProvider::class,
+      UxWeb\SweetAlert\SweetAlertServiceProvider::class,
 
     ],
 
@@ -234,7 +235,8 @@ return [
         'Excel' => Maatwebsite\Excel\Facades\Excel::class,
         'FastExcel' => Rap2hpoutre\FastExcel\Facades\FastExcel::class,
         'Lava' =>Khill\Lavacharts\Laravel\LavachartsFacade::class,
-        'Charts' => ConsoleTVs\Charts\Facades\Charts::class
+        'Charts' => ConsoleTVs\Charts\Facades\Charts::class,
+        'Alert' => UxWeb\SweetAlert\SweetAlert::class
 
     ],
 

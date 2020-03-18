@@ -1,8 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
-  use App\Programs;
-  use App\Enquiries;
+  use App\Courses;
+  use App\Users;
   use DB;
 class HomeController extends Controller
 {
@@ -26,16 +26,16 @@ class HomeController extends Controller
     public function index()
     {
 
-    $enquiries=Enquiries::count();
-    $pending=Enquiries::where('status','=','pending')->count();
-    $programs=Programs::count();
-    $country=Enquiries::get();
+    $enquiries=Courses::count();
+
+    $programs=Users::count();
+    $country=Courses::get();
     $country->unique('country')->count();
 
 
 
 
-        return view('dashboard',['enquiries'=>$enquiries,'pending'=>$pending,'programs'=>$programs,'country'=>$country]);
+        return view('dashboard',['enquiries'=>$enquiries,'programs'=>$programs,'country'=>$country]);
     }
 
 

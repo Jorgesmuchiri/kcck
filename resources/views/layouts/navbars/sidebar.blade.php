@@ -40,39 +40,41 @@
           </ul>
         </div>
       </li>
-      
-      <li class="nav-item{{ $activePage == 'enquiries' ? ' active' : '' }}">
-        <a class="nav-link" href="{{ route('enquiries.index') }}">
+        <li class="nav-item{{ $activePage == 'hosts' ? ' active' : '' }}">
+        <a class="nav-link" href="{{ route('hosts.index') }}">
+          <i class="material-icons">home</i>
+          <p>{{ __('Host') }}</p>
+        </a>
+      </li>
+
+      <li class="nav-item{{ $activePage == 'course' ? ' active' : '' }}">
+        <a class="nav-link" href="{{ route('course.index') }}">
           <i class="material-icons">content_paste</i>
-            <p>{{ __('Enquiries') }}</p>
+            <p>{{ __('Courses') }}</p>
         </a>
       </li>
 
 
-      <li class="nav-item{{ $activePage == 'programs' ? ' active' : '' }}">
-        <a class="nav-link" href="{{ route('programs.index') }}">
+      
+
+
+       <li class="nav-item{{ $activePage == 'event' ? ' active' : '' }}">
+        <a class="nav-link" href="{{ route('event.index') }}">
           <i class="material-icons">library_books</i>
-            <p>{{ __('Programs') }}</p>
+            <p>{{ __('Events') }}</p>
         </a>
       </li>
 
 
-       <li class="nav-item{{ $activePage == 'nprograms' ? ' active' : '' }}">
-        <a class="nav-link" href="{{ route('newprograms.index') }}">
-          <i class="material-icons">library_books</i>
-            <p>{{ __('New Programs') }}</p>
-        </a>
-      </li>
-
-     <!--  <li class="nav-item{{ $activePage == 'application' ? ' active' : '' }}">
-        <a class="nav-link" href="{{ route('application.index') }}">
+  <li class="nav-item{{ $activePage == 'partner' ? ' active' : '' }}">
+        <a class="nav-link" href="{{ route('partner.index') }}">
           <i class="material-icons">supervised_user_circle</i>
-          <p>{{ __('Students') }}</p>
+          <p>{{ __('Partners') }}</p>
         </a>
       </li>
- -->
 
-      <li class="nav-item {{ ($activePage == 'reports' || $activePage == '') ? ' active' : '' }}">
+
+      <!-- <li class="nav-item {{ ($activePage == 'reports' || $activePage == '') ? ' active' : '' }}">
         <a class="nav-link" data-toggle="collapse" href="#laravelExample" aria-expanded="true">
                <i class="material-icons">bubble_chart</i>
           <p>{{ __('Reports') }}
@@ -97,15 +99,8 @@
         </div>
       </li>
       
+ -->
 
-
-   
-           <!--  <li class="nav-item{{ $activePage == 'reports' ? ' active' : '' }}">
-        <a class="nav-link" href="{{ route('application.index') }}">
-          <i class="material-icons">bubble_chart</i>
-          <p>{{ __('Reports') }}</p>
-        </a>
-      </li> -->
 
 
     </ul>

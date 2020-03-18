@@ -63,30 +63,14 @@
                         {{ __('Email') }}
                       </th>
                       <th>
-                        {{ __('Phone_no') }}
+                        {{ __('Phone No') }}
                       </th>
-                                            <th>
-                        {{ __('Country') }}
-                      </th>
+                     
 
                            <th>
-                        {{ __('Course') }}
+                        {{ __('Message') }}
                       </th>
           
-                          <th>
-                        {{ __('Intake') }}
-                      </th>
-           
-                         <th>
-                        {{ __('Advert_Source') }}
-                      </th>
-                         <th>
-                        {{ __('Comment') }}
-                      </th>
-                 
-                        <th>
-                        {{ __('Status') }}
-                      </th>
 
                           <th>
                         {{ __('Actions') }}
@@ -105,30 +89,12 @@
                           </td>
 
                           <td>
-                          {{ $enquiry->phone_no }}
+                          {{ $enquiry->phone }}
                           </td>
                           <td>
-                          {{ $enquiry->country }}
+                          {{ $enquiry->message }}
                           </td>
-                          <td>
-                         {{ $enquiry->course }}
-                         </td>
-                          <td>
-                         {{ $enquiry->intake }}
-                         </td>
-
-                            <td>
-                         {{ $enquiry->advert }}
-                         </td>
-                           
-                          <td>
-                         {{ $enquiry->comment }}  
-                          </td>
-                         <td>
-                         {{ $enquiry->status }}
-                         </td>
-
-
+                         
 
                                                    
                         

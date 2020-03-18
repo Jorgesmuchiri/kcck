@@ -40,10 +40,10 @@
 <body>
   <div class="top_container sub_pages">
     <!-- header section strats -->
- <header class="header_section">
+  <header class="header_section">
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="index">
           <!--   <img src="images/ilab.png" alt=""> -->
             <span>
               K.C.C.P
@@ -58,7 +58,7 @@
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
               <ul class="navbar-nav  ">
                 <li class="nav-item active">
-                  <a class="nav-link" href="home">  <span >Home</span></a>
+                  <a class="nav-link" href="/">  <span >Home</span></a>
                 </li>
                 <li class="nav-item ">
                   <a class="nav-link" href="about"> About </a>
@@ -68,12 +68,13 @@
                   <a class="nav-link" href="courses"> Courses </a>
                 </li>
 
+
            <!--      <li class="nav-item">
                   <a class="nav-link" href="vehicle.html"> Blog </a>
                 </li> -->
 
                 <li class="nav-item">
-                  <a class="nav-link" href="media"> Media </a>
+                  <a class="nav-link" href=""> Media </a>
                 </li>
 
                  <li class="nav-item">
@@ -84,11 +85,17 @@
                   <a class="nav-link" href="contact">Contact Us</a>
                 </li>
 
+                  <li class="nav-item">
+                  <a class="nav-link" href="login">Login<img src="images/new-user.png" alt="" width="20"></a>
+                </li>
+
               </ul>
              
             </div>
+
         </nav>
       </div>
+      
     </header>
   </div>
   <!-- end header section -->

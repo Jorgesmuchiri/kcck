@@ -70,12 +70,12 @@ Route::resource('jobs', 'JobsController', ['except' => ['show']]);
 	Route::get('/repeat', 'HomeController@repeat')->name('repeat');
 	Route::get('/retakes', 'HomeController@retakes')->name('retakes');
 	Route::resource('user', 'UserController', ['except' => ['show']]);
-	Route::resource('application', 'ApplicationController', ['except' => ['show']]);
-    Route::resource('enquiries', 'EnquiriesController', ['except' => ['show']]);
-    Route::resource('programs', 'ProgramsController', ['except' => ['show']]);
-    Route::resource('newprograms', 'NewProgramsController', ['except' => ['show']]);
+	Route::resource('hosts', 'HostController', ['except' => ['show']]);
+    Route::resource('event', 'EventsController', ['except' => ['show']]);
+    Route::resource('course', 'CourseController', ['except' => ['show']]);
+    Route::resource('partner', 'PartnersController', ['except' => ['show']]);
 
-	Route::resource('timetable', 'TimetableController', ['except' => ['show']]);
+	Route::resource('enquiries', 'EnquiriesController', ['except' => ['show']]);
 	Route::resource('review', 'ReviewController', ['except' => ['show']]);
 	Route::resource('exams', 'ExamController', ['except' => ['show']]);
 	// Route::get('application', ['as' => 'application.edit', 'uses' => 'ApplicationController@edit']);
@@ -88,6 +88,12 @@ Route::resource('jobs', 'JobsController', ['except' => ['show']]);
 Route::get('/', function () {
     return view('frontend/index');
 });
+
+
+// Route::get('/home', function () {
+//     return view('frontend/index');
+// });
+
 
 Route::get('/about', function() {return view('frontend/about');});
 Route::get('/events', function() {return view('frontend/Events');});

@@ -103,7 +103,7 @@ input[type=submit] {
   <header class="header_section">
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="index">
           <!--   <img src="images/ilab.png" alt=""> -->
             <span>
               K.C.C.P
@@ -118,7 +118,7 @@ input[type=submit] {
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
               <ul class="navbar-nav  ">
                 <li class="nav-item active">
-                  <a class="nav-link" href="home">  <span >Home</span></a>
+                  <a class="nav-link" href="/">  <span >Home</span></a>
                 </li>
                 <li class="nav-item ">
                   <a class="nav-link" href="about"> About </a>
@@ -128,12 +128,13 @@ input[type=submit] {
                   <a class="nav-link" href="courses"> Courses </a>
                 </li>
 
+
            <!--      <li class="nav-item">
                   <a class="nav-link" href="vehicle.html"> Blog </a>
                 </li> -->
 
                 <li class="nav-item">
-                  <a class="nav-link" href="media"> Media </a>
+                  <a class="nav-link" href=""> Media </a>
                 </li>
 
                  <li class="nav-item">
@@ -144,11 +145,17 @@ input[type=submit] {
                   <a class="nav-link" href="contact">Contact Us</a>
                 </li>
 
+                  <li class="nav-item">
+                  <a class="nav-link" href="login">Login<img src="images/new-user.png" alt="" width="20"></a>
+                </li>
+
               </ul>
              
             </div>
+
         </nav>
       </div>
+      
     </header>
   </div>
   <!-- end header section -->
@@ -215,13 +222,16 @@ We are open to work with individuals, government, schools and businesses that ca
          <h2 class="main-heading ">
 Mold the future digital generation
       </h2>
-  <form action="action_page.php">
+<form method="post" action="{{ route('partner.store') }}" autocomplete="off" class="form-horizontal" enctype="multipart/form-data" >
+            @csrf
+            @method('post')
+
     <div class="row">
       <div class="col-25">
         <label for="fname">Name</label>
       </div>
       <div class="col-75">
-        <input type="text" id="fname" name="firstname" placeholder="Your Name..">
+        <input type="text" id="fname" name="name" placeholder="Your Name..">
       </div>
     </div>
     <div class="row">
@@ -229,7 +239,7 @@ Mold the future digital generation
         <label for="lname">Email</label>
       </div>
       <div class="col-75">
-        <input type="text" id="lname" name="lastname" placeholder="Your Email..">
+        <input type="text" id="lname" name="email" placeholder="Your Email..">
       </div>
     </div>
     <div class="row">
@@ -237,7 +247,7 @@ Mold the future digital generation
         <label for="fname">Phone No</label>
       </div>
       <div class="col-75">
-        <input type="text" id="fname" name="firstname" placeholder="Your Phone No..">
+        <input type="text" id="fname" name="phone_no" placeholder="Your Phone No..">
       </div>
     </div>
     <div class="row">
@@ -245,7 +255,7 @@ Mold the future digital generation
         <label for="lname">Area of Partnership</label>
       </div>
       <div class="col-75">
-        <input type="text" id="lname" name="lastname" placeholder="Area of Partnership..">
+        <input type="text" id="lname" name="partnership_area" placeholder="Area of Partnership..">
       </div>
     </div>
    

@@ -114,7 +114,7 @@ class EnquiriesController extends Controller
 //           $user->notify(new PendingUnit($save));
 // // 
 //       }
-      return back()->with('success','Worker successfully updated.');
+      return back()->withStatus('Enquiry successfully posted.');
   }
 
 

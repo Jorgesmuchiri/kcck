@@ -20,7 +20,7 @@
             </div>
             <div class="card-footer">
               <div class="stats">
-                    <a href="{{ route('application.index') }}" class="btn btn-sm btn-primary">{{ __('View More') }}</a>
+                    <a href="{{ route('course.index') }}" class="btn btn-sm btn-primary">{{ __('View More') }}</a>
               </div>
             </div>
           </div>
@@ -37,13 +37,13 @@
 </i>
               </div>
               <p class="card-category">Pending Enquiries</p>
-              <h3 class="card-title">{{$pending}}
+              <h3 class="card-title">
                 <small></small>
               </h3>
             </div>
             <div class="card-footer">
               <div class="stats">
-                    <a href="{{ route('application.index') }}" class="btn btn-sm btn-primary">{{ __('View More') }}</a>
+                    <a href="{{ route('course.index') }}" class="btn btn-sm btn-primary">{{ __('View More') }}</a>
               </div>
             </div>
           </div>
@@ -59,7 +59,7 @@
             </div>
             <div class="card-footer">
               <div class="stats">
-                    <a href="{{ route('application.create') }}" class="btn btn-sm btn-primary">{{ __('View More') }}</a>
+                    <a href="{{ route('user.index') }}" class="btn btn-sm btn-primary">{{ __('View More') }}</a>
               </div>
             </div>
           </div>

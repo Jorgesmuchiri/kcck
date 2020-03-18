@@ -81,8 +81,9 @@
                 </li>
 
                 <li class="nav-item ">
-                  <a class="nav-link" href=""> Courses </a>
+                  <a class="nav-link" href="courses"> Courses </a>
                 </li>
+
 
            <!--      <li class="nav-item">
                   <a class="nav-link" href="vehicle.html"> Blog </a>
@@ -93,11 +94,15 @@
                 </li>
 
                  <li class="nav-item">
-                  <a class="nav-link" href=""> Events </a>
+                  <a class="nav-link" href="events"> Events </a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="">Contact Us</a>
+                  <a class="nav-link" href="contact">Contact Us</a>
+                </li>
+
+                  <li class="nav-item">
+                  <a class="nav-link" href="login">Login<img src="images/new-user.png" alt="" width="20"></a>
                 </li>
 
               </ul>
