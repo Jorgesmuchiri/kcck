@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Adward</title>
+  <title>K.C.C.K</title>
 
 
 
@@ -38,15 +38,15 @@
 </head>
 
 <body>
-  <div class="top_container sub_pages">
+ <div class="top_container sub_pages">
     <!-- header section strats -->
-    <header class="header_section">
+     <header class="header_section">
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="index">
           <!--   <img src="images/ilab.png" alt=""> -->
             <span>
-              K.C.C.P
+              <img src="images/code-kids-logo.png" alt="">
             </span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -58,7 +58,7 @@
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
               <ul class="navbar-nav  ">
                 <li class="nav-item active">
-                  <a class="nav-link" href="home">  <span >Home</span></a>
+                  <a class="nav-link" href="/">  <span >Home</span></a>
                 </li>
                 <li class="nav-item ">
                   <a class="nav-link" href="about"> About </a>
@@ -68,12 +68,13 @@
                   <a class="nav-link" href="courses"> Courses </a>
                 </li>
 
+
            <!--      <li class="nav-item">
                   <a class="nav-link" href="vehicle.html"> Blog </a>
                 </li> -->
 
                 <li class="nav-item">
-                  <a class="nav-link" href="media"> Media </a>
+                  <a class="nav-link" href=""> Media </a>
                 </li>
 
                  <li class="nav-item">
@@ -84,13 +85,24 @@
                   <a class="nav-link" href="contact">Contact Us</a>
                 </li>
 
+                  <li class="nav-item">
+                  <a class="nav-link" href="login">Login<img src="images/new-user.png" alt="" width="20"></a>
+                </li>
+
+                 <li class="nav-item">
+                  <a class="nav-link" href="sign-up">Register<img src="images/new-user.png" alt="" width="20"></a>
+                </li>
+
+
               </ul>
              
             </div>
+
         </nav>
       </div>
+      
     </header>
-  </div>
+</div>
   <!-- end header section -->
  <section class="projects py-5" id="gallery">
         <div class="container py-md-5">
@@ -99,150 +111,43 @@ Media
       </h2>
             <div class="row news-grids mt-md-5 mt-4 text-center">
                 <div class="col-md-4 gal-img">
-                    <a href="#gal1"><img src="images/teacher-1.jpg" alt="w3pvt" class="img-fluid"></a>
+                    <a href="#gal1"><img src="images/frontend/African.png" alt="w3pvt" class="img-fluid"></a>
                     <div class="gal-info">
-                        <h5>View Project<span class="decription">Website</span></h5>
+                        <h5>View <span class="decription"></span></h5>
                     </div>
                 </div>
                 <div class="col-md-4 gal-img">
-                    <a href="#gal2"><img src="images/teacher-2.jpg" alt="w3pvt" class="img-fluid"></a>
+                    <a href="#gal2"><img src="images/frontend/kids_coding_header.jpg" alt="w3pvt" class="img-fluid"></a>
                     <div class="gal-info">
-                        <h5>View Project<span class="decription">Website</span></h5>
+                        <h5>View <span class="decription">Website</span></h5>
                     </div>
                 </div>
                 <div class="col-md-4 gal-img">
                     <a href="#gal3"><img src="images/teacher-3.jpg" alt="w3pvt" class="img-fluid"></a>
                     <div class="gal-info">
-                        <h5>View Project<span class="decription">Website</span></h5>
+                        <h5>View <span class="decription">Website</span></h5>
                     </div>
                 </div>
                 <div class="col-md-4 gal-img">
                     <a href="#gal4"><img src="images/teacher-2.jpg" alt="w3pvt" class="img-fluid"></a>
                     <div class="gal-info">
-                        <h5>View Project<span class="decription">Website</span></h5>
+                        <h5>View <span class="decription">Website</span></h5>
                     </div>
                 </div>
 
                 <div class="col-md-4 gal-img">
                     <a href="#gal5"><img src="images/teacher-2.jpg" alt="w3pvt" class="img-fluid"></a>
                     <div class="gal-info">
-                        <h5>View Project<span class="decription">Website</span></h5>
+                        <h5>View <span class="decription">Website</span></h5>
                     </div>
                 </div>
                 <div class="col-md-4 gal-img">
                     <a href="#gal6"><img src="images/g6.jpg" alt="w3pvt" class="img-fluid"></a>
                     <div class="gal-info">
-                        <h5>View Project<span class="decription">Website</span></h5>
+                        <h5>View <span class="decription">Website</span></h5>
                     </div>
                 </div>
-                <div class="col-md-4 gal-img">
-                    <a href="#gal7"><img src="images/g7.jpg" alt="w3pvt" class="img-fluid"></a>
-                    <div class="gal-info">
-                        <h5>View Project<span class="decription">Website</span></h5>
-                    </div>
-                </div>
-                <div class="col-md-4 gal-img">
-                    <a href="#gal8"><img src="images/g8.jpg" alt="w3pvt" class="img-fluid"></a>
-                    <div class="gal-info">
-                        <h5>View Project<span class="decription">Website</span></h5>
-                    </div>
-                </div>
-                <div class="col-md-4 gal-img">
-                    <a href="#gal9"><img src="images/g9.jpg" alt="w3pvt" class="img-fluid"></a>
-                    <div class="gal-info">
-                        <h5>View Project<span class="decription">Website</span></h5>
-                    </div>
-                </div>
-
-            </div>
-            <!-- popup-->
-            <div id="gal1" class="pop-overlay">
-                <div class="popup">
-                    <img src="images/teacher-1.jpg" alt="Popup Image" class="img-fluid" />
-                    <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
-                    <a class="close" href="#gallery">&times;</a>
-                </div>
-            </div>
-            <!-- //popup -->
-            <!-- popup-->
-            <div id="gal2" class="pop-overlay">
-                <div class="popup">
-                    <img src="images/teacher-2.jpg" alt="Popup Image" class="img-fluid" />
-                    <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
-                    <a class="close" href="#gallery">&times;</a>
-                </div>
-            </div>
-            <!-- //popup -->
-            <!-- popup-->
-            <div id="gal3" class="pop-overlay">
-                <div class="popup">
-                    <img src="images/g3.jpg" alt="Popup Image" class="img-fluid" />
-                    <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
-                    <a class="close" href="#gallery">&times;</a>
-                </div>
-            </div>
-            <!-- //popup3 -->
-            <!-- popup-->
-            <div id="gal4" class="pop-overlay">
-                <div class="popup">
-                    <img src="images/g4.jpg" alt="Popup Image" class="img-fluid" />
-                    <h5>View Project</h5>
-                    <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
-                    <a class="close" href="#gallery">&times;</a>
-                </div>
-            </div>
-            <!-- //popup -->
-            <!-- popup-->
-            <div id="gal5" class="pop-overlay">
-                <div class="popup">
-                    <img src="images/g5.jpg" alt="Popup Image" class="img-fluid" />
-                    <h5 class="mt-3">View Project</h5>
-                    <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
-                    <a class="close" href="#gallery">&times;</a>
-                </div>
-            </div>
-            <!-- //popup -->
-            <!-- popup-->
-            <div id="gal6" class="pop-overlay">
-                <div class="popup">
-                    <img src="images/g6.jpg" alt="Popup Image" class="img-fluid" />
-                    <h5 class="mt-3">View Project</h5>
-                    <p>Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
-                    <a class="close" href="#gallery">&times;</a>
-                </div>
-            </div>
-            <!-- //popup -->
-            <!-- popup-->
-            <div id="gal7" class="pop-overlay">
-                <div class="popup">
-                    <img src="images/g7.jpg" alt="Popup Image" class="img-fluid" />
-                    <h5 class="mt-3">View Project</h5>
-                    <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
-                    <a class="close" href="#gallery">&times;</a>
-                </div>
-            </div>
-            <!-- //popup -->
-            <!-- popup-->
-            <div id="gal8" class="pop-overlay">
-                <div class="popup">
-                    <img src="images/g8.jpg" alt="Popup Image" class="img-fluid" />
-                    <h5 class="mt-3">View Project</h5>
-                    <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
-                    <a class="close" href="#gallery">&times;</a>
-                </div>
-            </div>
-            <!-- //popup -->
-            <!-- popup-->
-            <div id="gal9" class="pop-overlay">
-                <div class="popup">
-                    <img src="images/g9.jpg" alt="Popup Image" class="img-fluid" />
-                    <h5 class="mt-3">View Project</h5>s
-                    <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
-                    <a class="close" href="#gallery">&times;</a>
-                </div>
-            </div>
-            <!-- //popup -->
-        </div>
+                
     </section>
 
   <!-- teacher section -->
@@ -251,8 +156,61 @@ Media
   <!-- teacher section -->
 
 
+
+<div class="row">
+  <div class="column" style="background-color:#082465;">
+    <h1 class="text-center" style="color: #b42025;font-size: 18px;">Contact Us</h1>
+    <p class="text-center">Strath­more University</p>
+    <p class="text-center">4thFloor Stu­dent Centre Build­ing,Keri Road, Madaraka Estate,
+</p>
+    <p class="text-center">P.O Box 59857,00200,Nairobi.
+</p>
+    <p class="text-center">Mobile: +254 703 034616/ 0703 034 617.
+</p>
+<p class="text-center">Digital Learning Centre,
+</p>
+<p class="text-center">+254730734696
+</p>
+<p class="text-center">ilabafricaelearning@strathmore.edu</p>
+  </div>
+  <div class="column" style="background-color:#082465;">
+    <h1 class="text-center" style="color: #b42025; font-size: 18px;">Quick Links</h1>
+    <p class="text-center">
+<a href="about" style="color: #fff;">About Us</a>
+</p>
+<p class="text-center" >
+  <a href="events" style="color: #fff;">Events & Training</a>
+</p>
+<p class="text-center">
+
+  <a href="courses" style="color: #fff;">Courses</a>
+</p>
+<p class="text-center">
+  <a href="partners" style="color: #fff;">Partner</a>
+
+</p>
+<p class="text-center">Newsletter</p>
+
+<p class="text-center">
+<a href="" style="color: #fff;">Terms and Conditions</a></p>
+  </div>
+  <div class="column" style="background-color:#082465;">
+ <h1 class="text-center" style="color: #b42025;font-size: 18px;">Follow Us</h1>
+    <p class="text-center">
+<a href="#" class="fa fa-facebook"></a> 
+</p>
+<p class="text-center">
+<a href="#" class="fa fa-twitter"></a>
+</p>
+<p class="text-center"><a href="#" class="fa fa-youtube"></a>
+</p>
+<p class="text-center">Community of Practice (CoP)</p>
+  </div>
+</div>
+
+
   <!-- footer section -->
-<section class="container-fluid footer_section">
+  <section class="container-fluid footer_section">
     <p>
       Copyright &copy; <script>document.write(new Date().getFullYear())</script>  All Rights Reserved By Kids Can Code Kenya
     </p>

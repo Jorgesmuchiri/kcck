@@ -110,3 +110,6 @@ Route::get('/participant', function() {return view('frontend/participant');});
 Route::get('/curriculum', function() {return view('frontend/Curriculum');});
 
 Route::get('/sign-up', function() {return view('frontend/registration');});
+
+
+Route::get('/media', function() {return view('frontend/media');});

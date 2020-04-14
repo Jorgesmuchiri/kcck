@@ -205,45 +205,6 @@ Association of Startup and SMEs Enablers of Kenya (ASSEK)</li>
 
 
 
-
-      <div class="layout_padding-top">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="vehicle_img-box ">
-                <img src="images/ilab.png" alt="" class="img-fluid w-100" >
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="vehicle_img-box ">
-                <img src="images/pangea.jpg" alt="" class="img-fluid w-100">
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="vehicle_img-box ">
-                <img src="images/IBIZ.png" alt="" class="img-fluid w-100">
-              </div>
-            </div>
-          
-            <div class="carousel-item">
-              <div class="vehicle_img-box ">
-                <img src="images/norweigan.png" alt="" class="img-fluid w-100">
-              </div>
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
-
-    </div>
-  </section>
     <section class="vehicle_section layout_padding">
       
       <div class="container">
@@ -307,6 +268,7 @@ Mold the future digital generation
 
 
   <!-- footer section -->
+
 <div class="row">
   <div class="column" style="background-color:#082465;">
     <h1 class="text-center" style="color: #b42025;font-size: 18px;">Contact Us</h1>
@@ -326,18 +288,23 @@ Mold the future digital generation
   <div class="column" style="background-color:#082465;">
     <h1 class="text-center" style="color: #b42025; font-size: 18px;">Quick Links</h1>
     <p class="text-center">
-About Us
+<a href="about" style="color: #fff;">About Us</a>
 </p>
-<p class="text-center">Events & Training
+<p class="text-center" >
+  <a href="events" style="color: #fff;">Events & Training</a>
 </p>
-<p class="text-center">Courses
+<p class="text-center">
+
+  <a href="courses" style="color: #fff;">Courses</a>
 </p>
-<p class="text-center">Partner
+<p class="text-center">
+  <a href="partners" style="color: #fff;">Partner</a>
 
 </p>
 <p class="text-center">Newsletter</p>
 
-<p class="text-center">Terms and Conditions</p>
+<p class="text-center">
+<a href="" style="color: #fff;">Terms and Conditions</a></p>
   </div>
   <div class="column" style="background-color:#082465;">
  <h1 class="text-center" style="color: #b42025;font-size: 18px;">Follow Us</h1>

@@ -108,7 +108,7 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
-              <ul class="navbar-nav  ">
+              <ul class="navbar-nav">
                 <li class="nav-item active">
                   <a class="nav-link" href="/">  <span >Home</span></a>
                 </li>
@@ -567,18 +567,23 @@
   <div class="column" style="background-color:#082465;">
     <h1 class="text-center" style="color: #b42025; font-size: 18px;">Quick Links</h1>
     <p class="text-center">
-About Us
+<a href="about" style="color: #fff;">About Us</a>
 </p>
-<p class="text-center">Events & Training
+<p class="text-center" >
+  <a href="events" style="color: #fff;">Events & Training</a>
 </p>
-<p class="text-center">Courses
+<p class="text-center">
+
+  <a href="courses" style="color: #fff;">Courses</a>
 </p>
-<p class="text-center">Partner
+<p class="text-center">
+  <a href="partners" style="color: #fff;">Partner</a>
 
 </p>
 <p class="text-center">Newsletter</p>
 
-<p class="text-center">Terms and Conditions</p>
+<p class="text-center">
+<a href="" style="color: #fff;">Terms and Conditions</a></p>
   </div>
   <div class="column" style="background-color:#082465;">
  <h1 class="text-center" style="color: #b42025;font-size: 18px;">Follow Us</h1>
