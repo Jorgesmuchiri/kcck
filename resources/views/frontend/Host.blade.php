@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>K.C.C.P</title>
+  <title>K.C.C.K</title>
 
 
 
@@ -106,7 +106,7 @@ input[type=submit] {
           <a class="navbar-brand" href="index">
           <!--   <img src="images/ilab.png" alt=""> -->
             <span>
-              K.C.C.P
+               <img src="images/code-kids-logo.png" alt="">
             </span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -148,6 +148,11 @@ input[type=submit] {
                   <li class="nav-item">
                   <a class="nav-link" href="login">Login<img src="images/new-user.png" alt="" width="20"></a>
                 </li>
+
+                 <li class="nav-item">
+                  <a class="nav-link" href="sign-up">Register<img src="images/new-user.png" alt="" width="20"></a>
+                </li>
+
 
               </ul>
              

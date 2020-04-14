@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>K.C.C.K</title>
+  <title>KCCK</title>
 
 
 
@@ -40,13 +40,13 @@
 <body>
   <div class="top_container sub_pages">
     <!-- header section strats -->
-  <header class="header_section">
+     <header class="header_section">
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index">
           <!--   <img src="images/ilab.png" alt=""> -->
             <span>
-          <img src="images/code-kids-logo.png" alt="">
+              <img src="images/code-kids-logo.png" alt="">
             </span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -102,13 +102,15 @@
       </div>
       
     </header>
-  </div>
-  <!-- end header section -->
+</div>
+<!-- end header section -->
 
+
+<!-- teacher section -->
 <section class="teacher_section layout_padding-bottom">
   <div class="container">
     <h2 class="main-heading ">
-    Learning Resources
+     Curriculum
     </h2>
     <p class="text-center">
      
@@ -120,7 +122,7 @@
       <tr>
 
         <th scope="col" style=" background-color: #0c0c42;  color: white;">Topic</th>
-        <th scope="col" style=" background-color: #0c0c42;  color: white;">Resources</th>
+        <th scope="col" style=" background-color: #0c0c42;  color: white;">Description</th>
         
     
       </tr>
@@ -133,7 +135,7 @@
 
 
         <td>CS-unplugged & Computational Thinking</td>
-        <td><a href="https://csunplugged.org/en/">CS-unplugged</a><br> <a href="https://edu.google.com/resources/programs/exploring-computational-thinking/">Computational Thinking</a><br><a href="https://classic.csunplugged.org/activities/">Unplugged Coding Activities</a><br><a href="https://teachinglondoncomputing.files.wordpress.com/2014/02/activity-swappuzzle.pdf">Swap puzzle</a>
+        <td>CS concepts; <br>Coding Concepts;<br> Collect and analyze data; <br>Formulate problems;<br> Pattern recognition;<br>Abstraction;<br> Algorithm design
 
 </td>
        
@@ -147,7 +149,7 @@
       <tr>
         
         <td>Web Design</td>
-        <td> <a href="https://www.khanacademy.org/computing/hour-of-code/hour-of-html/v/making-webpages-intro">Hour of Code </a> <br> <a href="https://www.w3schools.com/"> W3 schools </a><br> <a href="https://www.tutorialspoint.com/index.htm">Tutorials point</a>
+        <td>Introduction; Browsers and editors;<br> Tools; Markup vs presentation;<br>  HTML, CSS & JS tags and elements;<br> Web graphics
 </td>
 
               </tr>
@@ -161,7 +163,9 @@
 
 <td>Coding</td>
 <td>
-<a href="https://scratch.mit.edu/">Scratch </a> <br> <a href="https://studio.code.org/s/express-2019/">Code.org </a><br> <a href="https://www.w3schools.com/python/python_intro.asp"> W3 Schools </a>
+Programming concepts;<br> Interactive stories, animations and games; <br>Projects; Python programming</td>
+
+
 </tr>
 
 <tr>
@@ -173,10 +177,7 @@
 
 <td>Database (DB)</td>
 <td>
-<a href="https://www.mysqltutorial.org/">MySQL tutorial </a><br>
-<a href="https://www.tutorialspoint.com/mysql/index.htm">Tutorials Point </a> <br>
-<a href="https://www.khanacademy.org/computing/hour-of-code/hour-of-sql/v/welcome-to-sql">Hour of Code 
- </a><br> <a href="https://www.w3schools.com/python/python_intro.asp"> W3 Schools </a></td>
+Introduction to DB programming; <br>DB concepts and data objects;<br> Relational DB; <br>DB operations; Transactions.</td>
 
 
 </tr>
@@ -191,7 +192,7 @@
 
 
 <td>Game Development</td>
-<td> <a href="https://www.blender.org/">Blender </a><br><a href="https://scratch.mit.edu/"> Scratch </a> <br><a href="https://unity.com/">Unity </a></td>
+<td>Principles of game design; <br> Game programming languages;<br>Game Engine; Blender; Unity; Space; <br>Components; Mechanics; Goals; Rules</td>
 
 
 </tr>
@@ -209,9 +210,7 @@
 
 <td>Robotics and IoT</td>
 <td>
-<a href="https://microbit.org/">BBC Micro:bit </a> <br>
-<a href="https://microbit.org/">Arduino Kit </a><br>
-<a href="https://microbit.org/">Micro:bit tutorial</a></td>
+Program microcontroller; <br>Introduction to Micro:bit and Arduino Kit; <br>Communication models and networks; <br>Protocols; Make Code; Deploy project; <br>Prototype circuits; Sensors</td>
 
 
 </tr>
@@ -229,7 +228,7 @@
 
 
 <td>Animations</td>
-<td><a href="https://www.blender.org/">Blender </a></td>
+<td>Principles of animation; <br>Staging, timing, mechanics and kinetics;<br> Scripting; <br>Story telling; Visual effects; Modelling</td>
 
 
 </tr>
@@ -249,7 +248,7 @@
 
 
 <td>App Development</td>
-<td> <a href="https://appinventor.mit.edu/">MIT App Inventor</a> <br><a href="https://developer.android.com/training/basics/firstapp/creating-project">Android Developer </a><br> <a href="https://codelabs.developers.google.com/codelabs/kotlin-android-training-welcome/index.html?index=..%2F..android-kotlin-fundamentals#0">Android Kotlin Fundamentals</a> <br><a href="https://www.appypie.com/">Appy Pie</a></td>
+<td>Layouts; <br>App navigation; Activity and Fragment lifecycle; <br>App Architecture; Device location; <br> Web browsing; Using collections of data;  <br>Working with Scroll View</td>
 
 
 </tr>
@@ -261,87 +260,10 @@
 </div>
 </section>
 
-  <!-- teacher section -->
-  <section class="teacher_section layout_padding-bottom">
-    <div class="container">
-      <h2 class="main-heading ">
-        
-      </h2>
-      <p class="text-center">
- 
-      </p>
-      <div class="teacher_container layout_padding2">
-        <div class="card-deck">
-          <div class="card">
-               <a href="https://scratch.mit.edu/"> <img class="card-img-top" src="images/SCRATCH.png" alt="Card image cap" ></a>
-            <div class="card-body">
-                      <a href="https://scratch.mit.edu/">
-              <h5 class="card-title">Scratch</h5></a>
-            </div>
-          </div>
-          <div class="card">
-            <a href="https://csunplugged.org/en/">    <img class="card-img-top" src="images/csunplugged.png" alt="Card image cap"></a>
-            <div class="card-body">
-              <a href="https://csunplugged.org/en/">    <h5 class="card-title">CS Unplugged</h5></a>
-            </div>
-
-          </div>
-          <div class="card">
-          <a href="https://www.python.org/">  <img class="card-img-top" src="images/python.png" alt="Card image cap" ></a>
-            <div class="card-body">
-          <a href="https://www.python.org/">    <h5 class="card-title">Python</h5></a>
-
-            </div>
-
-          </div>
-
-          <div class="card">
-          <a href="https://microbit.org/">  <img class="card-img-top" src="images/Microbit-logo-stacked.png" alt="Card image cap"></a>
-            <div class="card-body">
-            <a href="https://microbit.org/">  <h5 class="card-title">Micro Bit</h5></a>
-
-            </div>
-
-          </div>
-
-           <div class="card">
-          <a href="https://www.raspberrypi.org/">  <img class="card-img-top" src="images/raspberry-pi-logo1.png" alt="Card image cap" ></a>
-            <div class="card-body">
-          <a href="https://www.raspberrypi.org/">    <h5 class="card-title">Raspberry Pi</h5></a>
-
-            </div>
-
-          </div>
-
- <div class="card">
-          <a href="https://code.org/">  <img class="card-img-top" src="images/CODELOGO.png" alt="Card image cap" height="50%" width="50%"></a>
-            <div class="card-body">
-          <a href="https://code.org/">    <h5 class="card-title">Code</h5></a>
-
-            </div>
-
-          </div>
-
-        </div>
-      </div>
+<!-- teacher section -->
 
 
-  <!--     <div class="d-flex justify-content-center mt-3">
-        <a href="" class="call_to-btn  ">
-
-          <span>
-            See More
-          </span>
-          <img src="images/right-arrow.png" alt="">
-        </a>
-      </div> -->
-    </div>
-  </section>
-
-  <!-- teacher section -->
-
-
-  <!-- footer section -->
+<!-- footer section -->
 <div class="row">
   <div class="column" style="background-color:#082465;">
     <h1 class="text-center" style="color: #b42025;font-size: 18px;">Contact Us</h1>
@@ -395,14 +317,14 @@ About Us
       Copyright &copy; <script>document.write(new Date().getFullYear())</script>  All Rights Reserved By Kids Can Code Kenya
     </p>
   </section>
-  <!-- footer section -->
+<!-- footer section -->
 
-  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.js"></script>
-  <!-- progreesbar script -->
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<!-- progreesbar script -->
 
-  </script>
-  <script>
+</script>
+<script>
     // This example adds a marker to indicate the position of Bondi Beach in Sydney,
     // Australia.
     function initMap() {
@@ -428,7 +350,8 @@ About Us
   <!-- google map js -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap">
   </script>
-<!--Start of Tawk.to Script-->
+
+  <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
@@ -441,7 +364,6 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 <!--End of Tawk.to Script-->
-  
   
   <!-- end google map js -->
 </body>

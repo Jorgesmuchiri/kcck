@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>KCCP</title>
+  <title>KCCK</title>
 
 
 
@@ -51,6 +51,42 @@
   padding: 2px 16px;
 }
 
+
+@media all and (max-width:992px) {
+.column {
+ float: none;
+       text-align: center;
+       margin: auto;
+       width: 80%;
+       padding: 5px;
+       font-weight: normal;
+       font-size: 16px;
+       letter-spacing: 1px;
+  /* Should be removed. Only for demonstration */
+}
+
+.column2 {
+ float: none;
+       text-align: center;
+       margin: auto;
+       width: 80%;
+       height: 50%;
+       padding: 5px;
+       font-weight: normal;
+       font-size: 16px;
+       letter-spacing: 1px;
+  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+
+}
+
 </style>
 
 <body>
@@ -60,9 +96,9 @@
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index">
-          <!--   <img src="images/ilab.png" alt=""> -->
+       
             <span>
-              K.C.C.P
+           <img src="images/code-kids-logo.png" alt="">
             </span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -103,6 +139,10 @@
 
                   <li class="nav-item">
                   <a class="nav-link" href="login">Login<img src="images/new-user.png" alt="" width="20"></a>
+                </li>
+
+                   <li class="nav-item">
+                  <a class="nav-link" href="sign-up">Register<img src="images/new-user.png" alt="" width="20"></a>
                 </li>
 
               </ul>
@@ -197,7 +237,7 @@
       <img src="images/participation.png" height="250px">
 <p class="text-center"> Join any one of the existing Hubs and get to learn more.</p>
 <div class="text-center">
-        <a href="about.html" class="call_to-btn  ">
+        <a href="participant" class="call_to-btn  ">
 
       <span>
          Read More
@@ -255,7 +295,7 @@
 <p class="text-center">  The curriculum is designed to help learners think computationally which is beneficial to logic and philosophy skills as well as STEM oriented subjects.
 </p>
 <div class="text-center">
-        <a href="courses" class="call_to-btn  ">
+        <a href="curriculum" class="call_to-btn  ">
 
       <span>
          Read More
@@ -321,6 +361,12 @@
             <div class="carousel-item">
               <div class="vehicle_img-box ">
                 <img src="images/IBIZ.png" alt="" class="img-fluid w-100">
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="vehicle_img-box ">
+                <img src="images/assek.jpg" alt="" class="img-fluid w-100">
               </div>
             </div>
           
@@ -531,16 +577,18 @@ About Us
 
 </p>
 <p class="text-center">Newsletter</p>
+
+<p class="text-center">Terms and Conditions</p>
   </div>
   <div class="column" style="background-color:#082465;">
  <h1 class="text-center" style="color: #b42025;font-size: 18px;">Follow Us</h1>
     <p class="text-center">
-Facebook
+<a href="#" class="fa fa-facebook"></a> 
 </p>
-<p class="text-center">Twitter
-Email
+<p class="text-center">
+<a href="#" class="fa fa-twitter"></a>
 </p>
-<p class="text-center">Youtube
+<p class="text-center"><a href="#" class="fa fa-youtube"></a>
 </p>
 <p class="text-center">Community of Practice (CoP)</p>
   </div>

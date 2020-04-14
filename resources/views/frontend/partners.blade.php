@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>K.C.C.P</title>
+  <title>K.C.C.K</title>
 
 
 
@@ -104,9 +104,9 @@ input[type=submit] {
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index">
-          <!--   <img src="images/ilab.png" alt=""> -->
+            <img src="images/code-kids-logo.png" alt="">
             <span>
-              K.C.C.P
+              K.C.C.K
             </span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -149,6 +149,11 @@ input[type=submit] {
                   <a class="nav-link" href="login">Login<img src="images/new-user.png" alt="" width="20"></a>
                 </li>
 
+                 <li class="nav-item">
+                  <a class="nav-link" href="sign-up">Register<img src="images/new-user.png" alt="" width="20"></a>
+                </li>
+
+
               </ul>
              
             </div>
@@ -174,10 +179,33 @@ We are open to work with individuals, government, schools and businesses that ca
 
         <section class="vehicle_section layout_padding">
     <div class="container">
-  
+  <h2 class="main-heading ">
+   Our Partners
+      </h2>
       <p class="text-center">
    
+<ol>
+  
+
+<li>@iLabAfrica</li>
+<li>@iBizAfrica</li>
+<li>
+Pangea Accelerator</li>
+<li>
+Association of Startup and SMEs Enablers of Kenya (ASSEK)</li>
+<li>Royal Norwegian Embassy in Kenya</li>
+<li>ICT Norway</li>
+
+
+</ol>
+
+
       </p>
+
+
+
+
+
       <div class="layout_padding-top">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
@@ -279,7 +307,55 @@ Mold the future digital generation
 
 
   <!-- footer section -->
-<section class="container-fluid footer_section">
+<div class="row">
+  <div class="column" style="background-color:#082465;">
+    <h1 class="text-center" style="color: #b42025;font-size: 18px;">Contact Us</h1>
+    <p class="text-center">Strath­more University</p>
+    <p class="text-center">4thFloor Stu­dent Centre Build­ing,Keri Road, Madaraka Estate,
+</p>
+    <p class="text-center">P.O Box 59857,00200,Nairobi.
+</p>
+    <p class="text-center">Mobile: +254 703 034616/ 0703 034 617.
+</p>
+<p class="text-center">Digital Learning Centre,
+</p>
+<p class="text-center">+254730734696
+</p>
+<p class="text-center">ilabafricaelearning@strathmore.edu</p>
+  </div>
+  <div class="column" style="background-color:#082465;">
+    <h1 class="text-center" style="color: #b42025; font-size: 18px;">Quick Links</h1>
+    <p class="text-center">
+About Us
+</p>
+<p class="text-center">Events & Training
+</p>
+<p class="text-center">Courses
+</p>
+<p class="text-center">Partner
+
+</p>
+<p class="text-center">Newsletter</p>
+
+<p class="text-center">Terms and Conditions</p>
+  </div>
+  <div class="column" style="background-color:#082465;">
+ <h1 class="text-center" style="color: #b42025;font-size: 18px;">Follow Us</h1>
+    <p class="text-center">
+<a href="#" class="fa fa-facebook"></a> 
+</p>
+<p class="text-center">
+<a href="#" class="fa fa-twitter"></a>
+</p>
+<p class="text-center"><a href="#" class="fa fa-youtube"></a>
+</p>
+<p class="text-center">Community of Practice (CoP)</p>
+  </div>
+</div>
+
+
+  <!-- footer section -->
+  <section class="container-fluid footer_section">
     <p>
       Copyright &copy; <script>document.write(new Date().getFullYear())</script>  All Rights Reserved By Kids Can Code Kenya
     </p>

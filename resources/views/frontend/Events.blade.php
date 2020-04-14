@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>KCCP</title>
+  <title>KCCK</title>
 
 
 
@@ -46,7 +46,7 @@
           <a class="navbar-brand" href="index">
           <!--   <img src="images/ilab.png" alt=""> -->
             <span>
-              K.C.C.P
+            <img src="images/code-kids-logo.png" alt="">
             </span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -89,6 +89,11 @@
                   <a class="nav-link" href="login">Login<img src="images/new-user.png" alt="" width="20"></a>
                 </li>
 
+                 <li class="nav-item">
+                  <a class="nav-link" href="sign-up">Register<img src="images/new-user.png" alt="" width="20"></a>
+                </li>
+
+
               </ul>
              
             </div>
@@ -100,12 +105,120 @@
 </div>
 <!-- end header section -->
 
+<section class="teacher_section layout_padding-bottom">
+  <div class="container">
+    <h2 class="main-heading ">
+     Our Events and Trainings
+    </h2>
+    <p class="text-center">
+     
+    </p>
+    <div class="teacher_container layout_padding2">
+      <div class="table-responsive">
+  <table class="table table-striped">
+    <thead>
+      <tr>
 
+        <th scope="col" style=" background-color: #0c0c42;  color: white;">Activity</th>
+        <th scope="col" style=" background-color: #0c0c42;  color: white;">Date</th>
+        
+    
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+
+
+     
+
+
+
+        <td>Project launch</td>
+        <td>Wednesday 18/3/2020
+</td>
+       
+      
+      </tr>
+      
+
+      <tr>
+        
+
+
+
+        <td>Student sensitization meetup</td>
+        <td>-Thursday 14/5/2020
+</td>
+
+              </tr>
+
+<tr>
+  
+
+
+
+
+<td>Training of the clubs
+</td>
+<td>Monday 18/5/2020 - July
+</td>
+
+
+</tr>
+
+<tr>
+  
+
+
+
+
+
+<td>Teacher workshop</td>
+<td>Wednesday 19/8/2020
+</td>
+
+
+</tr>
+
+
+<tr>
+  
+
+
+
+
+
+<td>
+Coding competition</td>
+<td>Saturday 25/7/2020</td>
+
+
+</tr>
+
+
+<tr>
+
+
+
+<td>  
+National teacher conference</td>
+<td>Tuesday 10/11/2020</td>
+
+
+</tr>
+
+
+    </tbody>
+  </table>
+</div>
+</div>
+</div>
+</section>
 <!-- teacher section -->
 <section class="teacher_section layout_padding-bottom">
   <div class="container">
     <h2 class="main-heading ">
-      Our Events and Trainings
+     
     </h2>
     <p class="text-center">
      
@@ -202,7 +315,55 @@ Strathmore University
 
 
 <!-- footer section -->
-<section class="container-fluid footer_section">
+<div class="row">
+  <div class="column" style="background-color:#082465;">
+    <h1 class="text-center" style="color: #b42025;font-size: 18px;">Contact Us</h1>
+    <p class="text-center">Strath­more University</p>
+    <p class="text-center">4thFloor Stu­dent Centre Build­ing,Keri Road, Madaraka Estate,
+</p>
+    <p class="text-center">P.O Box 59857,00200,Nairobi.
+</p>
+    <p class="text-center">Mobile: +254 703 034616/ 0703 034 617.
+</p>
+<p class="text-center">Digital Learning Centre,
+</p>
+<p class="text-center">+254730734696
+</p>
+<p class="text-center">ilabafricaelearning@strathmore.edu</p>
+  </div>
+  <div class="column" style="background-color:#082465;">
+    <h1 class="text-center" style="color: #b42025; font-size: 18px;">Quick Links</h1>
+    <p class="text-center">
+About Us
+</p>
+<p class="text-center">Events & Training
+</p>
+<p class="text-center">Courses
+</p>
+<p class="text-center">Partner
+
+</p>
+<p class="text-center">Newsletter</p>
+
+<p class="text-center">Terms and Conditions</p>
+  </div>
+  <div class="column" style="background-color:#082465;">
+ <h1 class="text-center" style="color: #b42025;font-size: 18px;">Follow Us</h1>
+    <p class="text-center">
+<a href="#" class="fa fa-facebook"></a> 
+</p>
+<p class="text-center">
+<a href="#" class="fa fa-twitter"></a>
+</p>
+<p class="text-center"><a href="#" class="fa fa-youtube"></a>
+</p>
+<p class="text-center">Community of Practice (CoP)</p>
+  </div>
+</div>
+
+
+  <!-- footer section -->
+  <section class="container-fluid footer_section">
     <p>
       Copyright &copy; <script>document.write(new Date().getFullYear())</script>  All Rights Reserved By Kids Can Code Kenya
     </p>

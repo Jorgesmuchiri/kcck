@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>KCCP</title>
+  <title>KCCK</title>
 
 
 
@@ -46,7 +46,7 @@
           <a class="navbar-brand" href="index">
           <!--   <img src="images/ilab.png" alt=""> -->
             <span>
-              K.C.C.P
+              <img src="images/code-kids-logo.png" alt="">
             </span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -89,6 +89,11 @@
                   <a class="nav-link" href="login">Login<img src="images/new-user.png" alt="" width="20"></a>
                 </li>
 
+                 <li class="nav-item">
+                  <a class="nav-link" href="sign-up">Register<img src="images/new-user.png" alt="" width="20"></a>
+                </li>
+
+
               </ul>
              
             </div>
@@ -105,23 +110,20 @@
 <section class="teacher_section layout_padding-bottom">
   <div class="container">
     <h2 class="main-heading ">
-      Our Events and Trainings
+     Courses
     </h2>
     <p class="text-center">
      
     </p>
     <div class="teacher_container layout_padding2">
       <div class="table-responsive">
-  <table class="table">
+  <table class="table table-striped">
     <thead>
       <tr>
 
-        <th scope="col">Topic</th>
-        <th scope="col">Description</th>
-        <th scope="col">Activities &
-Equipment</th>
-        <th scope="col">Resources</th>
-        <th scope="col">Competence</th>
+        <th scope="col" style=" background-color: #0c0c42;  color: white;">Career</th>
+        <th scope="col" style=" background-color: #0c0c42;  color: white;">Courses</th>
+        
     
       </tr>
     </thead>
@@ -129,21 +131,67 @@ Equipment</th>
       <tr>
 
 
-        <th scope="row">Database (DB)</th>
-        <td>Introduction to DB programming; Data types; DB operations; Transactions.</td>
-        <td>-Learn DB basics
--Create DB
--Manipulate DB data</td>
-        <td>MySQL tutorial,
-Tutorials Point,
-Hour of Code</td>
-        <td>-DB administrator
--Software developer
+     
+        <td>Software Developer</td>
+        <td>-Database<br>
+
+-Coding<br>
+-CS-unplugged and Computational Thinking<br>
+-Robotics and IoT<br>
+-App Development
 </td>
+       
       
       </tr>
       
-    
+
+      <tr>
+        
+        <td>Database Administrator</td>
+        <td>-CS-unplugged and Computational Thinking<br>
+-Database design
+</td>
+
+              </tr>
+
+<tr>
+  
+
+
+
+<td>Web Designer</td>
+<td>-CS-unplugged and Computational Thinking<br>
+-Web design and development</td>
+
+
+</tr>
+
+<tr>
+  
+
+
+
+<td>Engineer/ Technician/ Programmer</td>
+<td>-CS-unplugged and Computational Thinking<br>
+-Robotics and IoT</td>
+
+
+</tr>
+
+
+<tr>
+  
+
+
+
+<td>Content Designer/ Animator/ Game Developer</td>
+<td>-CS-unplugged and Computational Thinking</br>
+-Game Development<br>
+-Animations</td>
+
+
+</tr>
+
     </tbody>
   </table>
 </div>
@@ -155,7 +203,55 @@ Hour of Code</td>
 
 
 <!-- footer section -->
-<section class="container-fluid footer_section">
+<div class="row">
+  <div class="column" style="background-color:#082465;">
+    <h1 class="text-center" style="color: #b42025;font-size: 18px;">Contact Us</h1>
+    <p class="text-center">Strath­more University</p>
+    <p class="text-center">4thFloor Stu­dent Centre Build­ing,Keri Road, Madaraka Estate,
+</p>
+    <p class="text-center">P.O Box 59857,00200,Nairobi.
+</p>
+    <p class="text-center">Mobile: +254 703 034616/ 0703 034 617.
+</p>
+<p class="text-center">Digital Learning Centre,
+</p>
+<p class="text-center">+254730734696
+</p>
+<p class="text-center">ilabafricaelearning@strathmore.edu</p>
+  </div>
+  <div class="column" style="background-color:#082465;">
+    <h1 class="text-center" style="color: #b42025; font-size: 18px;">Quick Links</h1>
+    <p class="text-center">
+About Us
+</p>
+<p class="text-center">Events & Training
+</p>
+<p class="text-center">Courses
+</p>
+<p class="text-center">Partner
+
+</p>
+<p class="text-center">Newsletter</p>
+
+<p class="text-center">Terms and Conditions</p>
+  </div>
+  <div class="column" style="background-color:#082465;">
+ <h1 class="text-center" style="color: #b42025;font-size: 18px;">Follow Us</h1>
+    <p class="text-center">
+<a href="#" class="fa fa-facebook"></a> 
+</p>
+<p class="text-center">
+<a href="#" class="fa fa-twitter"></a>
+</p>
+<p class="text-center"><a href="#" class="fa fa-youtube"></a>
+</p>
+<p class="text-center">Community of Practice (CoP)</p>
+  </div>
+</div>
+
+
+  <!-- footer section -->
+  <section class="container-fluid footer_section">
     <p>
       Copyright &copy; <script>document.write(new Date().getFullYear())</script>  All Rights Reserved By Kids Can Code Kenya
     </p>

@@ -44,10 +44,8 @@
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index">
-          <!--   <img src="images/ilab.png" alt=""> -->
-            <span>
-              K.C.C.P
-            </span>
+           <img src="images/code-kids-logo.png" alt="">
+            
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,7 +56,7 @@
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
               <ul class="navbar-nav  ">
                 <li class="nav-item active">
-                  <a class="nav-link" href="home">  <span >Home</span></a>
+                  <a class="nav-link" href="/">  <span >Home</span></a>
                 </li>
                 <li class="nav-item ">
                   <a class="nav-link" href="about"> About </a>
@@ -88,6 +86,11 @@
                   <li class="nav-item">
                   <a class="nav-link" href="login">Login<img src="images/new-user.png" alt="" width="20"></a>
                 </li>
+
+                  <li class="nav-item">
+                  <a class="nav-link" href="sign-up">Register<img src="images/new-user.png" alt="" width="20"></a>
+                </li>
+
 
               </ul>
              
@@ -170,6 +173,60 @@ The curriculum is designed to help learners think computationally which is benef
   
 </div>
 
+<style>
+  
+
+@media all and (max-width:992px) {
+.column {
+ float: none;
+       text-align: center;
+       margin: auto;
+       width: 80%;
+       padding: 5px;
+       font-weight: normal;
+       font-size: 16px;
+       letter-spacing: 1px;
+  /* Should be removed. Only for demonstration */
+}
+
+
+
+/* teacher container */
+.teacher_section .card {
+  border: none;
+  background-color: transparent;
+   width: 40%;
+  height: 50%;
+
+   float: none;
+       text-align: center;
+}
+
+.teacher_section .card-title {
+ 
+
+  color: #48494a;
+   float: none;
+       text-align: center;
+}
+
+
+
+
+/* Clear floats after the columns */
+.row:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+
+}
+
+
+
+</style>
+
+
   <section class="teacher_section layout_padding-bottom">
     <div class="container">
       <h2 class="main-heading " style="color: #b42025;">
@@ -231,7 +288,55 @@ The curriculum is designed to help learners think computationally which is benef
 
 
   <!-- footer section -->
-    <section class="container-fluid footer_section">
+    <div class="row">
+  <div class="column" style="background-color:#082465;">
+    <h1 class="text-center" style="color: #b42025;font-size: 18px;">Contact Us</h1>
+    <p class="text-center">Strath­more University</p>
+    <p class="text-center">4thFloor Stu­dent Centre Build­ing,Keri Road, Madaraka Estate,
+</p>
+    <p class="text-center">P.O Box 59857,00200,Nairobi.
+</p>
+    <p class="text-center">Mobile: +254 703 034616/ 0703 034 617.
+</p>
+<p class="text-center">Digital Learning Centre,
+</p>
+<p class="text-center">+254730734696
+</p>
+<p class="text-center">ilabafricaelearning@strathmore.edu</p>
+  </div>
+  <div class="column" style="background-color:#082465;">
+    <h1 class="text-center" style="color: #b42025; font-size: 18px;">Quick Links</h1>
+    <p class="text-center">
+About Us
+</p>
+<p class="text-center">Events & Training
+</p>
+<p class="text-center">Courses
+</p>
+<p class="text-center">Partner
+
+</p>
+<p class="text-center">Newsletter</p>
+
+<p class="text-center">Terms and Conditions</p>
+  </div>
+  <div class="column" style="background-color:#082465;">
+ <h1 class="text-center" style="color: #b42025;font-size: 18px;">Follow Us</h1>
+    <p class="text-center">
+<a href="#" class="fa fa-facebook"></a> 
+</p>
+<p class="text-center">
+<a href="#" class="fa fa-twitter"></a>
+</p>
+<p class="text-center"><a href="#" class="fa fa-youtube"></a>
+</p>
+<p class="text-center">Community of Practice (CoP)</p>
+  </div>
+</div>
+
+
+  <!-- footer section -->
+  <section class="container-fluid footer_section">
     <p>
       Copyright &copy; <script>document.write(new Date().getFullYear())</script>  All Rights Reserved By Kids Can Code Kenya
     </p>

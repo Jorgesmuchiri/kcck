@@ -116,7 +116,7 @@ a:focus {
   position: absolute;
   width: 35%;
   height: 80%;
-  background: url(../images/hero-bg.png);
+  
   background-size: cover;
   background-position: right bottom;
   background-repeat: no-repeat;
@@ -137,7 +137,7 @@ a:focus {
 }
 
 .navbar-brand img {
-  width: 85px;
+  width: 250px;
   margin-right: 7px;
 }
 
@@ -196,7 +196,7 @@ a:focus {
 }
 
 .hero_detail-box {
-  color: #fefeff;
+  color: #0c0c42;
 }
 
 .hero_detail-box h1 {
@@ -220,6 +220,18 @@ a:focus {
   width: 65%;
   margin: 40px auto;
 }
+
+
+
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
 
 /* about section */
 
@@ -357,6 +369,15 @@ a:focus {
   color: #fff;
 }
 
+
+.contact-form icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
 /* end contact section */
 
 /* admission section */
@@ -439,7 +460,27 @@ a:focus {
   color: #fdfdfe;
 }
 
+@media all and (max-width:992px) {
+.column2 {
+ float: none;
+       text-align: center;
+       margin: auto;
+       width: 80%;
+       padding: 5px;
+       font-weight: normal;
+       font-size: 16px;
+       letter-spacing: 1px;
+  /* Should be removed. Only for demonstration */
+}
 
+/* Clear floats after the columns */
+.row:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+
+}
 .column2 {
   float: left;
     color: #082465;
@@ -510,4 +551,55 @@ a:focus {
   .columns {
     width: 100%;
   }
+
+  
+.column2 {
+  float: none;
+    color: #082465;
+    font-size: 14px;
+  width: 33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+
+@media all and (max-width:992px) {
+.column {
+ float: none;
+       text-align: center;
+       margin: auto;
+       width: 80%;
+       padding: 5px;
+       font-weight: normal;
+       font-size: 16px;
+       letter-spacing: 1px;
+  /* Should be removed. Only for demonstration */
+}
+
+.column2 {
+ float: none;
+       text-align: center;
+       margin: auto;
+       width: 80%;
+       height: 50%;
+       padding: 5px;
+       font-weight: normal;
+       font-size: 16px;
+       letter-spacing: 1px;
+  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+
+}
+
+
+
+
+
 }

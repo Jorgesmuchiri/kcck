@@ -11,7 +11,7 @@
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="" />
-  <title>KCCP</title>
+  <title>KCCK</title>
 
 
 
@@ -45,7 +45,7 @@
           <a class="navbar-brand" href="index">
           <!--   <img src="images/ilab.png" alt=""> -->
             <span>
-              K.C.C.P
+              <img src="images/code-kids-logo.png" alt="">
             </span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -88,6 +88,11 @@
                   <a class="nav-link" href="login">Login<img src="images/new-user.png" alt="" width="20"></a>
                 </li>
 
+                  <li class="nav-item">
+                  <a class="nav-link" href="sign-up">Register<img src="images/new-user.png" alt="" width="20"></a>
+                </li>
+
+
               </ul>
              
             </div>
@@ -107,7 +112,7 @@
           </h1> -->
            <h1>
              <br>
-  Contact Us
+Code into Your Future
           </h1>
           
               <p class="text-center" style="color: #000000">Strath­more University</p>
@@ -155,21 +160,31 @@
             <form method="post" action="{{ route('enquiries.store') }}" autocomplete="off" class="form-horizontal" enctype="multipart/form-data" >
             @csrf
             @method('post')
-                  <div>
-                    <input type="text" placeholder="Name" name="name">
+                  <div class="input-icons">
+                    <i  class="fa fa-user icon"></i>
+        <input type="text" placeholder="Name" name="name" class="input-field"> 
+                    
                   </div>
-                  <div>
+               <div class="input-icons">
+                     <i class="fa fa-phone icon"></i>
                     <input type="text" placeholder="Phone Number" name="phone">
                   </div>
-                  <div>
+               <div class="input-icons">
+                     <i class="fa fa-envelope icon"></i>
                     <input type="email" placeholder="Email" name="email">
                   </div>
-                  <div>
+
+                <div class="input-icons">
+                     <i class="fa fa-pencil icon"></i>
+                    <input type="subject" placeholder="Subject" name="subject">
+                  </div>
+               <div class="input-icons">
+                     <i class="fa fa-envelope icon"></i>
                     <input type="text" placeholder="Message" class="input_message" name="message">
                   </div>
                   <div class="d-flex justify-content-center">
                     <button type="submit" class="btn_on-hover">
-                      Send
+                      Send Inquiry
                     </button>
                   </div>
                 </form>
@@ -210,7 +225,55 @@
   <!-- end contact section -->
 
   <!-- footer section -->
-   <section class="container-fluid footer_section">
+  <div class="row">
+  <div class="column" style="background-color:#082465;">
+    <h1 class="text-center" style="color: #b42025;font-size: 18px;">Contact Us</h1>
+    <p class="text-center">Strath­more University</p>
+    <p class="text-center">4thFloor Stu­dent Centre Build­ing,Keri Road, Madaraka Estate,
+</p>
+    <p class="text-center">P.O Box 59857,00200,Nairobi.
+</p>
+    <p class="text-center">Mobile: +254 703 034616/ 0703 034 617.
+</p>
+<p class="text-center">Digital Learning Centre,
+</p>
+<p class="text-center">+254730734696
+</p>
+<p class="text-center">ilabafricaelearning@strathmore.edu</p>
+  </div>
+  <div class="column" style="background-color:#082465;">
+    <h1 class="text-center" style="color: #b42025; font-size: 18px;">Quick Links</h1>
+    <p class="text-center">
+About Us
+</p>
+<p class="text-center">Events & Training
+</p>
+<p class="text-center">Courses
+</p>
+<p class="text-center">Partner
+
+</p>
+<p class="text-center">Newsletter</p>
+
+<p class="text-center">Terms and Conditions</p>
+  </div>
+  <div class="column" style="background-color:#082465;">
+ <h1 class="text-center" style="color: #b42025;font-size: 18px;">Follow Us</h1>
+    <p class="text-center">
+<a href="#" class="fa fa-facebook"></a> 
+</p>
+<p class="text-center">
+<a href="#" class="fa fa-twitter"></a>
+</p>
+<p class="text-center"><a href="#" class="fa fa-youtube"></a>
+</p>
+<p class="text-center">Community of Practice (CoP)</p>
+  </div>
+</div>
+
+
+  <!-- footer section -->
+  <section class="container-fluid footer_section">
     <p>
       Copyright &copy; <script>document.write(new Date().getFullYear())</script>  All Rights Reserved By Kids Can Code Kenya
     </p>

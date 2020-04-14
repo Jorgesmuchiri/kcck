@@ -75,6 +75,8 @@ Route::resource('jobs', 'JobsController', ['except' => ['show']]);
     Route::resource('course', 'CourseController', ['except' => ['show']]);
     Route::resource('partner', 'PartnersController', ['except' => ['show']]);
 
+ Route::resource('participants', 'ParticipantsController', ['except' => ['show']]);
+
 	Route::resource('enquiries', 'EnquiriesController', ['except' => ['show']]);
 	Route::resource('review', 'ReviewController', ['except' => ['show']]);
 	Route::resource('exams', 'ExamController', ['except' => ['show']]);
@@ -103,3 +105,8 @@ Route::get('/courses', function() {return view('frontend/courses');});
 Route::get('/host', function() {return view('frontend/Host');});
 Route::get('/partners', function() {return view('frontend/partners');});
 Route::get('/resources', function() {return view('frontend/resources');});
+Route::get('/participant', function() {return view('frontend/participant');});
+
+Route::get('/curriculum', function() {return view('frontend/Curriculum');});
+
+Route::get('/sign-up', function() {return view('frontend/registration');});
