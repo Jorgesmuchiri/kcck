@@ -55,7 +55,7 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
-              <ul class="navbar-nav  ">
+             <ul class="navbar-nav">
                 <li class="nav-item active">
                   <a class="nav-link" href="/">  <span >Home</span></a>
                 </li>
@@ -73,7 +73,7 @@
                 </li> -->
 
                 <li class="nav-item">
-                  <a class="nav-link" href=""> Media </a>
+                  <a class="nav-link" href="media"> Media </a>
                 </li>
 
                  <li class="nav-item">
@@ -85,13 +85,13 @@
                 </li>
 
                   <li class="nav-item">
-                  <a class="nav-link" href="login">Login<img src="images/new-user.png" alt="" width="20"></a>
+                  <a class="nav-link" href="resources">Resources</a>
                 </li>
 
-                  <li class="nav-item">
+
+                   <li class="nav-item">
                   <a class="nav-link" href="sign-up">Register<img src="images/new-user.png" alt="" width="20"></a>
                 </li>
-
 
               </ul>
              
@@ -102,6 +102,19 @@
       
     </header>
   </div>
+            
+ @if(Session::has('success'))
+  <script type="text/javascript">
+     swal({
+         title:'Success!',
+         text:"{{Session::get('success')}}",
+         timer:5000,
+         type:'success'
+     }).then((value) => {
+       //location.reload();
+     }).catch(swal.noop);
+ </script>
+ @endif
 
   <section class="hero_section ">
       <div class="hero-container container">
@@ -136,28 +149,14 @@ Code into Your Future
             </a> -->
           </div>
         </div>
-             @include('flash-message')
- @if(Session::has('success'))
-  <script type="text/javascript">
-     swal({
-         title:'Success!',
-         text:"{{Session::get('success')}}",
-         timer:5000,
-         type:'success'
-     }).then((value) => {
-       //location.reload();
-     }).catch(swal.noop);
- </script>
- @endif
-
-
+ 
         <div class="hero_img-container">
             <h2 class="main-heading">
         Contact Now
 
       </h2>
          <div class="contact-form">
-            <form method="post" action="{{ route('enquiries.store') }}" autocomplete="off" class="form-horizontal" enctype="multipart/form-data" >
+            <form method="post" action="{{ route('Inquiries.store') }}" autocomplete="off" class="form-horizontal" enctype="multipart/form-data" >
             @csrf
             @method('post')
                   <div class="input-icons">

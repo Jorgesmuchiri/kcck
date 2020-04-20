@@ -72,6 +72,11 @@ Route::resource('jobs', 'JobsController', ['except' => ['show']]);
 	Route::resource('user', 'UserController', ['except' => ['show']]);
 	Route::resource('hosts', 'HostController', ['except' => ['show']]);
     Route::resource('event', 'EventsController', ['except' => ['show']]);
+
+       Route::resource('enquiries', 'EnquiriesController', ['except' => ['show']]);
+
+        Route::resource('Inquiries', 'InquiriesController', ['except' => ['show']]);
+      Route::resource('medias', 'MediaController', ['except' => ['show']]);
     Route::resource('course', 'CourseController', ['except' => ['show']]);
     Route::resource('partner', 'PartnersController', ['except' => ['show']]);
 
@@ -113,3 +118,4 @@ Route::get('/sign-up', function() {return view('frontend/registration');});
 
 
 Route::get('/media', function() {return view('frontend/media');});
+Route::get('media', 'MediaController@home')->name('media');

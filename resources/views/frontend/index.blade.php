@@ -125,8 +125,8 @@
                   <a class="nav-link" href="vehicle.html"> Blog </a>
                 </li> -->
 
-                <li class="nav-item">
-                  <a class="nav-link" href=""> Media </a>
+       <li class="nav-item">
+                  <a class="nav-link" href="media"> Media </a>
                 </li>
 
                  <li class="nav-item">
@@ -138,8 +138,9 @@
                 </li>
 
                   <li class="nav-item">
-                  <a class="nav-link" href="login">Login<img src="images/new-user.png" alt="" width="20"></a>
+                  <a class="nav-link" href="resources">Resources</a>
                 </li>
+
 
                    <li class="nav-item">
                   <a class="nav-link" href="sign-up">Register<img src="images/new-user.png" alt="" width="20"></a>
@@ -191,7 +192,7 @@
         About the program
       </h2>
       <h1 class="text-center" style="color: #b42025;">Kids as Innovators and Digital Architects</h1>
-      <p class="text-center">
+      <p  style="text-align: justify;">
         Technology has changed virtually every aspect of our society a key dimension being how young people play and interact with each other. Young people have mainly been consumers of technology. In a digitally fueled world, it is paramount to teach them how to use technology in a healthy way and impart skills and habits that make them productive digital citizens. Kids Can Code is an initiative for young people aged 10 - 17 years to learn Computer Science concepts and become confident creators with technology as a tool. This knowledge will also help to keep them safe online and manoeuver cyberbullying. Computational skills gained will be a great foundation for the young people by inspiring problem solving, analytical and critical thinking skills. Thinking computationally is beneficial to logic and philosophy skills as well as STEM oriented subjects leading to improved academic performance.
       </p>
       <div class="about_img-box ">

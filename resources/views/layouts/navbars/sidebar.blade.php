@@ -2,7 +2,7 @@
 
   <div class="logo">
     <a href="http://10.9.41.27/" class="simple-text logo-normal">
-      <img src="{{asset('images/logo.png')}}" height="100">
+      <img src="{{asset('images/code-kids-logo.png')}}" height="100">
     </a>
   </div>
   <div class="sidebar-wrapper">
@@ -65,6 +65,15 @@
         </a>
       </li>
 
+
+
+
+       <li class="nav-item{{ $activePage == 'media' ? ' active' : '' }}">
+        <a class="nav-link" href="{{ route('medias.index') }}">
+          <i class="material-icons">portrait</i>
+            <p>{{ __('Media') }}</p>
+        </a>
+      </li>
 
   <li class="nav-item{{ $activePage == 'partner' ? ' active' : '' }}">
         <a class="nav-link" href="{{ route('partner.index') }}">

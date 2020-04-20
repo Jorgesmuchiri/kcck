@@ -73,8 +73,8 @@
                   <a class="nav-link" href="vehicle.html"> Blog </a>
                 </li> -->
 
-                <li class="nav-item">
-                  <a class="nav-link" href=""> Media </a>
+             <li class="nav-item">
+                  <a class="nav-link" href="media"> Media </a>
                 </li>
 
                  <li class="nav-item">

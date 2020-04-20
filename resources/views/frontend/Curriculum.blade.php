@@ -56,7 +56,7 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
-              <ul class="navbar-nav  ">
+              <ul class="navbar-nav">
                 <li class="nav-item active">
                   <a class="nav-link" href="/">  <span >Home</span></a>
                 </li>
@@ -73,8 +73,8 @@
                   <a class="nav-link" href="vehicle.html"> Blog </a>
                 </li> -->
 
-                <li class="nav-item">
-                  <a class="nav-link" href=""> Media </a>
+             <li class="nav-item">
+                  <a class="nav-link" href="media"> Media </a>
                 </li>
 
                  <li class="nav-item">
@@ -86,13 +86,13 @@
                 </li>
 
                   <li class="nav-item">
-                  <a class="nav-link" href="login">Login<img src="images/new-user.png" alt="" width="20"></a>
+                  <a class="nav-link" href="resources">Resources</a>
                 </li>
 
-                 <li class="nav-item">
+
+                   <li class="nav-item">
                   <a class="nav-link" href="sign-up">Register<img src="images/new-user.png" alt="" width="20"></a>
                 </li>
-
 
               </ul>
              

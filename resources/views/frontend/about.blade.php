@@ -54,7 +54,7 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
-              <ul class="navbar-nav  ">
+            <ul class="navbar-nav">
                 <li class="nav-item active">
                   <a class="nav-link" href="/">  <span >Home</span></a>
                 </li>
@@ -72,7 +72,7 @@
                 </li> -->
 
                 <li class="nav-item">
-                  <a class="nav-link" href=""> Media </a>
+                  <a class="nav-link" href="media"> Media </a>
                 </li>
 
                  <li class="nav-item">
@@ -84,13 +84,13 @@
                 </li>
 
                   <li class="nav-item">
-                  <a class="nav-link" href="login">Login<img src="images/new-user.png" alt="" width="20"></a>
+                  <a class="nav-link" href="resources">Resources</a>
                 </li>
 
-                  <li class="nav-item">
+
+                   <li class="nav-item">
                   <a class="nav-link" href="sign-up">Register<img src="images/new-user.png" alt="" width="20"></a>
                 </li>
-
 
               </ul>
              
@@ -235,22 +235,22 @@ The curriculum is designed to help learners think computationally which is benef
       
       <div class="teacher_container layout_padding2">
         <div class="card-deck">
-          <div class="card">
-            <img class="card-img-top" src="images/default.png" alt="Card image cap">
+          <div class="card" >
+            <img class="card-img-top" src="images/Sevilla.jpg" alt="Card image cap" width="300" height="300">
             <div class="card-body">
               <h5 class="card-title">Director @ilabAfrica: Dr. Sevilla</h5>
             </div>
           </div>
           <div class="card">
-               <img class="card-img-top" src="images/default.png" alt="Card image cap">
+               <img class="card-img-top" src="images/Linda.jpg" alt="Card image cap" width="300" height="300">
             <div class="card-body">
               <h5 class="card-title">Manager @iBizAfrica: Linda Kwamboka</h5>
             </div>
 
           </div>
           <div class="card">
-    <img class="card-img-top" src="images/default.png" alt="Card image cap">
-            <div class="card-body">
+    <img class="card-img-top" src="images/Waithira.jpg" alt="Card image cap" width="300" height="300">
+            <div class="card-body" >
               <h5 class="card-title">Manager Digital Learning: Philomena Mwangi</h5>
 
             </div>
@@ -258,7 +258,7 @@ The curriculum is designed to help learners think computationally which is benef
           </div>
 
           <div class="card">
-             <img class="card-img-top" src="images/default.png" alt="Card image cap">
+             <img class="card-img-top" src="images/Kenedy.jpg" alt="Card image cap" width="300" height="300">
             <div class="card-body">
               <h5 class="card-title">Project Coordinator: Kenedy Munene</h5>
 

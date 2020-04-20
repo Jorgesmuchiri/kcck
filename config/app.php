@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'My Strathmore'),
+    'name' => env('APP_NAME', 'KCCK'),
 
     /*
     |--------------------------------------------------------------------------
@@ -161,6 +161,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        UxWeb\SweetAlert\SweetAlertServiceProvider::class,
         NotificationChannels\PusherPushNotifications\PusherPushNotificationsServiceProvider::class,
 
 
@@ -237,6 +238,7 @@ return [
         'Lava' =>Khill\Lavacharts\Laravel\LavachartsFacade::class,
         'Charts' => ConsoleTVs\Charts\Facades\Charts::class,
         'Alert' => UxWeb\SweetAlert\SweetAlert::class
+        
 
     ],
 

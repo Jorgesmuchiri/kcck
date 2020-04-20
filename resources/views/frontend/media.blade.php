@@ -56,7 +56,7 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
-              <ul class="navbar-nav  ">
+               <ul class="navbar-nav">
                 <li class="nav-item active">
                   <a class="nav-link" href="/">  <span >Home</span></a>
                 </li>
@@ -72,9 +72,8 @@
            <!--      <li class="nav-item">
                   <a class="nav-link" href="vehicle.html"> Blog </a>
                 </li> -->
-
-                <li class="nav-item">
-                  <a class="nav-link" href=""> Media </a>
+ <li class="nav-item">
+                  <a class="nav-link" href="media"> Media </a>
                 </li>
 
                  <li class="nav-item">
@@ -86,13 +85,13 @@
                 </li>
 
                   <li class="nav-item">
-                  <a class="nav-link" href="login">Login<img src="images/new-user.png" alt="" width="20"></a>
+                  <a class="nav-link" href="resources">Resources</a>
                 </li>
 
-                 <li class="nav-item">
+
+                   <li class="nav-item">
                   <a class="nav-link" href="sign-up">Register<img src="images/new-user.png" alt="" width="20"></a>
                 </li>
-
 
               </ul>
              
@@ -109,44 +108,21 @@
   <h2 class="main-heading ">
 Media
       </h2>
-            <div class="row news-grids mt-md-5 mt-4 text-center">
-                <div class="col-md-4 gal-img">
-                    <a href="#gal1"><img src="images/frontend/African.png" alt="w3pvt" class="img-fluid"></a>
-                    <div class="gal-info">
-                        <h5>View <span class="decription"></span></h5>
-                    </div>
-                </div>
-                <div class="col-md-4 gal-img">
-                    <a href="#gal2"><img src="images/frontend/kids_coding_header.jpg" alt="w3pvt" class="img-fluid"></a>
-                    <div class="gal-info">
-                        <h5>View <span class="decription">Website</span></h5>
-                    </div>
-                </div>
-                <div class="col-md-4 gal-img">
-                    <a href="#gal3"><img src="images/teacher-3.jpg" alt="w3pvt" class="img-fluid"></a>
-                    <div class="gal-info">
-                        <h5>View <span class="decription">Website</span></h5>
-                    </div>
-                </div>
-                <div class="col-md-4 gal-img">
-                    <a href="#gal4"><img src="images/teacher-2.jpg" alt="w3pvt" class="img-fluid"></a>
-                    <div class="gal-info">
-                        <h5>View <span class="decription">Website</span></h5>
-                    </div>
-                </div>
 
+    
+            <div class="row news-grids mt-md-5 mt-4 text-center">
+                @foreach($events as $media)
                 <div class="col-md-4 gal-img">
-                    <a href="#gal5"><img src="images/teacher-2.jpg" alt="w3pvt" class="img-fluid"></a>
+                    <a href="#gal1"><img src="storage/images/{{$media->image}}" 
+                      alt="Fess" class="img-fluid"></a>
                     <div class="gal-info">
-                        <h5>View <span class="decription">Website</span></h5>
+                        <h5>{{$media->caption }}<span class="decription"></span></h5>
                     </div>
                 </div>
-                <div class="col-md-4 gal-img">
-                    <a href="#gal6"><img src="images/g6.jpg" alt="w3pvt" class="img-fluid"></a>
-                    <div class="gal-info">
-                        <h5>View <span class="decription">Website</span></h5>
-                    </div>
-                </div>
+                @endforeach
+                
+               
+               </div>
                 
     </section>
 

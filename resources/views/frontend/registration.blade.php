@@ -116,7 +116,7 @@ input[type=submit] {
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
-              <ul class="navbar-nav  ">
+              <ul class="navbar-nav">
                 <li class="nav-item active">
                   <a class="nav-link" href="/">  <span >Home</span></a>
                 </li>
@@ -134,7 +134,7 @@ input[type=submit] {
                 </li> -->
 
                 <li class="nav-item">
-                  <a class="nav-link" href=""> Media </a>
+                  <a class="nav-link" href="media"> Media </a>
                 </li>
 
                  <li class="nav-item">
@@ -146,13 +146,13 @@ input[type=submit] {
                 </li>
 
                   <li class="nav-item">
-                  <a class="nav-link" href="login">Login<img src="images/new-user.png" alt="" width="20"></a>
+                  <a class="nav-link" href="resources">Resources</a>
                 </li>
 
-                 <li class="nav-item">
+
+                   <li class="nav-item">
                   <a class="nav-link" href="sign-up">Register<img src="images/new-user.png" alt="" width="20"></a>
                 </li>
-
 
               </ul>
              
@@ -184,7 +184,7 @@ Please fill out the form below for us to share with you upcoming resources, even
          <h2 class="main-heading ">
 
       </h2>
-<form method="post" action="{{ route('hosts.store') }}" autocomplete="off" class="form-horizontal" enctype="multipart/form-data" >
+<form method="post" action="{{ route('enquiries.store') }}" autocomplete="off" class="form-horizontal" enctype="multipart/form-data" >
             @csrf
             @method('post')
     <div class="row">
@@ -227,7 +227,7 @@ Please fill out the form below for us to share with you upcoming resources, even
         <label for="lname">School Name</label>
       </div>
       <div class="col-75">
-        <input type="text" id="lname" name="location" placeholder="School Name">
+        <input type="text" id="lname" name="school" placeholder="School Name">
       </div>
     </div>
    
@@ -238,7 +238,7 @@ Please fill out the form below for us to share with you upcoming resources, even
         <label for="lname">Location/County</label>
       </div>
       <div class="col-75">
-        <input type="text" id="lname" name="location" placeholder="Location/County..">
+        <input type="text" id="lname" name="location" placeholder="Location/County.." required="">
       </div>
     </div>
    
@@ -249,7 +249,7 @@ Please fill out the form below for us to share with you upcoming resources, even
       </div>
       <div class="col-75">
         <a href="">Terms and Conditions</a>
-        <input type="checkbox" id="lname" name="terms"><label for="vehicle2"> I Agree</label><br>
+        <input type="checkbox" id="lname" name="terms" required=""><label for="vehicle2" required> I Agree</label><br>
       </div>
     </div>
     <div class="row">
