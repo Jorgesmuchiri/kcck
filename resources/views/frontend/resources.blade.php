@@ -133,7 +133,7 @@
 
 
         <td>CS-unplugged & Computational Thinking</td>
-        <td><a href="https://csunplugged.org/en/">CS-unplugged</a><br> <a href="https://edu.google.com/resources/programs/exploring-computational-thinking/">Computational Thinking</a><br><a href="https://classic.csunplugged.org/activities/">Unplugged Coding Activities</a><br><a href="https://teachinglondoncomputing.files.wordpress.com/2014/02/activity-swappuzzle.pdf">Swap puzzle</a>
+        <td><a href="https://csunplugged.org/en/">CS-unplugged</a><br> <a href="https://edu.google.com/resources/programs/exploring-computational-thinking/" target="_blank">Computational Thinking</a><br><a href="https://classic.csunplugged.org/activities/" target="_blank">Unplugged Coding Activities</a><br><a href="https://teachinglondoncomputing.files.wordpress.com/2014/02/activity-swappuzzle.pdf" target="_blank">Swap puzzle</a>
 
 </td>
        
@@ -147,7 +147,7 @@
       <tr>
         
         <td>Web Design</td>
-        <td> <a href="https://www.khanacademy.org/computing/hour-of-code/hour-of-html/v/making-webpages-intro">Hour of Code </a> <br> <a href="https://www.w3schools.com/"> W3 schools </a><br> <a href="https://www.tutorialspoint.com/index.htm">Tutorials point</a>
+        <td> <a href="https://www.khanacademy.org/computing/hour-of-code/hour-of-html/v/making-webpages-intro" target="_blank">Hour of Code </a> <br> <a href="https://www.w3schools.com/" target="_blank"> W3 schools </a><br> <a href="https://www.tutorialspoint.com/index.htm" target="_blank">Tutorials point</a>
 </td>
 
               </tr>
@@ -161,7 +161,7 @@
 
 <td>Coding</td>
 <td>
-<a href="https://scratch.mit.edu/">Scratch </a> <br> <a href="https://studio.code.org/s/express-2019/">Code.org </a><br> <a href="https://www.w3schools.com/python/python_intro.asp"> W3 Schools </a>
+<a href="https://scratch.mit.edu/" target="_blank">Scratch </a> <br> <a href="https://studio.code.org/s/express-2019/" target="_blank">Code.org </a><br> <a href="https://www.w3schools.com/python/python_intro.asp" target="_blank"> W3 Schools </a>
 </tr>
 
 <tr>
@@ -173,10 +173,10 @@
 
 <td>Database (DB)</td>
 <td>
-<a href="https://www.mysqltutorial.org/">MySQL tutorial </a><br>
-<a href="https://www.tutorialspoint.com/mysql/index.htm">Tutorials Point </a> <br>
-<a href="https://www.khanacademy.org/computing/hour-of-code/hour-of-sql/v/welcome-to-sql">Hour of Code 
- </a><br> <a href="https://www.w3schools.com/python/python_intro.asp"> W3 Schools </a></td>
+<a href="https://www.mysqltutorial.org/" target="_blank">MySQL tutorial </a><br>
+<a href="https://www.tutorialspoint.com/mysql/index.htm" target="_blank">Tutorials Point </a> <br>
+<a href="https://www.khanacademy.org/computing/hour-of-code/hour-of-sql/v/welcome-to-sql" target="_blank">Hour of Code 
+ </a><br> <a href="https://www.w3schools.com/python/python_intro.asp" target="_blank"> W3 Schools </a></td>
 
 
 </tr>
@@ -191,7 +191,7 @@
 
 
 <td>Game Development</td>
-<td> <a href="https://www.blender.org/">Blender </a><br><a href="https://scratch.mit.edu/"> Scratch </a> <br><a href="https://unity.com/">Unity </a></td>
+<td> <a href="https://www.blender.org/" target="_blank">Blender </a><br><a href="https://scratch.mit.edu/" target="_blank"> Scratch </a> <br><a href="https://unity.com/" target="_blank">Unity </a></td>
 
 
 </tr>
@@ -209,9 +209,9 @@
 
 <td>Robotics and IoT</td>
 <td>
-<a href="https://microbit.org/">BBC Micro:bit </a> <br>
-<a href="https://microbit.org/">Arduino Kit </a><br>
-<a href="https://microbit.org/">Micro:bit tutorial</a></td>
+<a href="https://microbit.org/" target="_blank">BBC Micro:bit </a> <br>
+<a href="https://microbit.org/" target="_blank">Arduino Kit </a><br>
+<a href="https://microbit.org/" target="_blank">Micro:bit tutorial</a></td>
 
 
 </tr>
@@ -229,7 +229,7 @@
 
 
 <td>Animations</td>
-<td><a href="https://www.blender.org/">Blender </a></td>
+<td><a href="https://www.blender.org/" target="_blank">Blender </a></td>
 
 
 </tr>
@@ -249,7 +249,7 @@
 
 
 <td>App Development</td>
-<td> <a href="https://appinventor.mit.edu/">MIT App Inventor</a> <br><a href="https://developer.android.com/training/basics/firstapp/creating-project">Android Developer </a><br> <a href="https://codelabs.developers.google.com/codelabs/kotlin-android-training-welcome/index.html?index=..%2F..android-kotlin-fundamentals#0">Android Kotlin Fundamentals</a> <br><a href="https://www.appypie.com/">Appy Pie</a></td>
+<td> <a href="https://appinventor.mit.edu/" target="_blank">MIT App Inventor</a> <br><a href="https://developer.android.com/training/basics/firstapp/creating-project" target="_blank">Android Developer </a><br> <a href="https://codelabs.developers.google.com/codelabs/kotlin-android-training-welcome/index.html?index=..%2F..android-kotlin-fundamentals#0" target="_blank">Android Kotlin Fundamentals</a> <br><a href="https://www.appypie.com/" target="_blank">Appy Pie</a></td>
 
 
 </tr>
