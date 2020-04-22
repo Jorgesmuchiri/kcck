@@ -103,6 +103,59 @@
       
     </header>
   </div>
+  
+  <style >
+  .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  height: : 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+
+@media all and (max-width:992px) {
+.column {
+ float: none;
+       text-align: center;
+       margin: auto;
+       width: 80%;
+       padding: 5px;
+       font-weight: normal;
+       font-size: 16px;
+       letter-spacing: 1px;
+  /* Should be removed. Only for demonstration */
+}
+
+.column2 {
+ float: none;
+       text-align: center;
+       margin: auto;
+       width: 80%;
+       height: 50%;
+       padding: 5px;
+       font-weight: normal;
+       font-size: 16px;
+       letter-spacing: 1px;
+  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+
+}
+
+</style>
   <!-- end header section -->
 
 <section class="teacher_section layout_padding-bottom">
