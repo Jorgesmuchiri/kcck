@@ -106,7 +106,6 @@ input[type=submit] {
           <a class="navbar-brand" href="index">
             <img src="images/code-kids-logo.png" alt="">
             <span>
-              K.C.C.K
             </span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -211,15 +210,7 @@ These Terms may be amended from time to time, together with any documents, polic
 “Confidential Information” shall mean all information and data which relates to the activities of KCCK and which is not in the public domain.  All documents, manuals, hardware and software provided for use by KCCK and any data or documents and intellectual property that are confidential and will remain the property of KCCK. Intellectual property includes, but are not limited to copyright, trade marks (registered or unregistered), designs (registered or unregistered), inventions, patents, know – how, audio materials and audio – visual materials.
 
       </p>
-   <h2 class="main-heading ">
-   Hardware
-      </h2>
-     <p style="text-align: justify;">
-        
-
-Any hardware provided by KCCK will remain the property of@iLsbAfrica The harware is intended for the completion of the KCCK course. Beneficiaries are tasked with ensuring the hardware is probably maintained.
-
-      </p>
+  
 
 <h2 class="main-heading ">
    Hardware
@@ -240,6 +231,7 @@ Photo and Video Consent
 Participants at KCCK competitions and meet ups will be involved in various activities where they may be photographed and/or be filmed. Photographs and/or videos of students may be reproduced in KCCK publications, marketing materials and website for promotional purposes. By accepting our Terms and Conditions you have given consent for KCCK to use and publish photographs and/or videos of your child for promotional purposes.  However, you are also able to give KCCK written notification that photo and video consent has not been given. You indemnify KCCK to the extent permitted by the law for any claim as a result of KCCK using and publishing photographs, digital images and/or videos of your child in any of its publications and materials.
 
       </p>
+        </section>
    
 <br>
 <br>
