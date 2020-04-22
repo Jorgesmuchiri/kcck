@@ -250,7 +250,7 @@ Please fill out the form below for us to share with you upcoming resources, even
        <!--  <label for="lname">Terms and Conditions</label> -->
       </div>
       <div class="col-75">
-        <a href="">Terms and Conditions</a>
+        <a href="terms">Terms and Conditions</a>
         <input type="checkbox" id="lname" name="terms" required=""><label for="vehicle2" required> I Agree</label><br>
       </div>
     </div>
