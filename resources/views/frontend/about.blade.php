@@ -139,19 +139,19 @@
         About Us
       </h2> -->
       <h1 class="text-center" style="color: #b42025;">Who we are</h1>
-      <p class="text-center">
+      <p class="text-center" style="text-align: justify;">
         
 @iLabAfrica is a Centre of Excel­lence in ICT Innov­a­tion and Devel­op­ment established in January 2011 under the Faculty of Information Technology at Strathmore University—the Centre became autonomous in 2017. The Centre spearheads Research and Innovation in Information Communication Technology for Development (ICT4D) of ecosystems towards the attainment of the United Nations’ Sustainable Development Goals (SDGs) and Kenya’s Vision 2030.
       </p>
       <h1 class="text-center" style="color: #b42025;">What is Kids Can Code Kenya</h1>
-      <p class="text-center">
+      <p class="text-center" style="text-align: justify;">
         
 
 Kids Can Code is an initiative for young people aged 10 - 17 years to learn Computer Science concepts and become active contributors to the digital economy. This graduates them from consumers to confident creators / producers with technology as a tool. In a digitally fueled world, it is paramount to teach young people how to use technology in a healthy way and impart skills and habits that make them productive digital citizens. Computational skills gained will be a great foundation for the young people by inspiring problem solving, analytical and critical thinking skills. Thinking computationally is beneficial to logic and philosophy skills as well as STEM oriented subjects leading to improved academic performance.
       </p>
 
         <h1 class="text-center" style="color: #b42025;">Why Kids Can Code?</h1>
-      <p class="text-center">
+      <p class="text-center" style="text-align: justify;">
         
 
 
@@ -234,6 +234,7 @@ The curriculum is designed to help learners think computationally which is benef
       </h2>
       
       <div class="teacher_container layout_padding2">
+      
         <div class="card-deck">
           <div class="card" >
             <img class="card-img-top" src="images/Sevilla.jpg" alt="Card image cap" width="300" height="300">
