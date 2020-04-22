@@ -94,11 +94,12 @@ a,
 a:hover,
 a:focus {
   text-decoration: none;
+  color:#082465;
 }
 
 a:hover,
 a:focus {
-  color: initial;
+  ccolor:#082465;
 }
 
 .btn,
