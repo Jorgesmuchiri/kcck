@@ -230,9 +230,16 @@ Unlocking Technological Capacity for a Digital Future
       </div>
     </div>
     
-    <div class="g-recaptcha" data-sitekey="6LeCeewUAAAAAFJJZpdk484FnGcHBG6tfu3JJQ6s">
+    <div class="row">
+      
+      <div class="col-75">
+      <div class="g-recaptcha" data-sitekey="6LeCeewUAAAAAFJJZpdk484FnGcHBG6tfu3JJQ6s">
                                  
                              </div>
+      </div>
+    </div>
+    
+    
    
     <div class="row">
       <input type="submit" value="Submit" class="call_to-btn">
