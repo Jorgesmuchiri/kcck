@@ -231,7 +231,9 @@ Unlocking Technological Capacity for a Digital Future
     </div>
     
     <div class="row">
-      
+       <div class="col-25">
+        <label for="Captcha"></label>
+      </div>
       <div class="col-75">
       <div class="g-recaptcha" data-sitekey="6LeCeewUAAAAAFJJZpdk484FnGcHBG6tfu3JJQ6s">
                                  
