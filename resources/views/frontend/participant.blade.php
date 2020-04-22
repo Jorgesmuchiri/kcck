@@ -33,6 +33,7 @@
 
 
   <link rel="stylesheet" href="css/css-circular-prog-bar.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 
 </head>
@@ -213,6 +214,17 @@ The Future is Digital. Are you Ready?
       </div>
       <div class="col-75">
         <input type="text" id="lname" name="location" placeholder="Hub Location you would like to join..">
+      </div>
+    </div>
+    
+    <div class="row">
+       <div class="col-25">
+        <label for="Captcha"></label>
+      </div>
+      <div class="col-75">
+      <div class="g-recaptcha" data-sitekey="6LeCeewUAAAAAFJJZpdk484FnGcHBG6tfu3JJQ6s">
+                                 
+                             </div>
       </div>
     </div>
    
