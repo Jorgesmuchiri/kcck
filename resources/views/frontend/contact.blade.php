@@ -33,6 +33,8 @@
 
   <link rel="stylesheet" href="css/css-circular-prog-bar.css">
   
+   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  
 
 
 </head>
