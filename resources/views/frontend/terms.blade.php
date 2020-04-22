@@ -231,7 +231,8 @@ Photo and Video Consent
 Participants at KCCK competitions and meet ups will be involved in various activities where they may be photographed and/or be filmed. Photographs and/or videos of students may be reproduced in KCCK publications, marketing materials and website for promotional purposes. By accepting our Terms and Conditions you have given consent for KCCK to use and publish photographs and/or videos of your child for promotional purposes.  However, you are also able to give KCCK written notification that photo and video consent has not been given. You indemnify KCCK to the extent permitted by the law for any claim as a result of KCCK using and publishing photographs, digital images and/or videos of your child in any of its publications and materials.
 
       </p>
-        </section>
+  </div>
+</section>
    
 <br>
 <br>
