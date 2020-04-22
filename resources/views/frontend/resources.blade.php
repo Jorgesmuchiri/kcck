@@ -271,53 +271,62 @@
  
       </p>
       <div class="teacher_container layout_padding2">
+      <div class="column2">
         <div class="card-deck">
           <div class="card">
+           <div class="column2">
                <a href="https://scratch.mit.edu/"> <img class="card-img-top" src="images/SCRATCH.png" alt="Card image cap" ></a>
             <div class="card-body">
                       <a href="https://scratch.mit.edu/">
               <h5 class="card-title">Scratch</h5></a>
             </div>
+            </div>
           </div>
           <div class="card">
+           <div class="column2">
             <a href="https://csunplugged.org/en/">    <img class="card-img-top" src="images/csunplugged.png" alt="Card image cap"></a>
             <div class="card-body">
               <a href="https://csunplugged.org/en/">    <h5 class="card-title">CS Unplugged</h5></a>
             </div>
+            </div>
 
           </div>
           <div class="card">
+           <div class="column2">
           <a href="https://www.python.org/">  <img class="card-img-top" src="images/python.png" alt="Card image cap" ></a>
             <div class="card-body">
           <a href="https://www.python.org/">    <h5 class="card-title">Python</h5></a>
-
+            </div>
             </div>
 
           </div>
 
           <div class="card">
+           <div class="column2">
           <a href="https://microbit.org/">  <img class="card-img-top" src="images/Microbit-logo-stacked.png" alt="Card image cap"></a>
             <div class="card-body">
             <a href="https://microbit.org/">  <h5 class="card-title">Micro Bit</h5></a>
-
+           </div>
             </div>
 
           </div>
 
            <div class="card">
+            <div class="column2">
           <a href="https://www.raspberrypi.org/">  <img class="card-img-top" src="images/raspberry-pi-logo1.png" alt="Card image cap" ></a>
             <div class="card-body">
           <a href="https://www.raspberrypi.org/">    <h5 class="card-title">Raspberry Pi</h5></a>
-
+            </div>
             </div>
 
           </div>
 
  <div class="card">
+  <div class="column2">
           <a href="https://code.org/">  <img class="card-img-top" src="images/CODELOGO.png" alt="Card image cap" height="50%" width="50%"></a>
             <div class="card-body">
           <a href="https://code.org/">    <h5 class="card-title">Code</h5></a>
-
+            </div>
             </div>
 
           </div>
