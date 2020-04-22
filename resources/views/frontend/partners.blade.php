@@ -107,7 +107,7 @@ input[type=submit] {
           <a class="navbar-brand" href="index">
             <img src="images/code-kids-logo.png" alt="">
             <span>
-              K.C.C.K
+           
             </span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
