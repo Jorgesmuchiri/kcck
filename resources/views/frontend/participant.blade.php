@@ -189,7 +189,7 @@ The Future is Digital. Are you Ready?
         <label for="fname">Name</label>
       </div>
       <div class="col-75">
-        <input type="text" id="fname" name="name" placeholder="Your Name..">
+        <input type="text" id="fname" name="name" placeholder="Your Name.." required>
       </div>
     </div>
     <div class="row">
@@ -197,7 +197,7 @@ The Future is Digital. Are you Ready?
         <label for="lname">Email</label>
       </div>
       <div class="col-75">
-        <input type="text" id="lname" name="email" placeholder="Email..">
+        <input type="text" id="lname" name="email" placeholder="Email.." required>
       </div>
     </div>
     <div class="row">
@@ -205,7 +205,7 @@ The Future is Digital. Are you Ready?
         <label for="fname">Phone No</label>
       </div>
       <div class="col-75">
-        <input type="text" id="fname" name="phone_no" placeholder="Phone No..">
+        <input type="text" id="fname" name="phone_no" placeholder="Phone No.." required>
       </div>
     </div>
     <div class="row">
@@ -213,7 +213,7 @@ The Future is Digital. Are you Ready?
         <label for="lname">Hub Location</label>
       </div>
       <div class="col-75">
-        <input type="text" id="lname" name="location" placeholder="Hub Location you would like to join..">
+        <input type="text" id="lname" name="location" placeholder="Hub Location you would like to join.." required>
       </div>
     </div>
     
