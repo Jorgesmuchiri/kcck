@@ -172,38 +172,54 @@ input[type=submit] {
       <h2 class="main-heading ">
    Partners
       </h2>
-     <p class="text-center">
+     <p style="text-align: justify;">
         
 We are open to work with individuals, government, schools and businesses that can help advance Kids Can Code initiative so as to reach more schools across the country. The partnership can be in terms of giving funds to set up more clubs, hosting a club in your locality, being a mentor, providing content or devices for the clubs among others. By becoming a partner you will be molding a future generation of digitally informed and innovative citizens who can defeat cyberbullying and contribute immensely to the digital economy.
       </p>
 
-        <section class="vehicle_section layout_padding">
+  <section class="about_section layout_padding">
     <div class="container">
+
   <h2 class="main-heading ">
    Our Partners
       </h2>
-      <p class="text-center">
-   
-<ol>
+  <div class="row" align="center">
+  <div class="column3">
+
+  <a href="https://www.pangeaa.com/" target="_blank">
+    <img src="images/pangea.jpg" alt="" width="270" height="150">
+    </a>
+    
+  </div>
+  <div class="column3" >
+  <a href="http://www.ibizafrica.co.ke/" target="_blank">
+     <img src="images/IBIZ.png" alt="" width="250"  height="150">
+</a>
+
+
+
+  </div>
+
+   <div class="column3" >
+  <a href="https://www.norway.no/en/kenya/" target="_blank">
+      <img src="images/norweigan.png" alt="" width="250"  height="150">
+
+</a>
+
+
+  </div>
   
-
-<li>@iLabAfrica</li>
-<li>@iBizAfrica</li>
-<li>
-Pangea Accelerator</li>
-<li>
-Association of Startup and SMEs Enablers of Kenya (ASSEK)</li>
-<li>Royal Norwegian Embassy in Kenya</li>
-<li>ICT Norway</li>
+  <div class="column3" >
+    <a href="https://assek.ke/" target="_blank">
+        <img src="images/assek.jpg" alt="" width="150" height="150">
+ </a>
+  </div>
+</div>
 
 
-</ol>
-
-
-      </p>
-
-
-
+</div>
+ 
+  </section>
 
     <section class="vehicle_section layout_padding">
       
