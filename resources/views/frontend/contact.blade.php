@@ -32,6 +32,7 @@
 
 
   <link rel="stylesheet" href="css/css-circular-prog-bar.css">
+  
 
 
 </head>
@@ -161,25 +162,31 @@ Code into Your Future
             @method('post')
                   <div class="input-icons">
                     <i  class="fa fa-user icon"></i>
-        <input type="text" placeholder="Name" name="name" class="input-field"> 
+        <input type="text" placeholder="Name" name="name" class="input-field" required> 
                     
                   </div>
                <div class="input-icons">
                      <i class="fa fa-phone icon"></i>
-                    <input type="text" placeholder="Phone Number" name="phone">
+                    <input type="text" placeholder="Phone Number" name="phone" required>
                   </div>
                <div class="input-icons">
                      <i class="fa fa-envelope icon"></i>
-                    <input type="email" placeholder="Email" name="email">
+                    <input type="email" placeholder="Email" name="email" required>
                   </div>
 
                 <div class="input-icons">
                      <i class="fa fa-pencil icon"></i>
-                    <input type="subject" placeholder="Subject" name="subject">
+                    <input type="subject" placeholder="Subject" name="subject" required>
                   </div>
                <div class="input-icons">
                      <i class="fa fa-envelope icon"></i>
-                    <input type="text" placeholder="Message" class="input_message" name="message">
+                    <input type="text" placeholder="Message" class="input_message" name="message" required>
+                  </div>
+                  
+                    <div class="input-icons">
+                    <div class="g-recaptcha" data-sitekey="6LeCeewUAAAAAFJJZpdk484FnGcHBG6tfu3JJQ6s">
+                                 
+                             </div>
                   </div>
                   <div class="d-flex justify-content-center">
                     <button type="submit" class="btn_on-hover">
