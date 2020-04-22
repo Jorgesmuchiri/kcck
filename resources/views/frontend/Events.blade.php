@@ -147,7 +147,7 @@
 
 
         <td>Student sensitization meetup</td>
-        <td>-TThursday 29/4/2020
+        <td>-Thursday 29/4/2020
 </td>
 
               </tr>
