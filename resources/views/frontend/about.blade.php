@@ -228,6 +228,8 @@ The curriculum is designed to help learners think computationally which is benef
 
 
   <section class="teacher_section layout_padding-bottom">
+  <div class="row">
+   <div class="column">
     <div class="container">
       <h2 class="main-heading " style="color: #b42025;">
         Our Team
@@ -270,8 +272,9 @@ The curriculum is designed to help learners think computationally which is benef
       </div>
 
 
-   
+   </div>
     </div>
+       </div>
   </section>
 
 
