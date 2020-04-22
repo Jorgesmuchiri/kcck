@@ -33,6 +33,8 @@
 
 
   <link rel="stylesheet" href="css/css-circular-prog-bar.css">
+  
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 
 </head>
@@ -192,7 +194,7 @@ Please fill out the form below for us to share with you upcoming resources, even
         <label for="fname">Full Name</label>
       </div>
       <div class="col-75">
-        <input type="text" id="fname" name="name" placeholder="Your Full Name..">
+        <input type="text" id="fname" name="name" placeholder="Your Full Name.." required>
       </div>
     </div>
     <div class="row">
@@ -200,7 +202,7 @@ Please fill out the form below for us to share with you upcoming resources, even
         <label for="lname">Email</label>
       </div>
       <div class="col-75">
-        <input type="text" id="lname" name="email" placeholder="Email..">
+        <input type="text" id="lname" name="email" placeholder="Email.." required>
       </div>
     </div>
     <div class="row">
@@ -208,7 +210,7 @@ Please fill out the form below for us to share with you upcoming resources, even
         <label for="fname">Age</label>
       </div>
       <div class="col-75">
-       <select id="age" name="age" placeholder="Choose Age">
+       <select id="age" name="age" placeholder="Choose Age" required>
   <option value="10 or below">10 or below</option>
   <option value="11">11</option>
   <option value="12">12</option>
@@ -227,7 +229,7 @@ Please fill out the form below for us to share with you upcoming resources, even
         <label for="lname">School Name</label>
       </div>
       <div class="col-75">
-        <input type="text" id="lname" name="school" placeholder="School Name">
+        <input type="text" id="lname" name="school" placeholder="School Name" required>
       </div>
     </div>
    
@@ -250,6 +252,18 @@ Please fill out the form below for us to share with you upcoming resources, even
       <div class="col-75">
         <a href="">Terms and Conditions</a>
         <input type="checkbox" id="lname" name="terms" required=""><label for="vehicle2" required> I Agree</label><br>
+      </div>
+    </div>
+    
+    
+    <div class="row">
+       <div class="col-25">
+        <label for="Captcha"></label>
+      </div>
+      <div class="col-75">
+      <div class="g-recaptcha" data-sitekey="6LeCeewUAAAAAFJJZpdk484FnGcHBG6tfu3JJQ6s">
+                                 
+                             </div>
       </div>
     </div>
     <div class="row">
