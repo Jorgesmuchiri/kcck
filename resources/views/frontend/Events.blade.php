@@ -134,7 +134,7 @@
 
 
         <td>Project launch</td>
-        <td>Wednesday 18/3/2020
+        <td>Wednesday 22/4/2020
 </td>
        
       
@@ -147,7 +147,7 @@
 
 
         <td>Student sensitization meetup</td>
-        <td>-Thursday 14/5/2020
+        <td>-TThursday 29/4/2020
 </td>
 
               </tr>
@@ -160,7 +160,7 @@
 
 <td>Training of the clubs
 </td>
-<td>Monday 18/5/2020 - July
+<td>Monday 4/5/2020 - November
 </td>
 
 
