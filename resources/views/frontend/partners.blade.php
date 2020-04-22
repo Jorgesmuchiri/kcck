@@ -187,7 +187,7 @@ We are open to work with individuals, government, schools and businesses that ca
   <div class="column3">
 
   <a href="https://www.pangeaa.com/" target="_blank">
-    <img src="images/pangea.jpg" alt="" width="270" height="150">
+    <img src="images/Pangea.jpg" alt="" width="270" height="150">
     </a>
     
   </div>
