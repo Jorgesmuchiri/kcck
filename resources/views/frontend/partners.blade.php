@@ -33,6 +33,7 @@
 
 
   <link rel="stylesheet" href="css/css-circular-prog-bar.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 
 </head>
@@ -219,7 +220,7 @@ Mold the future digital generation
         <label for="fname">Name</label>
       </div>
       <div class="col-75">
-        <input type="text" id="fname" name="name" placeholder="Your Name..">
+        <input type="text" id="fname" name="name" placeholder="Your Name.." required>
       </div>
     </div>
     <div class="row">
@@ -227,7 +228,7 @@ Mold the future digital generation
         <label for="lname">Email</label>
       </div>
       <div class="col-75">
-        <input type="text" id="lname" name="email" placeholder="Your Email..">
+        <input type="text" id="lname" name="email" placeholder="Your Email.." required>
       </div>
     </div>
     <div class="row">
@@ -235,7 +236,7 @@ Mold the future digital generation
         <label for="fname">Phone No</label>
       </div>
       <div class="col-75">
-        <input type="text" id="fname" name="phone_no" placeholder="Your Phone No..">
+        <input type="text" id="fname" name="phone_no" placeholder="Your Phone No.." required>
       </div>
     </div>
     <div class="row">
@@ -243,7 +244,18 @@ Mold the future digital generation
         <label for="lname">Area of Partnership</label>
       </div>
       <div class="col-75">
-        <input type="text" id="lname" name="partnership_area" placeholder="Area of Partnership..">
+        <input type="text" id="lname" name="partnership_area" placeholder="Area of Partnership.." required>
+      </div>
+    </div>
+    
+    <div class="row">
+       <div class="col-25">
+        <label for="Captcha"></label>
+      </div>
+      <div class="col-75">
+      <div class="g-recaptcha" data-sitekey="6LeCeewUAAAAAFJJZpdk484FnGcHBG6tfu3JJQ6s">
+                                 
+                             </div>
       </div>
     </div>
    
