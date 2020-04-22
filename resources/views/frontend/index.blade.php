@@ -592,19 +592,19 @@
   <div class="column" style="background-color:#082465;">
  <h1 class="text-center" style="color: #b42025;font-size: 18px;">Follow Us</h1>
     <p class="text-center">
-<a href="https://www.facebook.com/iLabAfricaStrathmore/?fref=ts" class="fa fa-facebook"></a> 
+<a href="https://www.facebook.com/iLabAfricaStrathmore/?fref=ts" class="fa fa-facebook" style="color: #fff;"></a> 
 </p>
 <p class="text-center">
-<a href="https://twitter.com/ilabafrica" class="fa fa-twitter"> Twitter</a>
+<a href="https://twitter.com/ilabafrica" class="fa fa-twitter" style="color: #fff;"> </a>
 </p>
 <p class="text-center">
-<a href="https://www.linkedin.com/company/ilabafrica/" class="fa fa-linkedin"> Linkedin</a>
+<a href="https://www.linkedin.com/company/ilabafrica/" class="fa fa-linkedin" style="color: #fff;"> </a>
 </p>
 
 <p class="text-center">
-<a href="https://www.instagram.com/ilabafrica/?hl=en" class="fa fa-linkedin"> Instagram</a>
+<a href="https://www.instagram.com/ilabafrica/?hl=en" class="fa fa-linkedin" style="color: #fff;"> </a>
 </p>
-<p class="text-center"><a href="https://www.youtube.com/channel/UCeo0kj1SRiVkje78cyxnAzQ" class="fa fa-youtube">Youtube</a>
+<p class="text-center"><a href="https://www.youtube.com/channel/UCeo0kj1SRiVkje78cyxnAzQ" class="fa fa-youtube" style="color: #fff;"></a>
 </p>
 <p class="text-center">Community of Practice (CoP)</p>
   </div>
