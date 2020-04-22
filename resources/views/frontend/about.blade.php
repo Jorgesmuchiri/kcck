@@ -227,53 +227,79 @@ The curriculum is designed to help learners think computationally which is benef
 </style>
 
 
-  <section class="teacher_section layout_padding-bottom">
  
+<section class="about_section layout_padding">
     <div class="container">
-      <h2 class="main-heading " style="color: #b42025;">
+ <h2 class="main-heading " style="color: #b42025;">
         Our Team
       </h2>
+
+  <div class="row" align="center">
+  <div class="column3">
+
+   
+   <img class="card-img-top" src="images/Sevilla.jpg" alt="Card image cap" width="200" height="300">
+     <p class="text-center">Director @ilabAfrica: </p>
+       <p class="text-center">Dr. Sevilla</p>
+     <div class="text-center">
       
-      <div class="teacher_container layout_padding2">
-      
-        <div class="card-deck">
-          <div class="card" >
-            <img class="card-img-top" src="images/Sevilla.jpg" alt="Card image cap" width="300" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Director @ilabAfrica: Dr. Sevilla</h5>
-            </div>
-          </div>
-          <div class="card">
-               <img class="card-img-top" src="images/Linda.jpg" alt="Card image cap" width="300" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Manager @iBizAfrica: Linda Kwamboka</h5>
-            </div>
-
-          </div>
-          <div class="card">
-    <img class="card-img-top" src="images/Waithira.jpg" alt="Card image cap" width="300" height="300">
-            <div class="card-body" >
-              <h5 class="card-title">Manager Digital Learning: Philomena Mwangi</h5>
-
-            </div>
-
-          </div>
-
-          <div class="card">
-             <img class="card-img-top" src="images/Kenedy.jpg" alt="Card image cap" width="300" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Project Coordinator: Kenedy Munene</h5>
-
-            </div>
-
-          </div>
-        </div>
+      </div>
+  </div>
+  <div class="column3" >
+  
+         <img class="card-img-top" src="images/Linda.jpg" alt="Card image cap" width="250" height="300">
+<p class="text-center"> Manager @iBizAfrica: </p>
+<p class="text-center"> Linda Kwamboka</p>
+<div class="text-center">
+       
       </div>
 
 
+  </div>
+
+
+   <div class="column3" >
+    
+       <img class="card-img-top" src="images/Waithira.jpg" alt="Card image cap" width="250" height="300">
+<p class="text-center"> Manager Digital Learning:</p>
+<p class="text-center"> Philomena Mwangi</p>
+<div class="text-center">
+       
+      </div>
+
+
+  </div>
+
   
-       </div>
+  <div class="column3" >
+  
+    <img class="card-img-top" src="images/Kenedy.jpg" alt="Card image cap" width="250" height="300">
+    <p class="text-center">Project Coordinator: 
+</p>
+    <p class="text-center">Kenedy Munene
+</p>
+<div class="text-center">
+      
+      </div>
+  </div>
+</div>
+
+
+</div>
+ 
   </section>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
 
 
   <!-- end header section -->
