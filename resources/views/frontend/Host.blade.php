@@ -28,6 +28,8 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+  
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 
 
@@ -192,7 +194,7 @@ Unlocking Technological Capacity for a Digital Future
         <label for="fname">Name</label>
       </div>
       <div class="col-75">
-        <input type="text" id="fname" name="name" placeholder="Your Name..">
+        <input type="text" id="fname" name="name" placeholder="Your Name.." required>
       </div>
     </div>
     <div class="row">
@@ -200,7 +202,7 @@ Unlocking Technological Capacity for a Digital Future
         <label for="lname">Email</label>
       </div>
       <div class="col-75">
-        <input type="text" id="lname" name="email" placeholder="Email..">
+        <input type="text" id="lname" name="email" placeholder="Email.." required>
       </div>
     </div>
     <div class="row">
@@ -208,7 +210,7 @@ Unlocking Technological Capacity for a Digital Future
         <label for="fname">Phone No</label>
       </div>
       <div class="col-75">
-        <input type="text" id="fname" name="phone_no" placeholder="Phone No..">
+        <input type="text" id="fname" name="phone_no" placeholder="Phone No.." required>
       </div>
     </div>
       <div class="row">
@@ -216,7 +218,7 @@ Unlocking Technological Capacity for a Digital Future
         <label for="fname">Motivation for Hosting</label>
       </div>
       <div class="col-75">
-        <input type="text" id="motivation" name="motivation" placeholder="Motivation for hosting..">
+        <input type="text" id="motivation" name="motivation" placeholder="Motivation for hosting.." required>
       </div>
     </div>
     <div class="row">
@@ -224,9 +226,13 @@ Unlocking Technological Capacity for a Digital Future
         <label for="lname">Hosting Location</label>
       </div>
       <div class="col-75">
-        <input type="text" id="lname" name="location" placeholder="Hosting Location..">
+        <input type="text" id="lname" name="location" placeholder="Hosting Location.." required>
       </div>
     </div>
+    
+    <div class="g-recaptcha" data-sitekey="6LeCeewUAAAAAFJJZpdk484FnGcHBG6tfu3JJQ6s">
+                                 
+                             </div>
    
     <div class="row">
       <input type="submit" value="Submit" class="call_to-btn">
