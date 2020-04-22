@@ -95,7 +95,7 @@
     <header class="header_section">
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index">
+          <a class="navbar-brand" href="/">
        
             <span>
            <img src="images/code-kids-logo.png" alt="">
@@ -575,26 +575,36 @@
 </p>
 <p class="text-center">
 
-  <a href="courses" style="color: #fff;">Courses</a>
+  <a href="resources" style="color: #fff;">Resources</a>
 </p>
 <p class="text-center">
   <a href="partners" style="color: #fff;">Partner</a>
 
 </p>
-<p class="text-center">Newsletter</p>
+<p class="text-center">
+   <a href="" style="color: #fff;">Blog</a>
+
+</p>
 
 <p class="text-center">
-<a href="" style="color: #fff;">Terms and Conditions</a></p>
+<a href="terms" style="color: #fff;">Terms and Conditions</a></p>
   </div>
   <div class="column" style="background-color:#082465;">
  <h1 class="text-center" style="color: #b42025;font-size: 18px;">Follow Us</h1>
     <p class="text-center">
-<a href="#" class="fa fa-facebook"></a> 
+<a href="https://www.facebook.com/iLabAfricaStrathmore/?fref=ts" class="fa fa-facebook"></a> 
 </p>
 <p class="text-center">
-<a href="#" class="fa fa-twitter"></a>
+<a href="https://twitter.com/ilabafrica" class="fa fa-twitter"> Twitter</a>
 </p>
-<p class="text-center"><a href="#" class="fa fa-youtube"></a>
+<p class="text-center">
+<a href="https://www.linkedin.com/company/ilabafrica/" class="fa fa-linkedin"> Linkedin</a>
+</p>
+
+<p class="text-center">
+<a href="https://www.instagram.com/ilabafrica/?hl=en" class="fa fa-linkedin"> Instagram</a>
+</p>
+<p class="text-center"><a href="https://www.youtube.com/channel/UCeo0kj1SRiVkje78cyxnAzQ" class="fa fa-youtube">Youtube</a>
 </p>
 <p class="text-center">Community of Practice (CoP)</p>
   </div>
