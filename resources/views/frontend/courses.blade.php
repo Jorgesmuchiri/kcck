@@ -131,13 +131,14 @@
 
 
      
-        <td>Software Developer</td>
-        <td>-Database<br>
+        <td><a href="resources" target="_blank">Software Developer</td>
+        <td><a href="resources" target="_blank">-Database<br>
 
 -Coding<br>
 -CS-unplugged and Computational Thinking<br>
 -Robotics and IoT<br>
 -App Development
+</a>
 </td>
        
       
@@ -256,7 +257,7 @@
 </p>
 
 <p class="text-center">
-<a href="https://www.instagram.com/ilabafrica/?hl=en" class="fa fa-linkedin" style="color: #fff;"> </a>
+<a href="https://www.instagram.com/ilabafrica/?hl=en" class="fa fa-instagram" style="color: #fff;"> </a>
 </p>
 <p class="text-center"><a href="https://www.youtube.com/channel/UCeo0kj1SRiVkje78cyxnAzQ" class="fa fa-youtube" style="color: #fff;"></a>
 </p>
