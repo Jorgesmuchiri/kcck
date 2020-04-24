@@ -147,9 +147,10 @@
 
       <tr>
         
-        <td>Database Administrator</td>
-        <td>-CS-unplugged and Computational Thinking<br>
+        <td><a href="resources" target="_blank">Database Administrator</a></td>
+        <td><a href="resources" target="_blank">-CS-unplugged and Computational Thinking<br>
 -Database design
+</a>
 </td>
 
               </tr>
@@ -159,9 +160,9 @@
 
 
 
-<td>Web Designer</td>
-<td>-CS-unplugged and Computational Thinking<br>
--Web design and development</td>
+<td><a href="resources" target="_blank">Web Designer</a></td>
+<td><a href="resources" target="_blank">-CS-unplugged and Computational Thinking<br>
+-Web design and development</a></td>
 
 
 </tr>
@@ -171,9 +172,9 @@
 
 
 
-<td>Engineer/ Technician/ Programmer</td>
-<td>-CS-unplugged and Computational Thinking<br>
--Robotics and IoT</td>
+<td><a href="resources" target="_blank">Engineer/ Technician/ Programmer</a></td>
+<td><a href="resources" target="_blank">-CS-unplugged and Computational Thinking<br>
+-Robotics and IoT</a></td>
 
 
 </tr>
@@ -184,10 +185,10 @@
 
 
 
-<td>Content Designer/ Animator/ Game Developer</td>
-<td>-CS-unplugged and Computational Thinking</br>
+<td><a href="resources" target="_blank">Content Designer/ Animator/ Game Developer</a></td>
+<td><a href="resources" target="_blank">-CS-unplugged and Computational Thinking</br>
 -Game Development<br>
--Animations</td>
+-Animations</a></td>
 
 
 </tr>
