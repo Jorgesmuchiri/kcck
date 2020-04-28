@@ -50,7 +50,7 @@ class ParticipantsController extends Controller
 //           $user->notify(new PendingUnit($save));
 // // 
 //       }
-      return view('participants.index');
+      return back()->withStatus('Participant Information successfully posted.');
   }
 
     /**
