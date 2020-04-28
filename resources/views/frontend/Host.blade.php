@@ -181,6 +181,21 @@ input[type=submit] {
   <!-- teacher section -->
   <section class="teacher_section layout_padding-bottom">
     <div class="container">
+    
+    	 @if(Session::has('success'))
+  <script type="text/javascript">
+     swal({
+         title:'Success!',
+         text:"{{Session::get('success')}}",
+         timer:5000,
+         type:'success'
+     }).then((value) => {
+       //location.reload();
+     }).catch(swal.noop);
+ </script>
+ @endif
+    
+    
       <h2 class="main-heading ">
 Host
       </h2>
