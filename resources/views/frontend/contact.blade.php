@@ -189,7 +189,7 @@ Code into Your Future
                   </div>
                   
                     <div class="input-icons">
-                    <div class="g-recaptcha" data-sitekey="6LeCeewUAAAAAFJJZpdk484FnGcHBG6tfu3JJQ6s">
+                    <div class="g-recaptcha" data-sitekey="6LeCeewUAAAAAFJJZpdk484FnGcHBG6tfu3JJQ6s" required>
                                  
                              </div>
                   </div>
