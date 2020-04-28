@@ -43,6 +43,18 @@
 </head>
 
 <body>
+	 @if(Session::has('success'))
+  <script type="text/javascript">
+     swal({
+         title:'Success!',
+         text:"{{Session::get('success')}}",
+         timer:5000,
+         type:'success'
+     }).then((value) => {
+       //location.reload();
+     }).catch(swal.noop);
+ </script>
+ @endif
   <div class="top_container sub_pages ">
     <!-- header section strats -->
     <header class="header_section">
