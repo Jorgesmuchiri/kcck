@@ -68,6 +68,17 @@ input[type=submit] {
   float: right;
 }
 
+
+input[type=email]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+
 /* Style the container */
 
 
@@ -186,7 +197,7 @@ Please fill out the form below for us to share with you upcoming resources, even
          <h2 class="main-heading ">
 
       </h2>
-<form method="post" action="{{ route('enquiries.store') }}" autocomplete="off" class="form-horizontal" enctype="multipart/form-data" >
+<form method="post" action="{{ route('enquiries.store') }}" autocomplete="off" id="enquiriesform" class="form-horizontal" enctype="multipart/form-data" >
             @csrf
             @method('post')
     <div class="row">
@@ -362,6 +373,30 @@ Please fill out the form below for us to share with you upcoming resources, even
   <!-- progreesbar script -->
 
   </script>
+  
+  
+  <script>
+  
+  document.getElementById("enquiriesform").addEventListener("submit",function(evt)
+  {
+  
+  var response = grecaptcha.getResponse();
+  if(response.length == 0) 
+  { 
+    //reCaptcha not verified
+    alert("please verify you are humann!"); 
+    evt.preventDefault();
+    return false;
+  }
+  //captcha verified
+  //do the rest of your validations here
+  
+});
+  
+  
+  </script>
+  
+  
   <script>
     // This example adds a marker to indicate the position of Bondi Beach in Sydney,
     // Australia.
