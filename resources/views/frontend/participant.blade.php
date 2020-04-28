@@ -50,6 +50,17 @@
   resize: vertical;
 }
 
+
+
+input[type=email]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
 /* Style the label to display next to the inputs */
 label {
   padding: 12px 12px 12px 0;
@@ -181,7 +192,7 @@ Participant
          <h2 class="main-heading ">
 The Future is Digital. Are you Ready?
       </h2>
-<form method="post" action="{{ route('participants.store') }}" autocomplete="off" class="form-horizontal" enctype="multipart/form-data" >
+<form method="post" action="{{ route('participants.store') }}" autocomplete="off" id="participantform" class="form-horizontal" enctype="multipart/form-data" >
             @csrf
             @method('post')
     <div class="row">
@@ -323,6 +334,31 @@ The Future is Digital. Are you Ready?
   <!-- progreesbar script -->
 
   </script>
+  
+<script>
+
+document.getElementById("participantform").addEventListener("submit",function(evt)
+  {
+  
+  var response = grecaptcha.getResponse();
+  if(response.length == 0) 
+  { 
+    //reCaptcha not verified
+    alert("please verify you are humann!"); 
+    evt.preventDefault();
+    return false;
+  }
+  //captcha verified
+  //do the rest of your validations here
+  
+});
+
+
+
+
+</script>
+  
+  
   <script>
     // This example adds a marker to indicate the position of Bondi Beach in Sydney,
     // Australia.
