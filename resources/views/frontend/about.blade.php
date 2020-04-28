@@ -12,8 +12,9 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>KCCP</title>
+  <title>KCCK</title>
 
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
 
 
   <!-- bootstrap core css -->
@@ -43,7 +44,7 @@
        <header class="header_section">
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index">
+          <a class="navbar-brand" href="/">
            <img src="images/code-kids-logo.png" alt="">
             
           </a>
@@ -139,19 +140,19 @@
         About Us
       </h2> -->
       <h1 class="text-center" style="color: #b42025;">Who we are</h1>
-      <p class="text-center">
+      <p style="text-align: justify;">
         
 @iLabAfrica is a Centre of Excel­lence in ICT Innov­a­tion and Devel­op­ment established in January 2011 under the Faculty of Information Technology at Strathmore University—the Centre became autonomous in 2017. The Centre spearheads Research and Innovation in Information Communication Technology for Development (ICT4D) of ecosystems towards the attainment of the United Nations’ Sustainable Development Goals (SDGs) and Kenya’s Vision 2030.
       </p>
       <h1 class="text-center" style="color: #b42025;">What is Kids Can Code Kenya</h1>
-      <p class="text-center">
+      <p style="text-align: justify;">
         
 
 Kids Can Code is an initiative for young people aged 10 - 17 years to learn Computer Science concepts and become active contributors to the digital economy. This graduates them from consumers to confident creators / producers with technology as a tool. In a digitally fueled world, it is paramount to teach young people how to use technology in a healthy way and impart skills and habits that make them productive digital citizens. Computational skills gained will be a great foundation for the young people by inspiring problem solving, analytical and critical thinking skills. Thinking computationally is beneficial to logic and philosophy skills as well as STEM oriented subjects leading to improved academic performance.
       </p>
 
         <h1 class="text-center" style="color: #b42025;">Why Kids Can Code?</h1>
-      <p class="text-center">
+      <p style="text-align: justify;">
         
 
 
@@ -227,51 +228,79 @@ The curriculum is designed to help learners think computationally which is benef
 </style>
 
 
-  <section class="teacher_section layout_padding-bottom">
+ 
+<section class="about_section layout_padding">
     <div class="container">
-      <h2 class="main-heading " style="color: #b42025;">
+ <h2 class="main-heading " style="color: #b42025;">
         Our Team
       </h2>
+
+  <div class="row" align="center">
+  <div class="column3">
+
+   
+   <img class="card-img-top" src="images/Sevilla.jpg" alt="Card image cap" width="200" height="300">
+     <p class="text-center">Director @ilabAfrica: </p>
+       <p class="text-center">Dr. Sevilla</p>
+     <div class="text-center">
       
-      <div class="teacher_container layout_padding2">
-        <div class="card-deck">
-          <div class="card" >
-            <img class="card-img-top" src="images/Sevilla.jpg" alt="Card image cap" width="300" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Director @ilabAfrica: Dr. Sevilla</h5>
-            </div>
-          </div>
-          <div class="card">
-               <img class="card-img-top" src="images/Linda.jpg" alt="Card image cap" width="300" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Manager @iBizAfrica: Linda Kwamboka</h5>
-            </div>
-
-          </div>
-          <div class="card">
-    <img class="card-img-top" src="images/Waithira.jpg" alt="Card image cap" width="300" height="300">
-            <div class="card-body" >
-              <h5 class="card-title">Manager Digital Learning: Philomena Mwangi</h5>
-
-            </div>
-
-          </div>
-
-          <div class="card">
-             <img class="card-img-top" src="images/Kenedy.jpg" alt="Card image cap" width="300" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Project Coordinator: Kenedy Munene</h5>
-
-            </div>
-
-          </div>
-        </div>
+      </div>
+  </div>
+  <div class="column3" >
+  
+         <img class="card-img-top" src="images/Linda.jpg" alt="Card image cap" width="250" height="300">
+<p class="text-center"> Manager @iBizAfrica: </p>
+<p class="text-center"> Linda Kwamboka</p>
+<div class="text-center">
+       
       </div>
 
 
-   
-    </div>
+  </div>
+
+
+   <div class="column3" >
+    
+       <img class="card-img-top" src="images/Waithira.jpg" alt="Card image cap" width="250" height="300">
+<p class="text-center"> Manager Digital Learning:</p>
+<p class="text-center"> Philomena Mwangi</p>
+<div class="text-center">
+       
+      </div>
+
+
+  </div>
+
+  
+  <div class="column3" >
+  
+    <img class="card-img-top" src="images/Kenedy.jpg" alt="Card image cap" width="250" height="300">
+    <p class="text-center">Project Coordinator: 
+</p>
+    <p class="text-center">Kenedy Munene
+</p>
+<div class="text-center">
+      
+      </div>
+  </div>
+</div>
+
+
+</div>
+ 
   </section>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
 
 
   <!-- end header section -->
@@ -315,26 +344,36 @@ The curriculum is designed to help learners think computationally which is benef
 </p>
 <p class="text-center">
 
-  <a href="courses" style="color: #fff;">Courses</a>
+  <a href="resources" style="color: #fff;">Resources</a>
 </p>
 <p class="text-center">
   <a href="partners" style="color: #fff;">Partner</a>
 
 </p>
-<p class="text-center">Newsletter</p>
+<p class="text-center">
+   <a href="" style="color: #fff;">Blog</a>
+
+</p>
 
 <p class="text-center">
-<a href="" style="color: #fff;">Terms and Conditions</a></p>
+<a href="terms" style="color: #fff;">Terms and Conditions</a></p>
   </div>
   <div class="column" style="background-color:#082465;">
  <h1 class="text-center" style="color: #b42025;font-size: 18px;">Follow Us</h1>
     <p class="text-center">
-<a href="#" class="fa fa-facebook"></a> 
+<a href="https://www.facebook.com/iLabAfricaStrathmore/?fref=ts" class="fa fa-facebook" style="color: #fff;"></a> 
 </p>
 <p class="text-center">
-<a href="#" class="fa fa-twitter"></a>
+<a href="https://twitter.com/ilabafrica" class="fa fa-twitter" style="color: #fff;"> </a>
 </p>
-<p class="text-center"><a href="#" class="fa fa-youtube"></a>
+<p class="text-center">
+<a href="https://www.linkedin.com/company/ilabafrica/" class="fa fa-linkedin" style="color: #fff;"> </a>
+</p>
+
+<p class="text-center">
+<a href="https://www.instagram.com/ilabafrica/?hl=en" class="fa fa-instagram" style="color: #fff;"> </a>
+</p>
+<p class="text-center"><a href="https://www.youtube.com/channel/UCeo0kj1SRiVkje78cyxnAzQ" class="fa fa-youtube" style="color: #fff;"></a>
 </p>
 <p class="text-center">Community of Practice (CoP)</p>
   </div>

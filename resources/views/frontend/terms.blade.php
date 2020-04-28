@@ -12,9 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>KCCK</title>
-  
-<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <title>K.C.C.K</title>
 
 
 
@@ -40,15 +38,74 @@
 </head>
 
 <body>
+
+
+<style>input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #a81818;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Style the container */
+
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}</style>
+
   <div class="top_container sub_pages">
     <!-- header section strats -->
-     <header class="header_section">
+  <header class="header_section">
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="/">
-          <!--   <img src="images/ilab.png" alt=""> -->
+            <img src="images/code-kids-logo.png" alt="">
             <span>
-              <img src="images/code-kids-logo.png" alt="">
             </span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -58,7 +115,7 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
-              <ul class="navbar-nav">
+            <ul class="navbar-nav">
                 <li class="nav-item active">
                   <a class="nav-link" href="/">  <span >Home</span></a>
                 </li>
@@ -103,109 +160,90 @@
       </div>
       
     </header>
-</div>
-<!-- end header section -->
+  </div>
+  <!-- end header section -->
 
 
-<!-- teacher section -->
-<section class="teacher_section layout_padding-bottom">
-  <div class="container">
-    <h2 class="main-heading ">
-     Courses
-    </h2>
-    <p class="text-center">
-     
-    </p>
-    <div class="teacher_container layout_padding2">
-      <div class="table-responsive">
-  <table class="table table-striped">
-    <thead>
-      <tr>
-
-        <th scope="col" style=" background-color: #0c0c42;  color: white;">Career</th>
-        <th scope="col" style=" background-color: #0c0c42;  color: white;">Courses</th>
+  <!-- teacher section -->
+  <section class="teacher_section layout_padding-bottom">
+    <div class="container">
+      <h2 class="main-heading ">
+   Terms and Conditions
+      </h2>
+     <p style="text-align: justify;">
         
-    
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
+These Terms may be amended from time to time, together with any documents, policies, or terms they expressly incorporate by reference are entered into with KCCK.  “You” includes individual, you and any individual, entity, customer, student, enrolee and the student and enrolee’s parents or legal guardians.  “We” or “us” refers to @iLabAfrica and any of its associates or related parties. We will make the most recent version of the Terms available on the Site. By using this Site and continuing to use the Site after any modifications, you agree to the Terms and Conditions and to be bound by any such changes.
+      </p>
 
-
-     
-        <td><a href="resources" target="_blank">Software Developer</td>
-        <td><a href="resources" target="_blank">-Database<br>
-
--Coding<br>
--CS-unplugged and Computational Thinking<br>
--Robotics and IoT<br>
--App Development
-</a>
-</td>
-       
-      
-      </tr>
       
 
-      <tr>
+      
+
+        <section class="vehicle_section layout_padding">
+    <div class="container">
+  <h2 class="main-heading ">
+  KCCK Privacy Policy
+      </h2>
+      <p class="text-center">
+        KCCK respects your privacy and will not misuse any data you provide us about yourself and/or your children. Specifically, we guarantee:
+
+<ul>
+  
+
+<li>We won’t sell your information to anyone!/li>
+<li>We require your email address so that we can contact you about your experience in learning, including sending resources and future opportunities you may be interested in. If you would like to be removed from an email list at any time, just let us know.</li>
+
+
+
+</ul>
+
+
+      </p>
+
+
+   <h2 class="main-heading ">
+   Confidential Information
+      </h2>
+     <p style="text-align: justify;">
         
-        <td><a href="resources" target="_blank">Database Administrator</a></td>
-        <td><a href="resources" target="_blank">-CS-unplugged and Computational Thinking<br>
--Database design
-</a>
-</td>
 
-              </tr>
+“Confidential Information” shall mean all information and data which relates to the activities of KCCK and which is not in the public domain.  All documents, manuals, hardware and software provided for use by KCCK and any data or documents and intellectual property that are confidential and will remain the property of KCCK. Intellectual property includes, but are not limited to copyright, trade marks (registered or unregistered), designs (registered or unregistered), inventions, patents, know – how, audio materials and audio – visual materials.
 
-<tr>
+      </p>
   
 
+<h2 class="main-heading ">
+   Hardware
+      </h2>
+     <p style="text-align: justify;">
+        
 
+Any hardware provided by KCCK will remain the property of@iLsbAfrica The harware is intended for the completion of the KCCK course. Beneficiaries are tasked with ensuring the hardware is probably maintained.
 
-<td><a href="resources" target="_blank">Web Designer</a></td>
-<td><a href="resources" target="_blank">-CS-unplugged and Computational Thinking<br>
--Web design and development</a></td>
+      </p>
+<h2 class="main-heading ">
+   
+Photo and Video Consent
 
+      </h2>
+     <p style="text-align: justify;">
+        
+Participants at KCCK competitions and meet ups will be involved in various activities where they may be photographed and/or be filmed. Photographs and/or videos of students may be reproduced in KCCK publications, marketing materials and website for promotional purposes. By accepting our Terms and Conditions you have given consent for KCCK to use and publish photographs and/or videos of your child for promotional purposes.  However, you are also able to give KCCK written notification that photo and video consent has not been given. You indemnify KCCK to the extent permitted by the law for any claim as a result of KCCK using and publishing photographs, digital images and/or videos of your child in any of its publications and materials.
 
-</tr>
-
-<tr>
-  
-
-
-
-<td><a href="resources" target="_blank">Engineer/ Technician/ Programmer</a></td>
-<td><a href="resources" target="_blank">-CS-unplugged and Computational Thinking<br>
--Robotics and IoT</a></td>
-
-
-</tr>
-
-
-<tr>
-  
-
-
-
-<td><a href="resources" target="_blank">Content Designer/ Animator/ Game Developer</a></td>
-<td><a href="resources" target="_blank">-CS-unplugged and Computational Thinking</br>
--Game Development<br>
--Animations</a></td>
-
-
-</tr>
-
-    </tbody>
-  </table>
-</div>
-</div>
-</div>
+      </p>
+  </div>
+  </div>
 </section>
+   
+<br>
+<br>
+<br>
+<br>
+<br>
+  <!-- teacher section -->
 
-<!-- teacher section -->
 
-
-<!-- footer section -->
+  <!-- footer section -->
 
 <div class="row">
   <div class="column" style="background-color:#082465;">
@@ -260,7 +298,7 @@
 </p>
 
 <p class="text-center">
-<a href="https://www.instagram.com/ilabafrica/?hl=en" class="fa fa-instagram" style="color: #fff;"> </a>
+<a href="https://www.instagram.com/ilabafrica/?hl=en" class="fa fa-linkedin" style="color: #fff;"> </a>
 </p>
 <p class="text-center"><a href="https://www.youtube.com/channel/UCeo0kj1SRiVkje78cyxnAzQ" class="fa fa-youtube" style="color: #fff;"></a>
 </p>
@@ -275,14 +313,14 @@
       Copyright &copy; <script>document.write(new Date().getFullYear())</script>  All Rights Reserved By Kids Can Code Kenya
     </p>
   </section>
-<!-- footer section -->
+  <!-- footer section -->
 
-<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.js"></script>
-<!-- progreesbar script -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <!-- progreesbar script -->
 
-</script>
-<script>
+  </script>
+  <script>
     // This example adds a marker to indicate the position of Bondi Beach in Sydney,
     // Australia.
     function initMap() {
@@ -308,8 +346,7 @@
   <!-- google map js -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap">
   </script>
-
-  <!--Start of Tawk.to Script-->
+<!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
@@ -322,6 +359,7 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 <!--End of Tawk.to Script-->
+  
   
   <!-- end google map js -->
 </body>

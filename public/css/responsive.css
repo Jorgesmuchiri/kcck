@@ -46,13 +46,19 @@
     .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item.active .nav-link,
     .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
 
-        color: #fff;
+        color: #082465;
     }
 
     .custom_nav-container .nav_search-btn {
         background-image: url(../images/search-icon-mobile.png);
         background-position: center;
     }
+    
+    .teacher_section .card {
+  float: : none;
+  text-align: center;
+
+                         }
 }
 
 @media (max-width: 820px) {
@@ -81,6 +87,12 @@
     .hero_detail-box {
         text-align: center;
     }
+    
+      .teacher_section .card {
+  float: : none;
+  text-align: center;
+
+                         }
 
 
 
@@ -115,6 +127,12 @@
     .client_section {
         background-image: none;
     }
+    
+      .teacher_section .card {
+  float: : none;
+  text-align: center;
+
+                         }
 }
 
 @media (max-width: 480px) {
@@ -152,6 +170,12 @@
         margin-right: 0px;
         margin-bottom: 15px;
     }
+    
+      .teacher_section .card {
+  float: : none;
+  text-align: center;
+
+                         }
 
 }
 

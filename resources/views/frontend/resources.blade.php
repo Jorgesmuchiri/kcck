@@ -43,7 +43,7 @@
   <header class="header_section">
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index">
+          <a class="navbar-brand" href="/">
           <!--   <img src="images/ilab.png" alt=""> -->
             <span>
           <img src="images/code-kids-logo.png" alt="">
@@ -103,6 +103,8 @@
       
     </header>
   </div>
+  
+ 
   <!-- end header section -->
 
 <section class="teacher_section layout_padding-bottom">
@@ -133,7 +135,7 @@
 
 
         <td>CS-unplugged & Computational Thinking</td>
-        <td><a href="https://csunplugged.org/en/">CS-unplugged</a><br> <a href="https://edu.google.com/resources/programs/exploring-computational-thinking/">Computational Thinking</a><br><a href="https://classic.csunplugged.org/activities/">Unplugged Coding Activities</a><br><a href="https://teachinglondoncomputing.files.wordpress.com/2014/02/activity-swappuzzle.pdf">Swap puzzle</a>
+        <td><a href="https://csunplugged.org/en/">CS-unplugged</a><br> <a href="https://edu.google.com/resources/programs/exploring-computational-thinking/" target="_blank">Computational Thinking</a><br><a href="https://classic.csunplugged.org/activities/" target="_blank">Unplugged Coding Activities</a><br><a href="https://teachinglondoncomputing.files.wordpress.com/2014/02/activity-swappuzzle.pdf" target="_blank">Swap puzzle</a>
 
 </td>
        
@@ -147,7 +149,7 @@
       <tr>
         
         <td>Web Design</td>
-        <td> <a href="https://www.khanacademy.org/computing/hour-of-code/hour-of-html/v/making-webpages-intro">Hour of Code </a> <br> <a href="https://www.w3schools.com/"> W3 schools </a><br> <a href="https://www.tutorialspoint.com/index.htm">Tutorials point</a>
+        <td> <a href="https://www.khanacademy.org/computing/hour-of-code/hour-of-html/v/making-webpages-intro" target="_blank">Hour of Code </a> <br> <a href="https://www.w3schools.com/" target="_blank"> W3 schools </a><br> <a href="https://www.tutorialspoint.com/index.htm" target="_blank">Tutorials point</a>
 </td>
 
               </tr>
@@ -161,7 +163,7 @@
 
 <td>Coding</td>
 <td>
-<a href="https://scratch.mit.edu/">Scratch </a> <br> <a href="https://studio.code.org/s/express-2019/">Code.org </a><br> <a href="https://www.w3schools.com/python/python_intro.asp"> W3 Schools </a>
+<a href="https://scratch.mit.edu/" target="_blank">Scratch </a> <br> <a href="https://studio.code.org/s/express-2019/" target="_blank">Code.org </a><br> <a href="https://www.w3schools.com/python/python_intro.asp" target="_blank"> W3 Schools </a>
 </tr>
 
 <tr>
@@ -173,10 +175,10 @@
 
 <td>Database (DB)</td>
 <td>
-<a href="https://www.mysqltutorial.org/">MySQL tutorial </a><br>
-<a href="https://www.tutorialspoint.com/mysql/index.htm">Tutorials Point </a> <br>
-<a href="https://www.khanacademy.org/computing/hour-of-code/hour-of-sql/v/welcome-to-sql">Hour of Code 
- </a><br> <a href="https://www.w3schools.com/python/python_intro.asp"> W3 Schools </a></td>
+<a href="https://www.mysqltutorial.org/" target="_blank">MySQL tutorial </a><br>
+<a href="https://www.tutorialspoint.com/mysql/index.htm" target="_blank">Tutorials Point </a> <br>
+<a href="https://www.khanacademy.org/computing/hour-of-code/hour-of-sql/v/welcome-to-sql" target="_blank">Hour of Code 
+ </a><br> <a href="https://www.w3schools.com/python/python_intro.asp" target="_blank"> W3 Schools </a></td>
 
 
 </tr>
@@ -191,7 +193,7 @@
 
 
 <td>Game Development</td>
-<td> <a href="https://www.blender.org/">Blender </a><br><a href="https://scratch.mit.edu/"> Scratch </a> <br><a href="https://unity.com/">Unity </a></td>
+<td> <a href="https://www.blender.org/" target="_blank">Blender </a><br><a href="https://scratch.mit.edu/" target="_blank"> Scratch </a> <br><a href="https://unity.com/" target="_blank">Unity </a></td>
 
 
 </tr>
@@ -209,9 +211,9 @@
 
 <td>Robotics and IoT</td>
 <td>
-<a href="https://microbit.org/">BBC Micro:bit </a> <br>
-<a href="https://microbit.org/">Arduino Kit </a><br>
-<a href="https://microbit.org/">Micro:bit tutorial</a></td>
+<a href="https://microbit.org/" target="_blank">BBC Micro:bit </a> <br>
+<a href="https://microbit.org/" target="_blank">Arduino Kit </a><br>
+<a href="https://microbit.org/" target="_blank">Micro:bit tutorial</a></td>
 
 
 </tr>
@@ -229,7 +231,7 @@
 
 
 <td>Animations</td>
-<td><a href="https://www.blender.org/">Blender </a></td>
+<td><a href="https://www.blender.org/" target="_blank">Blender </a></td>
 
 
 </tr>
@@ -249,7 +251,7 @@
 
 
 <td>App Development</td>
-<td> <a href="https://appinventor.mit.edu/">MIT App Inventor</a> <br><a href="https://developer.android.com/training/basics/firstapp/creating-project">Android Developer </a><br> <a href="https://codelabs.developers.google.com/codelabs/kotlin-android-training-welcome/index.html?index=..%2F..android-kotlin-fundamentals#0">Android Kotlin Fundamentals</a> <br><a href="https://www.appypie.com/">Appy Pie</a></td>
+<td> <a href="https://appinventor.mit.edu/" target="_blank">MIT App Inventor</a> <br><a href="https://developer.android.com/training/basics/firstapp/creating-project" target="_blank">Android Developer </a><br> <a href="https://codelabs.developers.google.com/codelabs/kotlin-android-training-welcome/index.html?index=..%2F..android-kotlin-fundamentals#0" target="_blank">Android Kotlin Fundamentals</a> <br><a href="https://www.appypie.com/" target="_blank">Appy Pie</a></td>
 
 
 </tr>
@@ -262,82 +264,7 @@
 </section>
 
   <!-- teacher section -->
-  <section class="teacher_section layout_padding-bottom">
-    <div class="container">
-      <h2 class="main-heading ">
-        
-      </h2>
-      <p class="text-center">
  
-      </p>
-      <div class="teacher_container layout_padding2">
-        <div class="card-deck">
-          <div class="card">
-               <a href="https://scratch.mit.edu/"> <img class="card-img-top" src="images/SCRATCH.png" alt="Card image cap" ></a>
-            <div class="card-body">
-                      <a href="https://scratch.mit.edu/">
-              <h5 class="card-title">Scratch</h5></a>
-            </div>
-          </div>
-          <div class="card">
-            <a href="https://csunplugged.org/en/">    <img class="card-img-top" src="images/csunplugged.png" alt="Card image cap"></a>
-            <div class="card-body">
-              <a href="https://csunplugged.org/en/">    <h5 class="card-title">CS Unplugged</h5></a>
-            </div>
-
-          </div>
-          <div class="card">
-          <a href="https://www.python.org/">  <img class="card-img-top" src="images/python.png" alt="Card image cap" ></a>
-            <div class="card-body">
-          <a href="https://www.python.org/">    <h5 class="card-title">Python</h5></a>
-
-            </div>
-
-          </div>
-
-          <div class="card">
-          <a href="https://microbit.org/">  <img class="card-img-top" src="images/Microbit-logo-stacked.png" alt="Card image cap"></a>
-            <div class="card-body">
-            <a href="https://microbit.org/">  <h5 class="card-title">Micro Bit</h5></a>
-
-            </div>
-
-          </div>
-
-           <div class="card">
-          <a href="https://www.raspberrypi.org/">  <img class="card-img-top" src="images/raspberry-pi-logo1.png" alt="Card image cap" ></a>
-            <div class="card-body">
-          <a href="https://www.raspberrypi.org/">    <h5 class="card-title">Raspberry Pi</h5></a>
-
-            </div>
-
-          </div>
-
- <div class="card">
-          <a href="https://code.org/">  <img class="card-img-top" src="images/CODELOGO.png" alt="Card image cap" height="50%" width="50%"></a>
-            <div class="card-body">
-          <a href="https://code.org/">    <h5 class="card-title">Code</h5></a>
-
-            </div>
-
-          </div>
-
-        </div>
-      </div>
-
-
-  <!--     <div class="d-flex justify-content-center mt-3">
-        <a href="" class="call_to-btn  ">
-
-          <span>
-            See More
-          </span>
-          <img src="images/right-arrow.png" alt="">
-        </a>
-      </div> -->
-    </div>
-  </section>
-
   <!-- teacher section -->
 
 
@@ -369,26 +296,36 @@
 </p>
 <p class="text-center">
 
-  <a href="courses" style="color: #fff;">Courses</a>
+  <a href="resources" style="color: #fff;">Resources</a>
 </p>
 <p class="text-center">
   <a href="partners" style="color: #fff;">Partner</a>
 
 </p>
-<p class="text-center">Newsletter</p>
+<p class="text-center">
+   <a href="" style="color: #fff;">Blog</a>
+
+</p>
 
 <p class="text-center">
-<a href="" style="color: #fff;">Terms and Conditions</a></p>
+<a href="terms" style="color: #fff;">Terms and Conditions</a></p>
   </div>
   <div class="column" style="background-color:#082465;">
  <h1 class="text-center" style="color: #b42025;font-size: 18px;">Follow Us</h1>
     <p class="text-center">
-<a href="#" class="fa fa-facebook"></a> 
+<a href="https://www.facebook.com/iLabAfricaStrathmore/?fref=ts" class="fa fa-facebook" style="color: #fff;"></a> 
 </p>
 <p class="text-center">
-<a href="#" class="fa fa-twitter"></a>
+<a href="https://twitter.com/ilabafrica" class="fa fa-twitter" style="color: #fff;"> </a>
 </p>
-<p class="text-center"><a href="#" class="fa fa-youtube"></a>
+<p class="text-center">
+<a href="https://www.linkedin.com/company/ilabafrica/" class="fa fa-linkedin" style="color: #fff;"> </a>
+</p>
+
+<p class="text-center">
+<a href="https://www.instagram.com/ilabafrica/?hl=en" class="fa fa-linkedin" style="color: #fff;"> </a>
+</p>
+<p class="text-center"><a href="https://www.youtube.com/channel/UCeo0kj1SRiVkje78cyxnAzQ" class="fa fa-youtube" style="color: #fff;"></a>
 </p>
 <p class="text-center">Community of Practice (CoP)</p>
   </div>

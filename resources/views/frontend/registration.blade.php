@@ -33,6 +33,8 @@
 
 
   <link rel="stylesheet" href="css/css-circular-prog-bar.css">
+  
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 
 </head>
@@ -103,7 +105,7 @@ input[type=submit] {
    <header class="header_section">
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index">
+          <a class="navbar-brand" href="/">
           <!--   <img src="images/ilab.png" alt=""> -->
             <span>
                <img src="images/code-kids-logo.png" alt="">
@@ -192,7 +194,7 @@ Please fill out the form below for us to share with you upcoming resources, even
         <label for="fname">Full Name</label>
       </div>
       <div class="col-75">
-        <input type="text" id="fname" name="name" placeholder="Your Full Name..">
+        <input type="text" id="fname" name="name" placeholder="Your Full Name.." required>
       </div>
     </div>
     <div class="row">
@@ -200,7 +202,7 @@ Please fill out the form below for us to share with you upcoming resources, even
         <label for="lname">Email</label>
       </div>
       <div class="col-75">
-        <input type="text" id="lname" name="email" placeholder="Email..">
+        <input type="text" id="lname" name="email" placeholder="Email.." required>
       </div>
     </div>
     <div class="row">
@@ -208,7 +210,7 @@ Please fill out the form below for us to share with you upcoming resources, even
         <label for="fname">Age</label>
       </div>
       <div class="col-75">
-       <select id="age" name="age" placeholder="Choose Age">
+       <select id="age" name="age" placeholder="Choose Age" required>
   <option value="10 or below">10 or below</option>
   <option value="11">11</option>
   <option value="12">12</option>
@@ -227,7 +229,7 @@ Please fill out the form below for us to share with you upcoming resources, even
         <label for="lname">School Name</label>
       </div>
       <div class="col-75">
-        <input type="text" id="lname" name="school" placeholder="School Name">
+        <input type="text" id="lname" name="school" placeholder="School Name" required>
       </div>
     </div>
    
@@ -248,8 +250,20 @@ Please fill out the form below for us to share with you upcoming resources, even
        <!--  <label for="lname">Terms and Conditions</label> -->
       </div>
       <div class="col-75">
-        <a href="">Terms and Conditions</a>
+        <a href="terms">Terms and Conditions</a>
         <input type="checkbox" id="lname" name="terms" required=""><label for="vehicle2" required> I Agree</label><br>
+      </div>
+    </div>
+    
+    
+    <div class="row">
+       <div class="col-25">
+        <label for="Captcha"></label>
+      </div>
+      <div class="col-75">
+      <div class="g-recaptcha" data-sitekey="6LeCeewUAAAAAFJJZpdk484FnGcHBG6tfu3JJQ6s">
+                                 
+                             </div>
       </div>
     </div>
     <div class="row">
@@ -299,26 +313,36 @@ Please fill out the form below for us to share with you upcoming resources, even
 </p>
 <p class="text-center">
 
-  <a href="courses" style="color: #fff;">Courses</a>
+  <a href="resources" style="color: #fff;">Resources</a>
 </p>
 <p class="text-center">
   <a href="partners" style="color: #fff;">Partner</a>
 
 </p>
-<p class="text-center">Newsletter</p>
+<p class="text-center">
+   <a href="" style="color: #fff;">Blog</a>
+
+</p>
 
 <p class="text-center">
-<a href="" style="color: #fff;">Terms and Conditions</a></p>
+<a href="terms" style="color: #fff;">Terms and Conditions</a></p>
   </div>
   <div class="column" style="background-color:#082465;">
  <h1 class="text-center" style="color: #b42025;font-size: 18px;">Follow Us</h1>
     <p class="text-center">
-<a href="#" class="fa fa-facebook"></a> 
+<a href="https://www.facebook.com/iLabAfricaStrathmore/?fref=ts" class="fa fa-facebook" style="color: #fff;"></a> 
 </p>
 <p class="text-center">
-<a href="#" class="fa fa-twitter"></a>
+<a href="https://twitter.com/ilabafrica" class="fa fa-twitter" style="color: #fff;"> </a>
 </p>
-<p class="text-center"><a href="#" class="fa fa-youtube"></a>
+<p class="text-center">
+<a href="https://www.linkedin.com/company/ilabafrica/" class="fa fa-linkedin" style="color: #fff;"> </a>
+</p>
+
+<p class="text-center">
+<a href="https://www.instagram.com/ilabafrica/?hl=en" class="fa fa-linkedin" style="color: #fff;"> </a>
+</p>
+<p class="text-center"><a href="https://www.youtube.com/channel/UCeo0kj1SRiVkje78cyxnAzQ" class="fa fa-youtube" style="color: #fff;"></a>
 </p>
 <p class="text-center">Community of Practice (CoP)</p>
   </div>

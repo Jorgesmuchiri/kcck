@@ -33,6 +33,7 @@
 
 
   <link rel="stylesheet" href="css/css-circular-prog-bar.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 
 </head>
@@ -188,7 +189,7 @@ The Future is Digital. Are you Ready?
         <label for="fname">Name</label>
       </div>
       <div class="col-75">
-        <input type="text" id="fname" name="name" placeholder="Your Name..">
+        <input type="text" id="fname" name="name" placeholder="Your Name.." required>
       </div>
     </div>
     <div class="row">
@@ -196,7 +197,7 @@ The Future is Digital. Are you Ready?
         <label for="lname">Email</label>
       </div>
       <div class="col-75">
-        <input type="text" id="lname" name="email" placeholder="Email..">
+        <input type="email" id="lname" name="email" placeholder="Email.." required>
       </div>
     </div>
     <div class="row">
@@ -204,7 +205,7 @@ The Future is Digital. Are you Ready?
         <label for="fname">Phone No</label>
       </div>
       <div class="col-75">
-        <input type="text" id="fname" name="phone_no" placeholder="Phone No..">
+        <input type="text" id="fname" name="phone_no" placeholder="Phone No.." required>
       </div>
     </div>
     <div class="row">
@@ -212,7 +213,18 @@ The Future is Digital. Are you Ready?
         <label for="lname">Hub Location</label>
       </div>
       <div class="col-75">
-        <input type="text" id="lname" name="location" placeholder="Hub Location you would like to join..">
+        <input type="text" id="lname" name="location" placeholder="Hub Location you would like to join.." required>
+      </div>
+    </div>
+    
+    <div class="row">
+       <div class="col-25">
+        <label for="Captcha"></label>
+      </div>
+      <div class="col-75">
+      <div class="g-recaptcha" data-sitekey="6LeCeewUAAAAAFJJZpdk484FnGcHBG6tfu3JJQ6s" required>
+                                 
+                             </div>
       </div>
     </div>
    
@@ -262,26 +274,36 @@ The Future is Digital. Are you Ready?
 </p>
 <p class="text-center">
 
-  <a href="courses" style="color: #fff;">Courses</a>
+  <a href="resources" style="color: #fff;">Resources</a>
 </p>
 <p class="text-center">
   <a href="partners" style="color: #fff;">Partner</a>
 
 </p>
-<p class="text-center">Newsletter</p>
+<p class="text-center">
+   <a href="" style="color: #fff;">Blog</a>
+
+</p>
 
 <p class="text-center">
-<a href="" style="color: #fff;">Terms and Conditions</a></p>
+<a href="terms" style="color: #fff;">Terms and Conditions</a></p>
   </div>
   <div class="column" style="background-color:#082465;">
  <h1 class="text-center" style="color: #b42025;font-size: 18px;">Follow Us</h1>
     <p class="text-center">
-<a href="#" class="fa fa-facebook"></a> 
+<a href="https://www.facebook.com/iLabAfricaStrathmore/?fref=ts" class="fa fa-facebook" style="color: #fff;"></a> 
 </p>
 <p class="text-center">
-<a href="#" class="fa fa-twitter"></a>
+<a href="https://twitter.com/ilabafrica" class="fa fa-twitter" style="color: #fff;"> </a>
 </p>
-<p class="text-center"><a href="#" class="fa fa-youtube"></a>
+<p class="text-center">
+<a href="https://www.linkedin.com/company/ilabafrica/" class="fa fa-linkedin" style="color: #fff;"> </a>
+</p>
+
+<p class="text-center">
+<a href="https://www.instagram.com/ilabafrica/?hl=en" class="fa fa-instagram" style="color: #fff;"> </a>
+</p>
+<p class="text-center"><a href="https://www.youtube.com/channel/UCeo0kj1SRiVkje78cyxnAzQ" class="fa fa-youtube" style="color: #fff;"></a>
 </p>
 <p class="text-center">Community of Practice (CoP)</p>
   </div>

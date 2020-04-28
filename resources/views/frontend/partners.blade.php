@@ -33,6 +33,7 @@
 
 
   <link rel="stylesheet" href="css/css-circular-prog-bar.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 
 </head>
@@ -103,10 +104,10 @@ input[type=submit] {
   <header class="header_section">
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index">
+          <a class="navbar-brand" href="/">
             <img src="images/code-kids-logo.png" alt="">
             <span>
-              K.C.C.K
+           
             </span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -171,38 +172,54 @@ input[type=submit] {
       <h2 class="main-heading ">
    Partners
       </h2>
-     <p class="text-center">
+     <p style="text-align: justify;">
         
 We are open to work with individuals, government, schools and businesses that can help advance Kids Can Code initiative so as to reach more schools across the country. The partnership can be in terms of giving funds to set up more clubs, hosting a club in your locality, being a mentor, providing content or devices for the clubs among others. By becoming a partner you will be molding a future generation of digitally informed and innovative citizens who can defeat cyberbullying and contribute immensely to the digital economy.
       </p>
 
-        <section class="vehicle_section layout_padding">
+  <section class="about_section layout_padding">
     <div class="container">
+
   <h2 class="main-heading ">
    Our Partners
       </h2>
-      <p class="text-center">
-   
-<ol>
+  <div class="row" align="center">
+  <div class="column3">
+
+  <a href="https://www.pangeaa.com/" target="_blank">
+    <img src="images/Pangea.jpg" alt="" width="270" height="150">
+    </a>
+    
+  </div>
+  <div class="column3" >
+  <a href="http://www.ibizafrica.co.ke/" target="_blank">
+     <img src="images/IBIZ.png" alt="" width="250"  height="150">
+</a>
+
+
+
+  </div>
+
+   <div class="column3" >
+  <a href="https://www.norway.no/en/kenya/" target="_blank">
+      <img src="images/norweigan.png" alt="" width="250"  height="150">
+
+</a>
+
+
+  </div>
   
-
-<li>@iLabAfrica</li>
-<li>@iBizAfrica</li>
-<li>
-Pangea Accelerator</li>
-<li>
-Association of Startup and SMEs Enablers of Kenya (ASSEK)</li>
-<li>Royal Norwegian Embassy in Kenya</li>
-<li>ICT Norway</li>
+  <div class="column3" >
+    <a href="https://assek.ke/" target="_blank">
+        <img src="images/assek.jpg" alt="" width="150" height="150">
+ </a>
+  </div>
+</div>
 
 
-</ol>
-
-
-      </p>
-
-
-
+</div>
+ 
+  </section>
 
     <section class="vehicle_section layout_padding">
       
@@ -219,7 +236,7 @@ Mold the future digital generation
         <label for="fname">Name</label>
       </div>
       <div class="col-75">
-        <input type="text" id="fname" name="name" placeholder="Your Name..">
+        <input type="text" id="fname" name="name" placeholder="Your Name.." required>
       </div>
     </div>
     <div class="row">
@@ -227,7 +244,7 @@ Mold the future digital generation
         <label for="lname">Email</label>
       </div>
       <div class="col-75">
-        <input type="text" id="lname" name="email" placeholder="Your Email..">
+        <input type="email" id="email" name="email" placeholder="Your Email.." required>
       </div>
     </div>
     <div class="row">
@@ -235,7 +252,7 @@ Mold the future digital generation
         <label for="fname">Phone No</label>
       </div>
       <div class="col-75">
-        <input type="text" id="fname" name="phone_no" placeholder="Your Phone No..">
+        <input type="text" id="fname" name="phone_no" placeholder="Your Phone No.." required>
       </div>
     </div>
     <div class="row">
@@ -243,7 +260,18 @@ Mold the future digital generation
         <label for="lname">Area of Partnership</label>
       </div>
       <div class="col-75">
-        <input type="text" id="lname" name="partnership_area" placeholder="Area of Partnership..">
+        <input type="text" id="lname" name="partnership_area" placeholder="Area of Partnership.." required>
+      </div>
+    </div>
+    
+    <div class="row">
+       <div class="col-25">
+        <label for="Captcha"></label>
+      </div>
+      <div class="col-75">
+      <div class="g-recaptcha" data-sitekey="6LeCeewUAAAAAFJJZpdk484FnGcHBG6tfu3JJQ6s" required>
+                                 
+                             </div>
       </div>
     </div>
    
@@ -294,26 +322,36 @@ Mold the future digital generation
 </p>
 <p class="text-center">
 
-  <a href="courses" style="color: #fff;">Courses</a>
+  <a href="resources" style="color: #fff;">Resources</a>
 </p>
 <p class="text-center">
   <a href="partners" style="color: #fff;">Partner</a>
 
 </p>
-<p class="text-center">Newsletter</p>
+<p class="text-center">
+   <a href="" style="color: #fff;">Blog</a>
+
+</p>
 
 <p class="text-center">
-<a href="" style="color: #fff;">Terms and Conditions</a></p>
+<a href="terms" style="color: #fff;">Terms and Conditions</a></p>
   </div>
   <div class="column" style="background-color:#082465;">
  <h1 class="text-center" style="color: #b42025;font-size: 18px;">Follow Us</h1>
     <p class="text-center">
-<a href="#" class="fa fa-facebook"></a> 
+<a href="https://www.facebook.com/iLabAfricaStrathmore/?fref=ts" class="fa fa-facebook" style="color: #fff;"></a> 
 </p>
 <p class="text-center">
-<a href="#" class="fa fa-twitter"></a>
+<a href="https://twitter.com/ilabafrica" class="fa fa-twitter" style="color: #fff;"> </a>
 </p>
-<p class="text-center"><a href="#" class="fa fa-youtube"></a>
+<p class="text-center">
+<a href="https://www.linkedin.com/company/ilabafrica/" class="fa fa-linkedin" style="color: #fff;"> </a>
+</p>
+
+<p class="text-center">
+<a href="https://www.instagram.com/ilabafrica/?hl=en" class="fa fa-linkedin" style="color: #fff;"> </a>
+</p>
+<p class="text-center"><a href="https://www.youtube.com/channel/UCeo0kj1SRiVkje78cyxnAzQ" class="fa fa-youtube" style="color: #fff;"></a>
 </p>
 <p class="text-center">Community of Practice (CoP)</p>
   </div>

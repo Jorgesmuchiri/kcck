@@ -114,6 +114,8 @@ Route::get('/participant', function() {return view('frontend/participant');});
 
 Route::get('/curriculum', function() {return view('frontend/Curriculum');});
 
+Route::get('/terms', function() {return view('frontend/terms');});
+
 Route::get('/sign-up', function() {return view('frontend/registration');});
 
 
