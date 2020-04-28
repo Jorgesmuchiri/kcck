@@ -203,7 +203,7 @@ Unlocking Technological Capacity for a Digital Future
         <label for="lname">Email</label>
       </div>
       <div class="col-75">
-        <input type="text" id="lname" name="email" placeholder="Email.." required>
+        <input type="email" id="lname" name="email" placeholder="Email.." required>
       </div>
     </div>
     <div class="row">
@@ -236,7 +236,7 @@ Unlocking Technological Capacity for a Digital Future
         <label for="Captcha"></label>
       </div>
       <div class="col-75">
-      <div class="g-recaptcha" data-sitekey="6LeCeewUAAAAAFJJZpdk484FnGcHBG6tfu3JJQ6s">
+      <div class="g-recaptcha" data-sitekey="6LeCeewUAAAAAFJJZpdk484FnGcHBG6tfu3JJQ6s" required >
                                  
                              </div>
       </div>
