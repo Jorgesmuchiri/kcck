@@ -50,7 +50,7 @@ class HostController extends Controller
 //           $user->notify(new PendingUnit($save));
 // // 
 //       }
-      return view('hosts.index');
+      return back()->withStatus('Host successfully posted.');
   }
 
     /**
