@@ -41,6 +41,20 @@
 <body>
 
 
+	 @if(Session::has('success'))
+  <script type="text/javascript">
+     swal({
+         title:'Success!',
+         text:"{{Session::get('success')}}",
+         timer:5000,
+         type:'success'
+     }).then((value) => {
+       //location.reload();
+     }).catch(swal.noop);
+ </script>
+ @endif
+
+
 <style>input[type=text], select, textarea{
   width: 100%;
   padding: 12px;
