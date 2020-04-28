@@ -50,7 +50,7 @@ class PartnersController extends Controller
 //           $user->notify(new PendingUnit($save));
 // // 
 //       }
-      return view('partner.index');
+       return back()->withStatus('Partner Information successfully posted.');
   }
 
     /**
