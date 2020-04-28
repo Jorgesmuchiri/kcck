@@ -27,6 +27,9 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+  
+  
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
 
 
 
