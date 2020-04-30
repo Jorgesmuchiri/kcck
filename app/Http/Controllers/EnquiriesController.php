@@ -114,7 +114,7 @@ class EnquiriesController extends Controller
 //           $user->notify(new PendingUnit($save));
 // // 
 //       }
-      return back()->withStatus('Enquiry successfully posted.');
+      return view('frontend/registration')->with('success','Thank you for registering with us we shall get back to you');
   }
 
 
