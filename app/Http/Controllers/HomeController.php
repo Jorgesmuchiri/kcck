@@ -34,7 +34,7 @@ class HomeController extends Controller
     $partners=Partners::count();
 
     $programs=Users::count();
-    $courses=Courses::get();
+    $courses=Courses::count();
     
 
 
