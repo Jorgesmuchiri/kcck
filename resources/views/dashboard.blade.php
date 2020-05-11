@@ -20,7 +20,7 @@
             </div>
             <div class="card-footer">
               <div class="stats">
-                    <a href="{{ route('course.index') }}" class="btn btn-sm btn-primary">{{ __('View More') }}</a>
+                    <a href="{{ route('enquiries') }}" class="btn btn-sm btn-primary">{{ __('View More') }}</a>
               </div>
             </div>
           </div>
@@ -36,14 +36,14 @@
 
 </i>
               </div>
-              <p class="card-category">Pending Enquiries</p>
-              <h3 class="card-title">
+              <p class="card-category">Partners</p>
+              <h3 class="card-title">{{$partners}}
                 <small></small>
               </h3>
             </div>
             <div class="card-footer">
               <div class="stats">
-                    <a href="{{ route('course.index') }}" class="btn btn-sm btn-primary">{{ __('View More') }}</a>
+                    <a href="{{ route('partner') }}" class="btn btn-sm btn-primary">{{ __('View More') }}</a>
               </div>
             </div>
           </div>
@@ -54,12 +54,12 @@
               <div class="card-icon">
                 <i class="material-icons">store</i>
               </div>
-              <p class="card-category">Programs</p>
-              <h3 class="card-title">{{$programs}}</h3>
+              <p class="card-category">Courses</p>
+              <h3 class="card-title">{{$courses}}</h3>
             </div>
             <div class="card-footer">
               <div class="stats">
-                    <a href="{{ route('user.index') }}" class="btn btn-sm btn-primary">{{ __('View More') }}</a>
+                    <a href="{{ route('courses') }}" class="btn btn-sm btn-primary">{{ __('View More') }}</a>
               </div>
             </div>
           </div>
@@ -70,12 +70,12 @@
               <div class="card-icon">
                 <i class="material-icons">people</i>
               </div>
-              <p class="card-category">Students</p>
+              <p class="card-category">Users</p>
               <h3 class="card-title">10</h3>
             </div>
             <div class="card-footer">
               <div class="stats">
-                      <a href="{{ route('retakesReports') }}" class="btn btn-sm btn-primary">{{ __('View More') }}</a>
+                      <a href="{{ route('user') }}" class="btn btn-sm btn-primary">{{ __('View More') }}</a>
               </div>
             </div>
           </div>
@@ -86,34 +86,19 @@
           <div class="card card-stats">
             <div class="card-header card-header-success card-header-icon">
               <div class="card-icon">
-                <i class="material-icons">outlined_flag</i>
+                <i class="material-icons">calendar_today</i>
               </div>
-              <p class="card-category">Countries</p>
-              <h3 class="card-title">10</h3>
+              <p class="card-category">Events</p>
+              <h3 class="card-title">{{$events}}</h3>
             </div>
             <div class="card-footer">
               <div class="stats">
-                      <a href="{{ route('retakesReports') }}" class="btn btn-sm btn-primary">{{ __('View More') }}</a>
+                      <a href="{{ route('events') }}" class="btn btn-sm btn-primary">{{ __('View More') }}</a>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6">
-          <div class="card card-stats">
-            <div class="card-header card-header-info card-header-icon">
-              <div class="card-icon">
-                <i class="material-icons">verified_user</i>
-              </div>
-              <p class="card-category">Advert Sources</p>
-              <h3 class="card-title">0</h3>
-            </div>
-            <div class="card-footer">
-              <div class="stats">
-                          <a href="{{ route('retakesReports') }}" class="btn btn-sm btn-primary">{{ __('View More') }}</a>
-              </div>
-            </div>
-          </div>
-        </div>
+      
       </div>
 <!--       <div class="row">
         <div class="col-md-4">
