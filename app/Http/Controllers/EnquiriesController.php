@@ -155,7 +155,12 @@ class EnquiriesController extends Controller
             
 
              $enquiries = Enquiries::findOrFail($request->input('id'));
-             $enquiries->admin_comment =$request->input('admin_comment');
+             $enquiries->name =$request->input('name');
+             $enquiries->email =$request->input('email');
+             $enquiries->age =$request->input('age');
+             $enquiries->school =$request->input('school');
+             $enquiries->location =$request->input('location');
+                 
              $enquiries->save();
 
         return back()->withStatus(__('Enquiries successfully updated.'));
