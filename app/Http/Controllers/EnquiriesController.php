@@ -167,9 +167,9 @@ class EnquiriesController extends Controller
      * @param  \App\Enquiries  $Enquiries
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function destroy(Enquiries  $Enquiries)
+    public function destroy(Enquiries  $enquiry)
     {
-        $Enquiries->delete();
+        $enquiry->delete();
 
         return redirect()->route('enquiries.index')->withStatus(__('Enquiries successfully deleted.'));
     }
