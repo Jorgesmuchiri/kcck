@@ -73,17 +73,7 @@
 
 
 
-                   <div class="row">
-                  <label class="col-sm-2 col-form-label">{{ __('Phone No') }}</label>
-                  <div class="col-sm-7">
-                    <div class="form-group{{ $errors->has('name') ? ' has-danger' : '' }}">
-                      <input class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" id="input-name" type="text" placeholder="{{ __('Phone No') }}" value="{{ old('phone_no', $enquiry->phone_no )}}" required="true" aria-required="true"/>
-                      @if ($errors->has('name'))
-                        <span id="name-error" class="error text-danger" for="input-name">{{ $errors->first('name') }}</span>
-                      @endif
-                    </div>
-                  </div>
-                </div>
+              
 
                       <div class="row">
                   <label class="col-sm-2 col-form-label">{{ __('Age') }}</label>
