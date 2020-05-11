@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
   use App\Courses;
   use App\Users;
+  use App\Enquiries;
+  use App\Events;
+  use App\Partners;
   use DB;
 class HomeController extends Controller
 {
@@ -26,7 +29,9 @@ class HomeController extends Controller
     public function index()
     {
 
-    $enquiries=Courses::count();
+    $enquiries=Enquiries::count();
+    $events=Events::count();
+    $partners=Partners::count();
 
     $programs=Users::count();
     $country=Courses::get();
@@ -35,7 +40,7 @@ class HomeController extends Controller
 
 
 
-        return view('dashboard',['enquiries'=>$enquiries,'programs'=>$programs,'country'=>$country]);
+        return view('dashboard',['enquiries'=>$enquiries,'programs'=>$programs,'country'=>$country,'events'=>$events,'partners'=>$partners]);
     }
 
 
