@@ -103,6 +103,6 @@ class EventsController extends Controller
     {
         $job->delete();
 
-        return redirect()->route('events.index')->withStatus(__('Events successfully deleted.'));
+        return redirect()->route('event.index')->withStatus(__('Events successfully deleted.'));
     }
 }
