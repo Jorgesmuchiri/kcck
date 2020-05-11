@@ -90,7 +90,7 @@ class EventsController extends Controller
                 ->except([$hasPassword ? '' : 'password']
         ));
 
-        return redirect()->route('events.index')->withStatus(__('Events successfully updated.'));
+        return redirect()->route('event.index')->withStatus(__('Events successfully updated.'));
     }
 
     /**
