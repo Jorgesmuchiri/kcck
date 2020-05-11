@@ -63,12 +63,15 @@
                         {{ __('Email') }}
                       </th>
                       <th>
-                        {{ __('Phone No') }}
+                        {{ __('Age') }}
                       </th>
                      
 
                            <th>
-                        {{ __('Message') }}
+                        {{ __('School') }}
+                      </th>
+              <th>
+                        {{ __('Location') }}
                       </th>
           
 
@@ -89,10 +92,14 @@
                           </td>
 
                           <td>
-                          {{ $enquiry->phone }}
+                          {{ $enquiry->age }}
                           </td>
                           <td>
-                          {{ $enquiry->message }}
+                          {{ $enquiry->school }}
+                          </td>
+                          
+                           <td>
+                          {{ $enquiry->location }}
                           </td>
                          
 
