@@ -42,11 +42,7 @@
 @endif
                 <div class="row">
                            
-                  <div class="col-12 text-right">
-                    <a href="{{ route('enquiries.create') }}"  class="btn btn-sm btn-success">{{ __('Add Enquiry') }}</a>
-                    <a href="upload" class="btn btn-sm btn-primary">{{ __('Upload Enquiries') }}</a>
-                  </div>
-
+                
 
 
                   
