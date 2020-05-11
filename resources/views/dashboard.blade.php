@@ -20,7 +20,7 @@
             </div>
             <div class="card-footer">
               <div class="stats">
-                    <a href="{{ route('enquiries') }}" class="btn btn-sm btn-primary">{{ __('View More') }}</a>
+                    <a href="{{ route('enquiries.index') }}" class="btn btn-sm btn-primary">{{ __('View More') }}</a>
               </div>
             </div>
           </div>
@@ -43,7 +43,7 @@
             </div>
             <div class="card-footer">
               <div class="stats">
-                    <a href="{{ route('partner') }}" class="btn btn-sm btn-primary">{{ __('View More') }}</a>
+                    <a href="{{ route('partner.index') }}" class="btn btn-sm btn-primary">{{ __('View More') }}</a>
               </div>
             </div>
           </div>
@@ -59,7 +59,7 @@
             </div>
             <div class="card-footer">
               <div class="stats">
-                    <a href="{{ route('courses') }}" class="btn btn-sm btn-primary">{{ __('View More') }}</a>
+                    <a href="{{ route('courses.index') }}" class="btn btn-sm btn-primary">{{ __('View More') }}</a>
               </div>
             </div>
           </div>
@@ -75,7 +75,7 @@
             </div>
             <div class="card-footer">
               <div class="stats">
-                      <a href="{{ route('user') }}" class="btn btn-sm btn-primary">{{ __('View More') }}</a>
+                      <a href="{{ route('user.index') }}" class="btn btn-sm btn-primary">{{ __('View More') }}</a>
               </div>
             </div>
           </div>
@@ -93,7 +93,7 @@
             </div>
             <div class="card-footer">
               <div class="stats">
-                      <a href="{{ route('events') }}" class="btn btn-sm btn-primary">{{ __('View More') }}</a>
+                      <a href="{{ route('events.index') }}" class="btn btn-sm btn-primary">{{ __('View More') }}</a>
               </div>
             </div>
           </div>
