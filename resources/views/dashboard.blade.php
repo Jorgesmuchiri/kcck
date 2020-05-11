@@ -93,7 +93,7 @@
             </div>
             <div class="card-footer">
               <div class="stats">
-                      <a href="{{ route('events.index') }}" class="btn btn-sm btn-primary">{{ __('View More') }}</a>
+                      <a href="{{ route('event.index') }}" class="btn btn-sm btn-primary">{{ __('View More') }}</a>
               </div>
             </div>
           </div>
