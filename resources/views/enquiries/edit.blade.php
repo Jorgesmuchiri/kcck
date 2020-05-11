@@ -48,10 +48,10 @@
 
 
                                            <div class="row">
-                  <label class="col-sm-2 col-form-label">{{ __('Application Id') }}</label>
+                  <label class="col-sm-2 col-form-label">{{ __('Email') }}</label>
                   <div class="col-sm-7">
                     <div class="form-group{{ $errors->has('name') ? ' has-danger' : '' }}">
-                      <input class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="id" id="input-name" type="text" placeholder="{{ __('Application Id') }}" value="{{ old('student_number', $enquiry->id) }}" required="true" aria-required="true"/>
+                      <input class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="email" id="input-name" type="text" placeholder="{{ __('Email') }}" value="{{ old('student_number', $enquiry->email) }}" required="true" aria-required="true"/>
                       @if ($errors->has('name'))
                         <span id="name-error" class="error text-danger" for="input-name">{{ $errors->first('name') }}</span>
                       @endif
@@ -86,10 +86,10 @@
                 </div>
 
                       <div class="row">
-                  <label class="col-sm-2 col-form-label">{{ __('Country') }}</label>
+                  <label class="col-sm-2 col-form-label">{{ __('Age') }}</label>
                   <div class="col-sm-7">
                     <div class="form-group{{ $errors->has('name') ? ' has-danger' : '' }}">
-                      <input class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" id="input-name" type="text" placeholder="{{ __('Country') }}" value="{{ old('country', $enquiry->country )}}" required="true" aria-required="true"/>
+                      <input class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="age" id="input-name" type="text" placeholder="{{ __('Age') }}" value="{{ old('age', $enquiry->age )}}" required="true" aria-required="true"/>
                       @if ($errors->has('name'))
                         <span id="name-error" class="error text-danger" for="input-name">{{ $errors->first('name') }}</span>
                       @endif
@@ -98,10 +98,10 @@
                 </div>
 
                       <div class="row">
-                  <label class="col-sm-2 col-form-label">{{ __('Courses') }}</label>
+                  <label class="col-sm-2 col-form-label">{{ __('School') }}</label>
                   <div class="col-sm-7">
                     <div class="form-group{{ $errors->has('name') ? ' has-danger' : '' }}">
-                      <input class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" id="input-name" type="text" placeholder="{{ __('Courses') }}" value="{{ old('courses', $enquiry->course )}}" required="true" aria-required="true"/>
+                      <input class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="school" id="input-name" type="text" placeholder="{{ __('School') }}" value="{{ old('school', $enquiry->school )}}" required="true" aria-required="true"/>
                       @if ($errors->has('name'))
                         <span id="name-error" class="error text-danger" for="input-name">{{ $errors->first('name') }}</span>
                       @endif
@@ -110,10 +110,10 @@
                 </div>
 
                   <div class="row">
-                  <label class="col-sm-2 col-form-label">{{ __('Advert') }}</label>
+                  <label class="col-sm-2 col-form-label">{{ __('Location') }}</label>
                   <div class="col-sm-7">
                     <div class="form-group{{ $errors->has('name') ? ' has-danger' : '' }}">
-                      <input class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" id="input-name" type="text" placeholder="{{ __('advert') }}" value="{{ old('advert', $enquiry->advert )}}" required="true" aria-required="true"/>
+                      <input class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="location" id="input-name" type="text" placeholder="{{ __('Location') }}" value="{{ old('location', $enquiry->location )}}" required="true" aria-required="true"/>
                       @if ($errors->has('name'))
                         <span id="name-error" class="error text-danger" for="input-name">{{ $errors->first('name') }}</span>
                       @endif
@@ -122,69 +122,7 @@
                 </div>
 
 
-                  <div class="row">
-                  <label class="col-sm-2 col-form-label">{{ __('Intake') }}</label>
-                  <div class="col-sm-7">
-                    <div class="form-group{{ $errors->has('name') ? ' has-danger' : '' }}">
-                      <input class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" id="input-name" type="text" placeholder="{{ __('Enquiry Date') }}" value="{{ old('intake', $enquiry->intake )}}" required="true" aria-required="true"/>
-                      @if ($errors->has('name'))
-                        <span id="name-error" class="error text-danger" for="input-name">{{ $errors->first('name') }}</span>
-                      @endif
-                    </div>
-                  </div>
-                </div>
-
-
-                   <div class="row">
-                  <label class="col-sm-2 col-form-label">{{ __('Enquiry Date') }}</label>
-                  <div class="col-sm-7">
-                    <div class="form-group{{ $errors->has('name') ? ' has-danger' : '' }}">
-                      <input class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" id="input-name" type="text" placeholder="{{ __('Enquiry Date') }}" value="{{ old('enquiry_date', $enquiry->enquiry_date )}}"  />
-                      @if ($errors->has('name'))
-                        <span id="name-error" class="error text-danger" for="input-name">{{ $errors->first('name') }}</span>
-                      @endif
-                    </div>
-                  </div>
-                </div>
-
-
-                                <div class="row">
-                  <label class="col-sm-2 col-form-label">{{ __('Status') }}</label>
-                  <div class="col-sm-7">
-                    <div class="form-group{{ $errors->has('name') ? ' has-danger' : '' }}">
-                      <input class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="status" id="input-name" type="text" placeholder="{{ __('Status') }}" value="{{ old('status',$enquiry->status) }}" required="true" aria-required="true"/>
-                      @if ($errors->has('name'))
-                        <span id="name-error" class="error text-danger" for="input-name">{{ $errors->first('name') }}</span>
-                      @endif
-                    </div>
-                  </div>
-                </div>
-
-                                <div class="row">
-                  <label class="col-sm-2 col-form-label">{{ __('Comment') }}</label>
-                  <div class="col-sm-7">
-                    <div class="form-group{{ $errors->has('name') ? ' has-danger' : '' }}">
-                      <input class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="comment" id="input-name" type="text" placeholder="{{ __('Comment') }}" value="{{ old('name') }}" aria-required="true"/>
-                      @if ($errors->has('name'))
-                        <span id="name-error" class="error text-danger" for="input-name">{{ $errors->first('name') }}</span>
-                      @endif
-                    </div>
-                  </div>
-                </div>
-
-
-                 <div class="row">
-                  <label class="col-sm-2 col-form-label">{{ __('Admin Review') }}</label>
-                  <div class="col-sm-7">
-                    <div class="form-group{{ $errors->has('admin_comment') ? ' has-danger' : '' }}">
-                      <input class="form-control{{ $errors->has('admin_comment') ? ' is-invalid' : '' }}" name="admin_comment" id="admin_comment" type="text" placeholder="{{ __('Admin Review') }}" value="{{ old('name',$enquiry->admin_comment) }}" required="true" aria-required="true"/>
-                      @if ($errors->has('name'))
-                        <span id="name-error" class="error text-danger" for="input-name">{{ $errors->first('name') }}</span>
-                      @endif
-                    </div>
-                  </div>
-                </div>
-
+              
 
               <div class="card-footer ml-auto mr-auto">
                 <button type="submit" class="btn btn-primary">{{ __('Save') }}</button>
