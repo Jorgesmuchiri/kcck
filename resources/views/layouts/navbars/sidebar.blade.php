@@ -54,6 +54,13 @@
         </a>
       </li>
 
+    <li class="nav-item{{ $activePage == 'enquiries' ? ' active' : '' }}">
+        <a class="nav-link" href="{{ route('enquiries.index') }}">
+          <i class="material-icons">supervised_user_circle</i>
+            <p>{{ __('Enquiries') }}</p>
+        </a>
+      </li>
+
 
       
 
