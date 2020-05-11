@@ -34,13 +34,13 @@ class HomeController extends Controller
     $partners=Partners::count();
 
     $programs=Users::count();
-    $country=Courses::get();
-    $country->unique('country')->count();
+    $courses=Courses::get();
+    
 
 
 
 
-        return view('dashboard',['enquiries'=>$enquiries,'programs'=>$programs,'country'=>$country,'events'=>$events,'partners'=>$partners]);
+        return view('dashboard',['enquiries'=>$enquiries,'programs'=>$programs,'courses'=>$courses,'events'=>$events,'partners'=>$partners]);
     }
 
 
