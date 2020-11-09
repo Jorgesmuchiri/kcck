@@ -29,7 +29,7 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 
-
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
 
 
   <link rel="stylesheet" href="css/css-circular-prog-bar.css">
@@ -212,7 +212,7 @@ Please fill out the form below for us to share with you upcoming resources, even
          <h2 class="main-heading ">
 
       </h2>
-<form method="post" action="{{ route('enquiries.store') }}" autocomplete="off" id="enquiriesform" class="form-horizontal" enctype="multipart/form-data" >
+<form method="post" action="{{ route('enquire.store') }}" autocomplete="off" id="enquiriesform" class="form-horizontal" enctype="multipart/form-data" >
             @csrf
             @method('post')
     <div class="row">

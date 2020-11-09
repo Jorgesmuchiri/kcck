@@ -10,7 +10,7 @@ use Session;
 use Excel;
 use File;
 use DB;
-
+use App\Exports\EnquiriesExport;
 class EnquiriesController extends Controller
 {
     /**
@@ -37,6 +37,10 @@ class EnquiriesController extends Controller
         return view('enquiries.create');
     }
 
+   public function export() 
+    {
+        return Excel::download(new EnquiriesExport, 'Enquiries.xlsx');
+    }
 
 
       public function upload()
@@ -105,16 +109,9 @@ class EnquiriesController extends Controller
     {
         $save=Enquiries::create($request->all());
        
-//         foreach($result as $studentresult)
-//         {
-//           $data=$studentresult->student['email_address'];
-//           $user = User::where('email', $studentresult->student['email_address'])->first();
-// //      $user = new User();
-// // $user->email = 'gmuchiri@strathmore.edu';   // This is the email you want to send to.
-//           $user->notify(new PendingUnit($save));
-// // 
-//       }
-      return view('frontend/registration')->with('success','Thank you for registering with us we shall get back to you');
+
+return back()->withSuccess('Thank you for registering for Kids Can Code Kenya program, we shall get back to you');
+
   }
 
 
@@ -155,12 +152,7 @@ class EnquiriesController extends Controller
             
 
              $enquiries = Enquiries::findOrFail($request->input('id'));
-             $enquiries->name =$request->input('name');
-             $enquiries->email =$request->input('email');
-             $enquiries->age =$request->input('age');
-             $enquiries->school =$request->input('school');
-             $enquiries->location =$request->input('location');
-                 
+             $enquiries->admin_comment =$request->input('admin_comment');
              $enquiries->save();
 
         return back()->withStatus(__('Enquiries successfully updated.'));
@@ -179,3 +171,5 @@ class EnquiriesController extends Controller
         return redirect()->route('enquiries.index')->withStatus(__('Enquiries successfully deleted.'));
     }
 }
+
+

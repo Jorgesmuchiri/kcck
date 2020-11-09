@@ -10,7 +10,6 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('enquiries_export', 'EnquiriesController@export')->name('enquiries_export');
 Route::post('/studentlogin', 'Auth\APIController@login')->name('userlogin');
 Route::get('/details/{unit_code}', 'TimetableController@details')->name('details');
 Route::get('/course/report', 'ChartController@index')->name('retakesReports');
@@ -101,13 +100,8 @@ Route::get('/', function () {
 // Route::get('/home', function () {
 //     return view('frontend/index');
 // });
-Route::resource('enquire', 'EnquiriesController', ['except' => ['show']]);
-   Route::resource('storepartner', 'PartnersController', ['except' => ['show']]);
 
-Route::resource('storeparticipants', 'ParticipantsController', ['except' => ['show']]);
-Route::resource('storehosts', 'HostController', ['except' => ['show']]);
-
-
+@#C4nC0d3
 Route::get('/about', function() {return view('frontend/about');});
 Route::get('/events', function() {return view('frontend/Events');});
 Route::get('/contact', function() {return view('frontend/contact');});

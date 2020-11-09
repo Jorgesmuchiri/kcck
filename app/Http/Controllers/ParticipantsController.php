@@ -41,16 +41,8 @@ class ParticipantsController extends Controller
     {
         $save=Participants::create($request->all());
        
-//         foreach($result as $studentresult)
-//         {
-//           $data=$studentresult->student['email_address'];
-//           $user = User::where('email', $studentresult->student['email_address'])->first();
-// //      $user = new User();
-// // $user->email = 'gmuchiri@strathmore.edu';   // This is the email you want to send to.
-//           $user->notify(new PendingUnit($save));
-// // 
-//       }
-      return back()->withStatus('Participant Information successfully posted.');
+
+      return back()->withSuccess('Thank you for registering as a participant for Kids Can Code Kenya program, we shall get back to you');
   }
 
     /**

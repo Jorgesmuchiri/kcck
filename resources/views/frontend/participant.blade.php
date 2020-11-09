@@ -29,7 +29,7 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 
-
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
 
 
   <link rel="stylesheet" href="css/css-circular-prog-bar.css">
@@ -39,9 +39,8 @@
 </head>
 
 <body>
-
-
-	 @if(Session::has('success'))
+ @include('flash-message')
+  @if(Session::has('success'))
   <script type="text/javascript">
      swal({
          title:'Success!',
@@ -62,8 +61,6 @@
   box-sizing: border-box;
   resize: vertical;
 }
-
-
 
 input[type=email]{
   width: 100%;
@@ -205,7 +202,7 @@ Participant
          <h2 class="main-heading ">
 The Future is Digital. Are you Ready?
       </h2>
-<form method="post" action="{{ route('participants.store') }}" autocomplete="off" id="participantform" class="form-horizontal" enctype="multipart/form-data" >
+<form method="post" action="{{ route('storeparticipants.store') }}" autocomplete="off" class="form-horizontal" enctype="multipart/form-data" >
             @csrf
             @method('post')
     <div class="row">
@@ -347,31 +344,6 @@ The Future is Digital. Are you Ready?
   <!-- progreesbar script -->
 
   </script>
-  
-<script>
-
-document.getElementById("participantform").addEventListener("submit",function(evt)
-  {
-  
-  var response = grecaptcha.getResponse();
-  if(response.length == 0) 
-  { 
-    //reCaptcha not verified
-    alert("please verify you are humann!"); 
-    evt.preventDefault();
-    return false;
-  }
-  //captcha verified
-  //do the rest of your validations here
-  
-});
-
-
-
-
-</script>
-  
-  
   <script>
     // This example adds a marker to indicate the position of Bondi Beach in Sydney,
     // Australia.

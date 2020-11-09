@@ -133,6 +133,7 @@
                   @endforeach
                     </tbody>
                   </table>
+{{ $Enquiries->links() }}
                 </div>
               </div>
             </div>

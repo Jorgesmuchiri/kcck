@@ -50,7 +50,8 @@ class PartnersController extends Controller
 //           $user->notify(new PendingUnit($save));
 // // 
 //       }
-       return back()->withStatus('Partner Information successfully posted.');
+  
+      return back()->withSuccess('Thank you for registering as a partner for Kids Can Code Kenya program, we shall get back to you');
   }
 
     /**
@@ -78,7 +79,10 @@ class PartnersController extends Controller
     /**
      * Update the specified Partners in storage
      *
-     * @param  \App\Http\Requests\PartnersRequest  $request
+     * @param  \App\Http
+
+
+     m\Requests\PartnersRequest  $request
      * @param  \App\Partners  $Partners
      * @return \Illuminate\Http\RedirectResponse
      */

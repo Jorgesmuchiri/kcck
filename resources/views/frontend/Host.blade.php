@@ -32,6 +32,7 @@
   
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
 
 
 
@@ -41,6 +42,21 @@
 </head>
 
 <body>
+
+
+    @include('flash-message')
+  @if(Session::has('success'))
+  <script type="text/javascript">
+     swal({
+         title:'Success!',
+         text:"{{Session::get('success')}}",
+         timer:5000,
+         type:'success'
+     }).then((value) => {
+       //location.reload();
+     }).catch(swal.noop);
+ </script>
+ @endif
 
 
 <style>input[type=text], select, textarea{
@@ -181,21 +197,6 @@ input[type=submit] {
   <!-- teacher section -->
   <section class="teacher_section layout_padding-bottom">
     <div class="container">
-    
-    	 @if(Session::has('success'))
-  <script type="text/javascript">
-     swal({
-         title:'Success!',
-         text:"{{Session::get('success')}}",
-         timer:5000,
-         type:'success'
-     }).then((value) => {
-       //location.reload();
-     }).catch(swal.noop);
- </script>
- @endif
-    
-    
       <h2 class="main-heading ">
 Host
       </h2>
@@ -211,7 +212,7 @@ A host is expected to set up a coding club and provide a computer teacher as a p
          <h2 class="main-heading ">
 Unlocking Technological Capacity for a Digital Future
       </h2>
-<form method="post" action="{{ route('hosts.store') }}" autocomplete="off" id="hostform" class="form-horizontal" enctype="multipart/form-data" >
+<form method="post" action="{{ route('storehosts.store') }}" autocomplete="off" class="form-horizontal" enctype="multipart/form-data" >
             @csrf
             @method('post')
     <div class="row">
@@ -365,30 +366,6 @@ Unlocking Technological Capacity for a Digital Future
   <!-- progreesbar script -->
 
   </script>
-  
-  
-  <script>
-  
-  document.getElementById("hostform").addEventListener("submit",function(evt)
-  {
-  
-  var response = grecaptcha.getResponse();
-  if(response.length == 0) 
-  { 
-    //reCaptcha not verified
-    alert("please verify you are humann!"); 
-    evt.preventDefault();
-    return false;
-  }
-  //captcha verified
-  //do the rest of your validations here
-  
-});
-  
-  
-  
-  </script>
-  
   <script>
     // This example adds a marker to indicate the position of Bondi Beach in Sydney,
     // Australia.

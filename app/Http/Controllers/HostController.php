@@ -46,12 +46,15 @@ class HostController extends Controller
 //           $data=$studentresult->student['email_address'];
 //           $user = User::where('email', $studentresult->student['email_address'])->first();
 // //      $user = new User();
-// // $user->email = 'gmuchiri@strathmore.edu';   // This is the email you want to send to.
+// // $user->email = 'gmuchiri@strathmore.edu';   // This is the email syou want to send to.
 //           $user->notify(new PendingUnit($save));
 // // 
 //       }
-      return back()->withStatus('Host successfully posted.');
+          return back()->withSuccess('Thank you for registering as a host for Kids Can Code Kenya program, we shall get back to you');
   }
+
+
+
 
     /**
      * Store a newly created Host in storage
